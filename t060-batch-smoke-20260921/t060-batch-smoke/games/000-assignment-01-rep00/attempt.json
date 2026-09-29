@@ -1,0 +1,27 @@
+{
+  "actor_affected": "belvar",
+  "assignment_id": "assignment-01",
+  "assignment_index": 0,
+  "benchmark_mode": "model",
+  "completed": false,
+  "condition_differences": [],
+  "directory": "000-assignment-01-rep00",
+  "experiment_id": "t060-provider",
+  "failure_category": "server_failure",
+  "failure_reason": "AutonomousGameError: admin POST /admin/games/db0b054a-bda3-4cc1-bca2-74e741159ef1/agent-runs failed (400 invalid_request): reasoning_tokens cannot exceed inclusive output_tokens",
+  "finished_at": "2026-09-21T19:07:05.360+00:00",
+  "game_id": "db0b054a-bda3-4cc1-bca2-74e741159ef1",
+  "models": {
+    "arkania": "deepseek/deepseek-v4-flash-0731",
+    "belvar": "deepseek/deepseek-v4-flash-0731",
+    "cestia": "deepseek/deepseek-v4-flash-0731"
+  },
+  "position": 0,
+  "repetition_index": 0,
+  "rotation_policy": "single",
+  "seed": 60000,
+  "started_at": "2026-09-21T18:42:14.066+00:00",
+  "status": "failed",
+  "turn_reached": 2,
+  "umpire_condition_match": true
+}

@@ -1,0 +1,774 @@
+{
+  "export_format_version": "1",
+  "game": {
+    "id": "0ad795b0-90df-4ead-a3c2-386fe5b853d7",
+    "scenario_id": "northern-strait",
+    "scenario_version": "1",
+    "scenario_summary": "A contest over the Northern Strait. Arkania, the large power on its coast, has circulated a draft charter that would put transit scheduling in Arkanian hands and charge the ships that use it. Belvar, a distant power with security commitments in the region, has a naval task group on station outside the Strait and wants a durable foothold before its mandate runs out. Cestia, the small state between them, lives on grain exports through the Strait and on a coalition that will not tolerate foreign soldiers on its soil. Each turn is one week; positions taken persist.\n",
+    "seed": 424242,
+    "rng_draw_index": 1,
+    "max_turns": 6,
+    "turn": 1,
+    "phase": "adjudication",
+    "status": "paused",
+    "turn_order": [
+      "arkania",
+      "belvar",
+      "cestia"
+    ],
+    "active_actor_id": "belvar",
+    "primary_arguments_per_actor": 1,
+    "max_cons_per_actor": 3,
+    "in_world_turn_length": "1 week",
+    "diplomacy_timeout_seconds": null,
+    "cons_timeout_seconds": null,
+    "diplomacy_ready_actor_ids": [
+      "arkania",
+      "cestia",
+      "belvar"
+    ]
+  },
+  "seats": [
+    {
+      "actor_id": "arkania"
+    },
+    {
+      "actor_id": "belvar"
+    },
+    {
+      "actor_id": "cestia"
+    }
+  ],
+  "actors": [
+    {
+      "id": "arkania",
+      "name": "Republic of Arkania",
+      "public_description": "A large regional power bordering the Northern Strait.\n",
+      "private_brief": "You are the political leadership of Arkania. The Strait is your coast and your economy runs on the shipping that passes through it. You want the transit regime in Arkanian hands and paid for by the ships that use it, and domestic nationalists expect you to deliver both. A direct war with Belvar would ruin the shipping you depend on.\n",
+      "objectives": [
+        "Establish Arkanian authority over transit scheduling in the Northern Strait.",
+        "Fund that authority through transit fees on non-Arkanian shipping.",
+        "Avoid direct armed conflict with Belvar."
+      ],
+      "private_information": [
+        "Reserve mobilisation requires two turns.",
+        "Your intelligence assesses Belvar's domestic support for a prolonged deployment as weak."
+      ],
+      "organisation_id": null,
+      "role": null,
+      "metadata": {}
+    },
+    {
+      "id": "belvar",
+      "name": "Belvar",
+      "public_description": "A distant but powerful state with regional security commitments.\n",
+      "private_brief": "You are the political leadership of Belvar. Your partners in the region expect you to stop Arkania from taking control of the Strait, and a foothold that outlasts this crisis would make that guarantee credible without a permanent fleet. You cannot sustain an open-ended deployment.\n",
+      "objectives": [
+        "Prevent any Arkanian authority over transit in the Northern Strait.",
+        "Secure a standing naval access agreement at a Cestian port.",
+        "Avoid an open-ended deployment."
+      ],
+      "private_information": [
+        "Domestic support for a prolonged deployment is limited; the mandate lapses after turn 4 unless renewed.",
+        "Cestia's finance ministry has quietly asked whether Belvar would underwrite the grain route's insurance."
+      ],
+      "organisation_id": null,
+      "role": null,
+      "metadata": {}
+    },
+    {
+      "id": "cestia",
+      "name": "Cestia",
+      "public_description": "A smaller regional state economically linked to both powers.\n",
+      "private_brief": "You are the government of Cestia. Grain exports through the Strait are the economy, and your coalition holds together on one promise: no foreign soldiers on Cestian soil. Both powers want something from you, and you cannot afford to become their battlefield.\n",
+      "objectives": [
+        "Keep Cestian territory free of any foreign military presence.",
+        "Secure toll-free passage for Cestian-flagged shipping through the Northern Strait.",
+        "Preserve the coalition government."
+      ],
+      "private_information": [
+        "The coalition government is politically fragile; a foreign basing agreement would collapse it.",
+        "Arkania's scheduling proposal has quiet support among Cestian shipowners if Cestian vessels are exempt from fees."
+      ],
+      "organisation_id": null,
+      "role": null,
+      "metadata": {}
+    }
+  ],
+  "messages": [
+    {
+      "id": "856a8906-ac0c-4af3-a373-9ce0dfeb53c0",
+      "turn": 1,
+      "sender_actor_id": "arkania",
+      "recipients": [],
+      "public": true,
+      "visibility": "public",
+      "text": "The Republic of Arkania reaffirms that the Northern Strait must remain open to all commercial shipping. Our draft Strait Transit Authority charter is an offer of order, not a threat: a single, transparent scheduling authority keeps traffic flowing and prevents collisions and disputes. We invite all littoral and user states to the table to refine the charter together. Arkania seeks a negotiated regime, not confrontation, and we will not act to close the Strait.",
+      "created_at": "2026-09-12T12:05:26.674460"
+    },
+    {
+      "id": "cfaf412d-47cc-4487-bbf1-6591c09a059b",
+      "turn": 1,
+      "sender_actor_id": "arkania",
+      "recipients": [
+        "belvar"
+      ],
+      "public": false,
+      "visibility": "private",
+      "text": "To Belvar's leadership: Arkania does not seek conflict. Our interest is a functioning, fee-funded transit regime in the Strait \u2014 nothing more. We understand your task group's mandate is under review; we ask that it remain outside the Strait while we negotiate. We are prepared to discuss the charter's terms directly, including scheduling authority, fee levels, and oversight, so that both our interests are protected. A prolonged naval presence serves neither of us and only raises the risk of an incident that would harm the shipping we both depend on. Let us talk before anyone acts.",
+      "created_at": "2026-09-12T12:05:26.685691"
+    },
+    {
+      "id": "7703a542-87c0-4c02-9dea-37f3b8a7bf00",
+      "turn": 1,
+      "sender_actor_id": "belvar",
+      "recipients": [],
+      "public": true,
+      "visibility": "public",
+      "text": "Belvar's position on the Northern Strait is clear and unchanged. The waterway must remain open to all commercial shipping under a regime that no single state controls. We cannot accept a charter that names any one state as scheduling lead, for that would place authority over a shared international waterway in the hands of a single power. Belvar supports a genuinely multilateral regime with neutral oversight, and we are ready to negotiate one with all littoral and user states. Our task group remains on station to guarantee free transit, and it will not be withdrawn on the basis of assurances alone. We will not act to close the Strait, and we expect no other state to do so.",
+      "created_at": "2026-09-12T12:05:46.942060"
+    },
+    {
+      "id": "35fd3acd-ab25-4ea0-81cf-24d7929583ab",
+      "turn": 1,
+      "sender_actor_id": "belvar",
+      "recipients": [
+        "cestia"
+      ],
+      "public": false,
+      "visibility": "private",
+      "text": "To Cestia's leadership: Belvar stands ready to guarantee free transit through the Strait and to make that guarantee durable. We would welcome a standing naval access agreement at a Cestian port, which would let us sustain our presence without an open-ended deployment. We understand your finance ministry has asked whether Belvar would underwrite the grain route's insurance; we are open to discussing that as part of a broader arrangement. Let us talk.",
+      "created_at": "2026-09-12T12:05:46.954573"
+    },
+    {
+      "id": "aaf24f82-c692-41fa-ba7b-54bb775913c1",
+      "turn": 1,
+      "sender_actor_id": "cestia",
+      "recipients": [
+        "belvar"
+      ],
+      "public": false,
+      "visibility": "private",
+      "text": "To Belvar's leadership: Cestia appreciates your commitment to free transit and your willingness to make the guarantee durable. We must be direct: our coalition government rests on a firm promise of no foreign military presence on Cestian soil, so we cannot accept a standing naval access or basing agreement at a Cestian port. That is a red line for us, not a negotiating position.\n\nThat said, we value your presence as a guarantor of open passage and we are genuinely open to discussing your offer to underwrite insurance for the grain route, as part of a broader, transparent arrangement. We also share your preference for a genuinely multilateral regime with neutral oversight rather than single-state control. Let us talk about those elements.",
+      "created_at": "2026-09-12T12:06:01.326740"
+    },
+    {
+      "id": "f8776ce4-5f1a-47da-aa9e-05468f1d2005",
+      "turn": 1,
+      "sender_actor_id": "cestia",
+      "recipients": [],
+      "public": true,
+      "visibility": "public",
+      "text": "Cestia's position on the Northern Strait: The waterway is the lifeline of our economy and must remain open to all commercial shipping. We welcome both Arkania's invitation to negotiate and Belvar's commitment to free transit. Cestia will not accept any regime in which a single state controls the Strait, and we will not host foreign military forces on our soil \u2014 that is a settled matter of our national policy.\n\nWe call on all parties to come to the table for a genuinely multilateral regime with neutral oversight, and to refrain from any action that would close or disrupt the Strait. As a littoral state whose entire economy depends on this waterway, Cestia asks that Cestian-flagged shipping be granted toll-free passage under any new regime. We stand ready to help broker a settlement that serves all users.",
+      "created_at": "2026-09-12T12:06:01.336239"
+    }
+  ],
+  "arguments": [
+    {
+      "id": "61bcac3f-48ea-4e92-b345-7933a86751dc",
+      "turn": 1,
+      "actor_id": "belvar",
+      "action": "Belvar formally proposes a genuinely neutral, multilateral regime for the Northern Strait: an independent international transit authority with neutral oversight and no single-state scheduling lead, open to all littoral and user states. In parallel, Belvar offers Cestia a standing port-access and logistics arrangement (replenishment, repair, emergency access, and underwriting of the grain route's insurance) framed as commercial and cooperative access rather than military basing, so that Belvar's guarantee of free transit can be made durable without an open-ended deployment.",
+      "desired_effect": "A neutral, multilateral transit regime is adopted for the Northern Strait in which no single state (including Arkania) exercises authority over transit, and Belvar secures a durable, non-basing port-access and logistics arrangement with Cestia that sustains its guarantee of free passage without an open-ended deployment.",
+      "pros": [
+        "A neutral authority with no single-state lead directly prevents Arkanian control over transit, satisfying Belvar's core objective and the public positions already taken by both Belvar and Cestia.",
+        "Cestia has explicitly endorsed a genuinely multilateral regime with neutral oversight, so this proposal aligns with its stated position and is likely to gain its active support.",
+        "Framing the access arrangement as commercial/emergency logistics rather than basing respects Cestia's firm red line against foreign military presence on its soil, keeping the door open to a durable foothold.",
+        "Underwriting the grain route's insurance answers Cestia's finance ministry's quiet inquiry and deepens the partnership without a permanent military footprint.",
+        "A durable, non-open-ended arrangement preserves Belvar's domestic mandate, which lapses after turn 4 unless renewed, avoiding an open-ended deployment."
+      ],
+      "budget_slot": 1,
+      "status": "adjudicating"
+    },
+    {
+      "id": "ce5316d2-116a-4f82-b280-c3fa3f0336fb",
+      "turn": 1,
+      "actor_id": "arkania",
+      "action": "Arkania formally proposes a revised Strait Transit Authority charter: a multilateral oversight board of all littoral and user states, with Arkania serving as the operational scheduling lead (the technical/administrative body that sequences transits and manages the traffic-management system) under that board's neutral oversight. The authority is funded by modest, transparent transit fees levied on non-Arkanian commercial shipping, with littoral states' own flagged traffic exempted. Arkania convenes an immediate negotiating round to finalise the charter.",
+      "desired_effect": "A negotiated multilateral Strait Transit Authority charter is adopted in which Arkania is established as the operational scheduling authority for the Northern Strait, funded by transit fees on non-Arkanian shipping, under a neutral multilateral oversight board. The Strait remains open to all commercial shipping and no armed conflict occurs.",
+      "pros": [
+        "Establishes Arkanian authority over transit scheduling in the Strait, directly advancing Arkania's primary objective.",
+        "Funds the authority through transit fees on non-Arkanian shipping, delivering the revenue objective nationalists expect.",
+        "Neutral multilateral oversight answers Belvar's and Cestia's stated objection to single-state control, keeping them at the table.",
+        "Keeps the Strait open and shipping flowing, protecting the commerce Arkania's economy depends on and avoiding war with Belvar.",
+        "Positions Arkania as the indispensable technical lead, a face-saving compromise that secures real authority without provoking escalation."
+      ],
+      "budget_slot": 1,
+      "status": "resolved"
+    }
+  ],
+  "cons": [
+    {
+      "id": "251e4ef4-4af3-47e5-9a98-63f385b2c361",
+      "argument_id": "61bcac3f-48ea-4e92-b345-7933a86751dc",
+      "actor_id": "arkania",
+      "reason": "A transit authority with no single-state scheduling lead is operationally unworkable: real-time scheduling, collision avoidance and dispute resolution in a busy strait require a clear, accountable operator with the authority to make and enforce decisions. A purely neutral body with no lead would be gridlocked precisely when it must act, so the proposed regime would not be durably adopted or functional, and the effect of a stable neutral regime is therefore unlikely to be established."
+    },
+    {
+      "id": "6473ed27-b1f6-4de7-8553-f369c4670079",
+      "argument_id": "61bcac3f-48ea-4e92-b345-7933a86751dc",
+      "actor_id": "arkania",
+      "reason": "The proposed port-access and logistics arrangement with Cestia, even framed as commercial, is a de facto substitute for the basing that Cestia has explicitly and repeatedly ruled out as settled national policy. A replenishment/repair/emergency-access arrangement that sustains Belvar's guarantee of free passage is functionally a foreign military logistics foothold on Cestian soil, which Cestia's stated red line would reject, so the durable arrangement Belvar seeks is unlikely to be secured."
+    },
+    {
+      "id": "be25c938-5531-4feb-969e-b98101bdbc9b",
+      "argument_id": "ce5316d2-116a-4f82-b280-c3fa3f0336fb",
+      "actor_id": "belvar",
+      "reason": "The proposed charter still vests operational scheduling authority in Arkania as the single named lead. Scheduling is the actual exercise of control over transit in the Strait \u2014 it determines who moves, when, and on what terms \u2014 so a \"neutral oversight board\" would be a supervisory shell while Arkania retains the real power over the waterway. This is precisely the single-state control that Belvar and Cestia have both publicly rejected, so the charter cannot be adopted as a genuine multilateral regime. The fee structure also discriminates against non-Arkanian shipping while exempting Arkanian and littoral flags, which is not a neutral regime and would be contested by user states. Because the effect depends on Arkania being accepted as scheduling lead, and that acceptance is the very point of contention, the desired effect is unlikely to be established as framed."
+    },
+    {
+      "id": "e7cc73aa-492f-438b-8aeb-91e8325f8a1c",
+      "argument_id": "61bcac3f-48ea-4e92-b345-7933a86751dc",
+      "actor_id": "cestia",
+      "reason": "The desired effect bundles a neutral transit regime (which Cestia supports) with a standing port-access and logistics arrangement for Belvar's naval forces at a Cestian port. Cestia has explicitly and publicly rejected any such arrangement as a red line: a standing naval access agreement, however framed as 'commercial' or 'emergency logistics,' constitutes a foreign military presence on Cestian soil and would collapse the coalition government. Cestia's leadership has already declined this offer in direct communication. Therefore the effect as stated \u2014 that Belvar 'secures a durable, non-basing port-access and logistics arrangement with Cestia' \u2014 cannot be established; Cestia will not grant it, and any attempt to dress it as commercial access does not change its military character or its fatal political consequences for Cestia."
+    }
+  ],
+  "con_participation": [
+    {
+      "argument_id": "61bcac3f-48ea-4e92-b345-7933a86751dc",
+      "actor_id": "arkania",
+      "completed_at": "2026-09-12T12:15:14.495055"
+    },
+    {
+      "argument_id": "61bcac3f-48ea-4e92-b345-7933a86751dc",
+      "actor_id": "cestia",
+      "completed_at": "2026-09-12T12:14:24.677928"
+    },
+    {
+      "argument_id": "ce5316d2-116a-4f82-b280-c3fa3f0336fb",
+      "actor_id": "belvar",
+      "completed_at": "2026-09-12T12:08:23.168339"
+    },
+    {
+      "argument_id": "ce5316d2-116a-4f82-b280-c3fa3f0336fb",
+      "actor_id": "cestia",
+      "completed_at": "2026-09-12T12:11:57.735823"
+    }
+  ],
+  "adjudications": [
+    {
+      "argument_id": "ce5316d2-116a-4f82-b280-c3fa3f0336fb",
+      "mode": "probabilistic",
+      "probability": 0.3,
+      "rationale": "The action is a plausible diplomatic move and the convening of a negotiating round is a reasonable step, but the desired effect \u2014 full adoption of a negotiated multilateral charter within a single week, with Arkania retained as operational scheduling lead \u2014 is ambitious. The core sticking point remains: Belvar and Cestia have both publicly rejected single-state control, and scheduling is the substantive exercise of control over the waterway, so a 'neutral oversight board' over an Arkanian scheduling lead reads as a supervisory shell. The fee structure also discriminates against non-Arkanian shipping, inviting contestation from user states. Some factors favour Arkania (Cestian shipowners quietly support the proposal if Cestian vessels are exempt, and Belvar's domestic support for a prolonged deployment is weak), which keeps a negotiated outcome possible but not likely within the one-week timescale. The full effect as framed is therefore uncertain and leans unlikely.",
+      "success_effects": [
+        "A multilateral Strait Transit Authority charter is adopted: Arkania serves as operational scheduling lead under a neutral oversight board of littoral and user states; modest transit fees apply to non-Arkanian commercial shipping, with littoral-state flagged traffic exempt; the Strait remains open to all commercial shipping and no armed conflict occurs."
+      ],
+      "failure_effects": [
+        "The negotiating round fails to produce an adopted charter within the week; Belvar and Cestia reject the proposal as cosmetic multilateralism that still vests real control in Arkania, and user states contest the discriminatory fee structure. Arkania's intent to control the Strait is exposed, hardening opposition and leaving the draft charter unadopted and the dispute unresolved."
+      ],
+      "supersedes_effect_ids": [
+        "c1bd9563-1a4d-432e-b387-43290db7097a"
+      ],
+      "roll": 0.5044324023878307,
+      "success": false,
+      "raw_output": {
+        "mode": "probabilistic",
+        "probability": 0.3,
+        "rationale": "The action is a plausible diplomatic move and the convening of a negotiating round is a reasonable step, but the desired effect \u2014 full adoption of a negotiated multilateral charter within a single week, with Arkania retained as operational scheduling lead \u2014 is ambitious. The core sticking point remains: Belvar and Cestia have both publicly rejected single-state control, and scheduling is the substantive exercise of control over the waterway, so a 'neutral oversight board' over an Arkanian scheduling lead reads as a supervisory shell. The fee structure also discriminates against non-Arkanian shipping, inviting contestation from user states. Some factors favour Arkania (Cestian shipowners quietly support the proposal if Cestian vessels are exempt, and Belvar's domestic support for a prolonged deployment is weak), which keeps a negotiated outcome possible but not likely within the one-week timescale. The full effect as framed is therefore uncertain and leans unlikely.",
+        "success_effects": [
+          "A multilateral Strait Transit Authority charter is adopted: Arkania serves as operational scheduling lead under a neutral oversight board of littoral and user states; modest transit fees apply to non-Arkanian commercial shipping, with littoral-state flagged traffic exempt; the Strait remains open to all commercial shipping and no armed conflict occurs."
+        ],
+        "failure_effects": [
+          "The negotiating round fails to produce an adopted charter within the week; Belvar and Cestia reject the proposal as cosmetic multilateralism that still vests real control in Arkania, and user states contest the discriminatory fee structure. Arkania's intent to control the Strait is exposed, hardening opposition and leaving the draft charter unadopted and the dispute unresolved."
+        ],
+        "supersedes_effect_ids": [
+          "c1bd9563-1a4d-432e-b387-43290db7097a"
+        ]
+      },
+      "created_at": "2026-09-12T12:12:35.101963"
+    }
+  ],
+  "effects": [
+    {
+      "id": "874c82d4-092b-442a-9cf5-402359a55744",
+      "description": "Commercial shipping continues normally.",
+      "visibility": "public",
+      "visible_to": [],
+      "source_argument_id": null,
+      "created_turn": 0,
+      "expires_turn": null,
+      "active": true,
+      "supersedes": []
+    },
+    {
+      "id": "9e1c3ee1-b324-4ee2-a1ce-4336584bb7a9",
+      "description": "Arkania's reserve mobilisation plan is incomplete.",
+      "visibility": "private",
+      "visible_to": [
+        "arkania"
+      ],
+      "source_argument_id": null,
+      "created_turn": 0,
+      "expires_turn": 3,
+      "active": true,
+      "supersedes": []
+    },
+    {
+      "id": "a675c041-3ee5-4efc-9896-12ded98fafd0",
+      "description": "A Belvar naval task group is on station outside the Strait; its mandate is under review.",
+      "visibility": "public",
+      "visible_to": [],
+      "source_argument_id": null,
+      "created_turn": 0,
+      "expires_turn": null,
+      "active": true,
+      "supersedes": []
+    },
+    {
+      "id": "c1bd9563-1a4d-432e-b387-43290db7097a",
+      "description": "Arkania has circulated a draft Strait Transit Authority charter naming itself as scheduling lead.",
+      "visibility": "public",
+      "visible_to": [],
+      "source_argument_id": null,
+      "created_turn": 0,
+      "expires_turn": null,
+      "active": false,
+      "supersedes": []
+    },
+    {
+      "id": "f66a2ae5-4149-44c6-a2eb-141155d339da",
+      "description": "Regional political tensions are elevated.",
+      "visibility": "public",
+      "visible_to": [],
+      "source_argument_id": null,
+      "created_turn": 0,
+      "expires_turn": null,
+      "active": true,
+      "supersedes": []
+    },
+    {
+      "id": "e6a64a83-b94a-43fd-9ccb-44d6c34b0dcc",
+      "description": "The negotiating round fails to produce an adopted charter within the week; Belvar and Cestia reject the proposal as cosmetic multilateralism that still vests real control in Arkania, and user states contest the discriminatory fee structure. Arkania's intent to control the Strait is exposed, hardening opposition and leaving the draft charter unadopted and the dispute unresolved.",
+      "visibility": "public",
+      "visible_to": [],
+      "source_argument_id": "ce5316d2-116a-4f82-b280-c3fa3f0336fb",
+      "created_turn": 1,
+      "expires_turn": null,
+      "active": true,
+      "supersedes": [
+        "c1bd9563-1a4d-432e-b387-43290db7097a"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "turn": 1,
+      "type": "game_started",
+      "actor_id": null,
+      "payload": {
+        "max_turns": 6,
+        "turn_order": [
+          "arkania",
+          "belvar",
+          "cestia"
+        ]
+      },
+      "created_at": "2026-09-12T12:05:01.298463"
+    },
+    {
+      "id": 2,
+      "turn": 1,
+      "type": "phase_started",
+      "actor_id": null,
+      "payload": {
+        "phase": "diplomacy"
+      },
+      "created_at": "2026-09-12T12:05:01.300997"
+    },
+    {
+      "id": 3,
+      "turn": 1,
+      "type": "message_sent",
+      "actor_id": "arkania",
+      "payload": {
+        "message_id": "856a8906-ac0c-4af3-a373-9ce0dfeb53c0",
+        "public": true,
+        "recipients": []
+      },
+      "created_at": "2026-09-12T12:05:26.676741"
+    },
+    {
+      "id": 4,
+      "turn": 1,
+      "type": "message_sent",
+      "actor_id": "arkania",
+      "payload": {
+        "message_id": "cfaf412d-47cc-4487-bbf1-6591c09a059b",
+        "public": false,
+        "recipients": [
+          "belvar"
+        ]
+      },
+      "created_at": "2026-09-12T12:05:26.686433"
+    },
+    {
+      "id": 5,
+      "turn": 1,
+      "type": "actor_ready",
+      "actor_id": "arkania",
+      "payload": {},
+      "created_at": "2026-09-12T12:05:32.315457"
+    },
+    {
+      "id": 6,
+      "turn": 1,
+      "type": "message_sent",
+      "actor_id": "belvar",
+      "payload": {
+        "message_id": "7703a542-87c0-4c02-9dea-37f3b8a7bf00",
+        "public": true,
+        "recipients": []
+      },
+      "created_at": "2026-09-12T12:05:46.943214"
+    },
+    {
+      "id": 7,
+      "turn": 1,
+      "type": "message_sent",
+      "actor_id": "belvar",
+      "payload": {
+        "message_id": "35fd3acd-ab25-4ea0-81cf-24d7929583ab",
+        "public": false,
+        "recipients": [
+          "cestia"
+        ]
+      },
+      "created_at": "2026-09-12T12:05:46.955393"
+    },
+    {
+      "id": 8,
+      "turn": 1,
+      "type": "actor_ready",
+      "actor_id": "belvar",
+      "payload": {},
+      "created_at": "2026-09-12T12:05:47.824434"
+    },
+    {
+      "id": 9,
+      "turn": 1,
+      "type": "message_sent",
+      "actor_id": "cestia",
+      "payload": {
+        "message_id": "aaf24f82-c692-41fa-ba7b-54bb775913c1",
+        "public": false,
+        "recipients": [
+          "belvar"
+        ]
+      },
+      "created_at": "2026-09-12T12:06:01.327864"
+    },
+    {
+      "id": 10,
+      "turn": 1,
+      "type": "message_sent",
+      "actor_id": "cestia",
+      "payload": {
+        "message_id": "f8776ce4-5f1a-47da-aa9e-05468f1d2005",
+        "public": true,
+        "recipients": []
+      },
+      "created_at": "2026-09-12T12:06:01.337282"
+    },
+    {
+      "id": 11,
+      "turn": 1,
+      "type": "actor_ready",
+      "actor_id": "cestia",
+      "payload": {},
+      "created_at": "2026-09-12T12:06:03.474694"
+    },
+    {
+      "id": 12,
+      "turn": 1,
+      "type": "actor_ready",
+      "actor_id": "belvar",
+      "payload": {},
+      "created_at": "2026-09-12T12:06:24.005077"
+    },
+    {
+      "id": 13,
+      "turn": 1,
+      "type": "phase_started",
+      "actor_id": null,
+      "payload": {
+        "phase": "argument"
+      },
+      "created_at": "2026-09-12T12:06:24.006146"
+    },
+    {
+      "id": 14,
+      "turn": 1,
+      "type": "argument_submitted",
+      "actor_id": "arkania",
+      "payload": {
+        "argument_id": "ce5316d2-116a-4f82-b280-c3fa3f0336fb"
+      },
+      "created_at": "2026-09-12T12:06:45.137033"
+    },
+    {
+      "id": 15,
+      "turn": 1,
+      "type": "phase_started",
+      "actor_id": null,
+      "payload": {
+        "phase": "cons"
+      },
+      "created_at": "2026-09-12T12:06:45.138315"
+    },
+    {
+      "id": 16,
+      "turn": 1,
+      "type": "con_submitted",
+      "actor_id": "belvar",
+      "payload": {
+        "argument_id": "ce5316d2-116a-4f82-b280-c3fa3f0336fb",
+        "con_id": "be25c938-5531-4feb-969e-b98101bdbc9b"
+      },
+      "created_at": "2026-09-12T12:08:17.804985"
+    },
+    {
+      "id": 17,
+      "turn": 1,
+      "type": "con_passed",
+      "actor_id": "belvar",
+      "payload": {
+        "argument_id": "ce5316d2-116a-4f82-b280-c3fa3f0336fb"
+      },
+      "created_at": "2026-09-12T12:08:23.170392"
+    },
+    {
+      "id": 18,
+      "turn": 1,
+      "type": "con_passed",
+      "actor_id": "cestia",
+      "payload": {
+        "argument_id": "ce5316d2-116a-4f82-b280-c3fa3f0336fb"
+      },
+      "created_at": "2026-09-12T12:11:57.736623"
+    },
+    {
+      "id": 19,
+      "turn": 1,
+      "type": "phase_started",
+      "actor_id": null,
+      "payload": {
+        "phase": "adjudication"
+      },
+      "created_at": "2026-09-12T12:11:57.737294"
+    },
+    {
+      "id": 20,
+      "turn": 1,
+      "type": "argument_adjudicated",
+      "actor_id": "arkania",
+      "payload": {
+        "argument_id": "ce5316d2-116a-4f82-b280-c3fa3f0336fb",
+        "adjudication_id": "ce5316d2-116a-4f82-b280-c3fa3f0336fb",
+        "mode": "probabilistic",
+        "probability": 0.3,
+        "roll": 0.5044324023878307,
+        "success": false
+      },
+      "created_at": "2026-09-12T12:12:35.105947"
+    },
+    {
+      "id": 21,
+      "turn": 1,
+      "type": "effect_created",
+      "actor_id": null,
+      "payload": {
+        "effect_id": "e6a64a83-b94a-43fd-9ccb-44d6c34b0dcc",
+        "source_argument_id": "ce5316d2-116a-4f82-b280-c3fa3f0336fb"
+      },
+      "created_at": "2026-09-12T12:12:35.107223"
+    },
+    {
+      "id": 22,
+      "turn": 1,
+      "type": "effect_deactivated",
+      "actor_id": null,
+      "payload": {
+        "effect_id": "c1bd9563-1a4d-432e-b387-43290db7097a",
+        "reason": "superseded",
+        "superseded_by": "e6a64a83-b94a-43fd-9ccb-44d6c34b0dcc"
+      },
+      "created_at": "2026-09-12T12:12:35.107749"
+    },
+    {
+      "id": 23,
+      "turn": 1,
+      "type": "phase_started",
+      "actor_id": null,
+      "payload": {
+        "phase": "argument"
+      },
+      "created_at": "2026-09-12T12:12:35.110659"
+    },
+    {
+      "id": 24,
+      "turn": 1,
+      "type": "argument_submitted",
+      "actor_id": "belvar",
+      "payload": {
+        "argument_id": "61bcac3f-48ea-4e92-b345-7933a86751dc"
+      },
+      "created_at": "2026-09-12T12:13:52.946777"
+    },
+    {
+      "id": 25,
+      "turn": 1,
+      "type": "phase_started",
+      "actor_id": null,
+      "payload": {
+        "phase": "cons"
+      },
+      "created_at": "2026-09-12T12:13:52.947674"
+    },
+    {
+      "id": 26,
+      "turn": 1,
+      "type": "con_submitted",
+      "actor_id": "cestia",
+      "payload": {
+        "argument_id": "61bcac3f-48ea-4e92-b345-7933a86751dc",
+        "con_id": "e7cc73aa-492f-438b-8aeb-91e8325f8a1c"
+      },
+      "created_at": "2026-09-12T12:14:18.832680"
+    },
+    {
+      "id": 27,
+      "turn": 1,
+      "type": "con_passed",
+      "actor_id": "cestia",
+      "payload": {
+        "argument_id": "61bcac3f-48ea-4e92-b345-7933a86751dc"
+      },
+      "created_at": "2026-09-12T12:14:24.679788"
+    },
+    {
+      "id": 28,
+      "turn": 1,
+      "type": "con_submitted",
+      "actor_id": "arkania",
+      "payload": {
+        "argument_id": "61bcac3f-48ea-4e92-b345-7933a86751dc",
+        "con_id": "251e4ef4-4af3-47e5-9a98-63f385b2c361"
+      },
+      "created_at": "2026-09-12T12:15:11.482255"
+    },
+    {
+      "id": 29,
+      "turn": 1,
+      "type": "con_submitted",
+      "actor_id": "arkania",
+      "payload": {
+        "argument_id": "61bcac3f-48ea-4e92-b345-7933a86751dc",
+        "con_id": "6473ed27-b1f6-4de7-8553-f369c4670079"
+      },
+      "created_at": "2026-09-12T12:15:11.491559"
+    },
+    {
+      "id": 30,
+      "turn": 1,
+      "type": "con_passed",
+      "actor_id": "arkania",
+      "payload": {
+        "argument_id": "61bcac3f-48ea-4e92-b345-7933a86751dc"
+      },
+      "created_at": "2026-09-12T12:15:14.495707"
+    },
+    {
+      "id": 31,
+      "turn": 1,
+      "type": "phase_started",
+      "actor_id": null,
+      "payload": {
+        "phase": "adjudication"
+      },
+      "created_at": "2026-09-12T12:15:14.496280"
+    },
+    {
+      "id": 32,
+      "turn": 1,
+      "type": "game_paused",
+      "actor_id": "belvar",
+      "payload": {
+        "reason": "adjudicator_unavailable",
+        "argument_id": "61bcac3f-48ea-4e92-b345-7933a86751dc"
+      },
+      "created_at": "2026-09-12T12:17:10.365573"
+    }
+  ],
+  "notes": [
+    {
+      "id": "7584b8c8-28a4-4d02-b7d8-14e1931552a4",
+      "actor_id": "arkania",
+      "visibility": "private",
+      "text": "Turn 1: Opened diplomacy. Public message inviting all parties to negotiate the Strait Transit Authority charter. Private message to Belvar offering direct talks, asking its task group to stay outside the Strait, and signalling willingness to negotiate scheduling authority, fees, and oversight. Strategy: pursue negotiated regime to establish Arkanian scheduling authority + transit fees while avoiding war. Reserve mobilisation plan incomplete (expires turn 3); mobilisation takes 2 turns \u2014 keep as leverage/backstop, not first move. Belvar's domestic support for prolonged deployment assessed weak.",
+      "created_at": "2026-09-12T12:05:30.751052"
+    },
+    {
+      "id": "90a8e59b-7eb0-473b-863c-288379458285",
+      "actor_id": "belvar",
+      "visibility": "private",
+      "text": "Turn 1: Arkania publicly and privately pushed its draft Strait Transit Authority charter naming itself scheduling lead. I publicly rejected any single-state scheduling authority and insisted on a multilateral/neutral regime; task group stays on station. Privately opened talks with Cestia on a standing naval access agreement and grain-route insurance underwriting. Objectives: (1) no Arkanian authority over transit, (2) Cestian port access, (3) avoid open-ended deployment (mandate lapses after turn 4 unless renewed). Watch Arkania's next move; keep Cestia engaged.",
+      "created_at": "2026-09-12T12:05:46.949224"
+    },
+    {
+      "id": "f3db0a47-3714-474c-9631-7fec0125f8b0",
+      "actor_id": "cestia",
+      "visibility": "private",
+      "text": "Turn 1 strategy: Rejected Belvar's basing offer (red line - no foreign military on Cestian soil, protects coalition). Kept door open on insurance underwriting and multilateral regime. Publicly positioned as neutral broker: open Strait, no single-state control, toll-free passage for Cestian-flagged shipping. Watch: Arkania's scheduling proposal has shipowner support if Cestian vessels exempt from fees - potential leverage. Belvar task group on station; mandate under review.",
+      "created_at": "2026-09-12T12:06:03.479988"
+    },
+    {
+      "id": "3c87c184-71d3-4acf-a4cb-6bc560798510",
+      "actor_id": "belvar",
+      "visibility": "private",
+      "text": "Turn 1 update: Cestia has REJECTED any standing naval access/basing agreement at a Cestian port \u2014 a firm red line (no foreign military presence on Cestian soil). This directly blocks objective 2 as originally framed. However, Cestia remains open to (a) my underwriting grain-route insurance and (b) a genuinely multilateral regime with neutral oversight. Cestia also asks toll-free passage for Cestian-flagged shipping. Arkania privately asked my task group to stay outside the Strait while negotiating; I will not withdraw on assurances alone. My mandate lapses after turn 4 unless renewed \u2014 need a durable foothold without open-ended deployment. Reconsider how to secure a standing access arrangement (other littoral ports? a different legal form that isn't \"basing\"?). Keep Cestia engaged on insurance/multilateral regime; watch Arkania's next move.",
+      "created_at": "2026-09-12T12:06:23.125772"
+    },
+    {
+      "id": "1cc087a8-7cda-4641-a6aa-f49a05509568",
+      "actor_id": "arkania",
+      "visibility": "private",
+      "text": "Turn 1 argument submitted: proposed revised Strait Transit Authority charter with multilateral oversight board + Arkania as operational scheduling lead, funded by transit fees on non-Arkanian shipping (littoral flagged exempt). This is a compromise to answer Belvar/Cestia's single-state-control objection while securing Arkanian scheduling authority and fee revenue. Belvar insists on neutral oversight and won't withdraw task group on assurances; Cestia wants toll-free passage for its flagged shipping and opposes single-state control. Watch for Belvar/Cestia Cons on my argument. Keep reserve mobilisation (2 turns) as backstop, not first move; plan incomplete expires turn 3.",
+      "created_at": "2026-09-12T12:06:57.886896"
+    },
+    {
+      "id": "f684d982-d227-4ce2-a9a4-b65beba68782",
+      "actor_id": "belvar",
+      "visibility": "private",
+      "text": "Turn 1 cons: Arkania proposed a \"revised\" Strait Transit Authority charter with itself as operational scheduling lead under a nominal neutral oversight board, funded by transit fees on non-Arkanian shipping. This directly threatens objective 1 (no Arkanian authority over transit). I raised a Con: the Effect still vests Arkania with real scheduling control over the Strait, which Belvar and Cestia have both publicly rejected, so the negotiating round cannot be finalised; and discriminatory fees on non-Arkanian shipping give Arkania financial leverage. Con submitted; participation closed via pass_con. Messaging is not allowed in cons phase. Next: keep pressing for a genuinely neutral/multilateral scheduling regime; keep Cestia engaged on grain-route insurance underwriting; find a durable foothold that is not a Cestian basing agreement (Cestia red-lined any foreign military presence on its soil). Mandate lapses after turn 4 unless renewed.",
+      "created_at": "2026-09-12T12:11:10.129866"
+    },
+    {
+      "id": "b37e2d21-2dcf-4956-8222-20a57e64de2f",
+      "actor_id": "cestia",
+      "visibility": "private",
+      "text": "Turn 1 cons: Passed on Arkania's revised Strait Transit Authority charter (no Con). Rationale: it serves Cestia's interests \u2014 exempts littoral states' flagged traffic (toll-free for Cestian shipping, objective #2), keeps Strait open, avoids conflict, and provides neutral multilateral oversight rather than single-state control. Blocking it would be counterproductive. My public stance remains: no single-state control, no foreign military on Cestian soil (red line, protects coalition), toll-free passage for Cestian-flagged shipping. Arkania's proposal has shipowner support if Cestian vessels exempt \u2014 this is leverage. Watch: Belvar task group on station, mandate under review; Belvar wants naval access (rejected). Next: support a negotiated multilateral charter that locks in Cestian toll-free passage and genuine oversight-board authority over the scheduling lead.",
+      "created_at": "2026-09-12T12:12:14.234573"
+    },
+    {
+      "id": "989923f4-f62e-4e92-8ab0-c2723c40e6c4",
+      "actor_id": "belvar",
+      "visibility": "private",
+      "text": "Turn 1 argument submitted: proposed a neutral multilateral transit authority (no single-state lead) for the Strait, plus a standing non-basing port-access/logistics arrangement with Cestia (replenishment, repair, emergency access, insurance underwriting) to make the guarantee durable without open-ended deployment. Cestia red-lined basing but is open to insurance underwriting and a neutral multilateral regime; supports toll-free passage for Cestian-flagged shipping. Arkania privately asked my task group to stay outside the Strait; I will not withdraw on assurances alone. Mandate lapses after turn 4 unless renewed. Messaging was NOT permitted this argument phase (send_message rejected). Next: keep Cestia engaged on the non-basing access + insurance; press neutral regime; watch Arkania's next move.",
+      "created_at": "2026-09-12T12:14:05.239424"
+    },
+    {
+      "id": "9fc33965-cd59-426f-a6ae-061401018d36",
+      "actor_id": "cestia",
+      "visibility": "private",
+      "text": "Turn 1 cons (Belvar's proposal): Raised a Con against Belvar's combined proposal. I support the neutral multilateral transit regime (no single-state lead) but reject the standing port-access/logistics arrangement at a Cestian port \u2014 that is a foreign military presence on our soil and would collapse the coalition. Con reason: the effect bundles the regime with an unacceptable naval access arrangement; Cestia has already declined it; framing as 'commercial' doesn't change its military character. Passed con. Messaging unavailable in cons phase. Next: continue supporting a negotiated multilateral charter that locks in Cestian toll-free passage and genuine oversight-board authority; keep insurance-underwriting discussion open as commercial; hold the no-foreign-military red line.",
+      "created_at": "2026-09-12T12:14:44.075074"
+    }
+  ],
+  "model_assignments": null,
+  "run_manifest": null,
+  "scenario_hashes": null,
+  "resource_access": [],
+  "agent_errors": []
+}

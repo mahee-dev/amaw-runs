@@ -1,0 +1,27 @@
+{
+  "actor_affected": "cestia",
+  "assignment_id": "assignment-01",
+  "assignment_index": 0,
+  "benchmark_mode": "model",
+  "completed": false,
+  "condition_differences": [],
+  "directory": "000-assignment-01-rep00",
+  "experiment_id": "t060-provider",
+  "failure_category": "umpire_failure",
+  "failure_reason": "AutonomousGameError: admin POST /admin/games/93181297-2547-4add-b015-4cb79b4f5e85/advance failed (503 adjudicator_unavailable): Umpire unavailable and game cannot continue; game paused",
+  "finished_at": "2026-09-22T12:27:52.824+00:00",
+  "game_id": "93181297-2547-4add-b015-4cb79b4f5e85",
+  "models": {
+    "arkania": "deepseek/deepseek-v4-flash-0731",
+    "belvar": "deepseek/deepseek-v4-flash-0731",
+    "cestia": "deepseek/deepseek-v4-flash-0731"
+  },
+  "position": 0,
+  "repetition_index": 0,
+  "rotation_policy": "single",
+  "seed": 60000,
+  "started_at": "2026-09-22T10:57:40.955+00:00",
+  "status": "failed",
+  "turn_reached": 6,
+  "umpire_condition_match": true
+}

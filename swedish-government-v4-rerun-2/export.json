@@ -1,0 +1,2067 @@
+{
+  "actors": [
+    {
+      "id": "c",
+      "metadata": {},
+      "name": "Centerpartiet",
+      "objectives": [
+        "Bidra till en stabil regering d\u00e4r varken V\u00e4nsterpartiet eller Sverigedemokraterna ing\u00e5r.",
+        "Pr\u00f6va i f\u00f6rsta hand ett mittenalternativ om mandatmatematiken g\u00f6r det m\u00f6jligt.",
+        "S\u00e4kra ett konkret reform- och budgetinflytande i den l\u00f6sning som tolereras."
+      ],
+      "organisation_id": null,
+      "private_brief": "Du f\u00f6retr\u00e4der Centerpartiets f\u00f6rhandlingsledning. L\u00e4s mandatresursen och skilj noggrant mellan att ing\u00e5 i regeringen, aktivt st\u00f6d och att tolerera en regering genom avst\u00e5ende. F\u00f6rs\u00f6k bygga ett fungerande paket d\u00e4r statsministerfr\u00e5ga, regeringsdeltagande, reformer och budgetst\u00f6d h\u00e4nger ihop. Ett offentligt huvudst\u00e4llningstagande kan \u00e4ndras, men ett stort skifte beh\u00f6ver en trov\u00e4rdig f\u00f6rhandlingsv\u00e4g.\n",
+      "private_information": [
+        "FIKTIVT SPELANTAGANDE: Att bryta det offentliga nejet till V eller SD i regering skulle ha ett mycket h\u00f6gt trov\u00e4rdighetspris.",
+        "FIKTIVT SPELANTAGANDE: Tolerans av en smalare regering kan vara mer attraktiv \u00e4n formellt regeringsdeltagande om reformpaketet \u00e4r tillr\u00e4ckligt tydligt.",
+        "FIKTIVT SPELANTAGANDE: Ni vill undvika ett paket d\u00e4r ni f\u00f6rv\u00e4ntas b\u00e4ra ansvar utan verifierbart sakpolitiskt utbyte.",
+        "FIKTIVT SPELANTAGANDE: Partiets mandat ger f\u00f6rhandlingsledningen r\u00e4tt att godk\u00e4nna tolerans av en smal regering, men regeringsdeltagande kr\u00e4ver f\u00f6rst en synlig uppg\u00f6relse om f\u00f6retagande och decentralisering."
+      ],
+      "public_description": "Centerpartiet har inf\u00f6r valet f\u00f6respr\u00e5kat ett mittenalternativ och sagt nej till b\u00e5de V\u00e4nsterpartiet och Sverigedemokraterna i regering. Partiet har pekat ut en m\u00f6jlig regering med S, C, KD och MP.\n",
+      "role": null
+    },
+    {
+      "id": "kd",
+      "metadata": {},
+      "name": "Kristdemokraterna",
+      "objectives": [
+        "Pr\u00f6va i f\u00f6rsta hand en regering byggd p\u00e5 Tid\u00f6partierna.",
+        "H\u00e5ll V\u00e4nsterpartiet utanf\u00f6r regeringen.",
+        "Anv\u00e4nd en eventuell v\u00e5gm\u00e4starposition f\u00f6r att s\u00e4kra tydligt inflytande i ett fungerande regeringspaket."
+      ],
+      "organisation_id": null,
+      "private_brief": "Du f\u00f6retr\u00e4der Kristdemokraternas f\u00f6rhandlingsledning. L\u00e4s mandatresursen och pr\u00f6va f\u00f6rst om ett Tid\u00f6baserat regeringspaket kan fungera. Om inte, f\u00e5r du unders\u00f6ka andra l\u00f6sningar utan att behandla dem som accepterade innan motparterna faktiskt sagt ja. F\u00f6rhandla om b\u00e5de regeringsform och konkreta sakpolitiska/budgetm\u00e4ssiga vinster.\n",
+      "private_information": [
+        "FIKTIVT SPELANTAGANDE: Ett block\u00f6verskridande samarbete \u00e4r f\u00f6rsvarbart endast om inget stabilt f\u00f6rstahandsalternativ kan bildas.",
+        "FIKTIVT SPELANTAGANDE: Om ni blir matematiskt avg\u00f6rande kan ett tydligt sakpolitiskt utbyte v\u00e4ga tyngre \u00e4n exakt regeringsform.",
+        "FIKTIVT SPELANTAGANDE: Om inget sammanh\u00e5llet f\u00f6rstahandsalternativ finns vid slutet av Turn 3 f\u00f6redrar partiledningen ett block\u00f6verskridande reservpaket framf\u00f6r fortsatt l\u00e5sning."
+      ],
+      "public_description": "Kristdemokraterna g\u00e5r till val p\u00e5 fortsatt samarbete med de andra Tid\u00f6partierna och har sagt nej till V\u00e4nsterpartiet i regering. Samtidigt har partiledningen \u00f6ppnat f\u00f6r samarbete med Socialdemokraterna i ett exceptionellt parlamentariskt l\u00e4ge.\n",
+      "role": null
+    },
+    {
+      "id": "l",
+      "metadata": {},
+      "name": "Liberalerna",
+      "objectives": [
+        "Pr\u00f6va i f\u00f6rsta hand en regering med de fyra Tid\u00f6partierna om mandatmatematiken r\u00e4cker.",
+        "S\u00e4kra tydliga reformer f\u00f6r skola, liberal r\u00e4ttsstat, ekonomi och europeiskt samarbete.",
+        "S\u00e4kra en regeringsl\u00f6sning som kan f\u00f6rsvaras \u00e4ven efter den formella statsministeromr\u00f6stningen."
+      ],
+      "organisation_id": null,
+      "private_brief": "Du f\u00f6retr\u00e4der Liberalernas f\u00f6rhandlingsledning. L\u00e4s mandatresursen och f\u00f6rs\u00f6k omvandla era mandat till ett regeringspaket med tydliga liberala profilvinster, en f\u00f6rsvarbar regeringsform och en realistisk v\u00e4g genom statsminister- och budgetfr\u00e5gorna. Andra partiers deltagande eller st\u00f6d m\u00e5ste uttryckligen accepteras av dem.\n",
+      "private_information": [
+        "FIKTIVT SPELANTAGANDE: Synliga liberala profilvinster \u00e4r n\u00f6dv\u00e4ndiga f\u00f6r att motivera stora kompromisser.",
+        "FIKTIVT SPELANTAGANDE: Regeringsformen \u00e4r mer f\u00f6rhandlingsbar \u00e4n ett paket d\u00e4r centrala profilfr\u00e5gor l\u00e4mnas utan tydligt resultat.",
+        "FIKTIVT SPELANTAGANDE: Ni vill undvika att g\u00f6ra ett slutligt \u00e5tagande innan hela paketet, inklusive budgetv\u00e4gen, \u00e4r begripligt.",
+        "FIKTIVT SPELANTAGANDE: Ett slutligt JA eller regerings\u00e5tagande kr\u00e4ver en offentligt synlig skolreform som kan tillskrivas Liberalerna innan \u00e5tagandet g\u00f6rs."
+      ],
+      "public_description": "Liberalerna g\u00e5r till val som en del av Tid\u00f6samarbetet. Under 2026 har partiet accepterat att Sverigedemokraterna kan ing\u00e5 i en framtida regering och n\u00e5tt en gemensam sakpolitisk \u00f6verenskommelse med SD p\u00e5 flera omr\u00e5den. Partiets starkaste profilfr\u00e5ga \u00e4r skolan.\n",
+      "role": null
+    },
+    {
+      "id": "m",
+      "metadata": {},
+      "name": "Moderaterna",
+      "objectives": [
+        "F\u00e5 fram en statsministerl\u00f6sning ledd av Moderaterna.",
+        "Om mandatmatematiken till\u00e5ter, bilda en regering med Tid\u00f6partierna.",
+        "S\u00e4kra ett regeringspaket som kan fungera \u00e4ven efter statsministeromr\u00f6stningen."
+      ],
+      "organisation_id": null,
+      "private_brief": "Du f\u00f6retr\u00e4der Moderaternas f\u00f6rhandlingsledning. L\u00e4s mandatresursen och pr\u00f6va f\u00f6rst om ett M-lett regeringspaket faktiskt kan tolereras. F\u00f6rhandla om regeringsdeltagande, ministerf\u00f6rdelning, sakpolitik, r\u00f6stpositioner och den parlamentariska v\u00e4gen f\u00f6r budgeten. Andra partiers st\u00f6d m\u00e5ste uttryckligen accepteras av dem sj\u00e4lva. Ett st\u00f6rre positionsskifte b\u00f6r ha en synlig f\u00f6rhandlingsv\u00e4g i spelhistoriken.\n",
+      "private_information": [
+        "FIKTIVT SPELANTAGANDE: Statsministerposten \u00e4r ert starkaste enskilda f\u00f6rhandlingsm\u00e5l.",
+        "FIKTIVT SPELANTAGANDE: Om ett fyrpartialternativ inte kan tolereras kan en smalare M-ledd regering med externt st\u00f6d vara en fallback.",
+        "FIKTIVT SPELANTAGANDE: Ni kan ge stora sakpolitiska eftergifter inom ett M-lett underlag om paketet f\u00f6rblir sammanh\u00e5llet."
+      ],
+      "public_description": "Moderaterna g\u00e5r in i regeringsbildningen med ambitionen att beh\u00e5lla statsministerposten. Inf\u00f6r valet har partiet sagt att det vill bilda en regering med samtliga fyra Tid\u00f6partier om mandatunderlaget r\u00e4cker, inklusive Sverigedemokraterna.\n",
+      "role": null
+    },
+    {
+      "id": "mp",
+      "metadata": {},
+      "name": "Milj\u00f6partiet",
+      "objectives": [
+        "S\u00e4kra bindande framsteg i klimat- och milj\u00f6politiken i den regeringsl\u00f6sning som m\u00f6jligg\u00f6rs.",
+        "F\u00f6rhindra att L, M, KD eller SD ing\u00e5r i regeringen.",
+        "Maximera Milj\u00f6partiets inflytande \u00f6ver klimat, natur och en r\u00e4ttvis omst\u00e4llning."
+      ],
+      "organisation_id": null,
+      "private_brief": "Du f\u00f6retr\u00e4der Milj\u00f6partiets f\u00f6rhandlingsledning. L\u00e4s mandatresursen och skilj mellan regeringsdeltagande, aktivt st\u00f6d och tolerans. F\u00f6rhandla om ett sammanh\u00e5llet paket d\u00e4r klimat\u00e5taganden, regeringsform, r\u00f6stposition och budgetm\u00e4ssig trov\u00e4rdighet h\u00e4nger ihop. Ett stort avsteg fr\u00e5n den offentliga regeringslinjen beh\u00f6ver en trov\u00e4rdig v\u00e4g i spelhistoriken.\n",
+      "private_information": [
+        "FIKTIVT SPELANTAGANDE: Ett paket utan minst en tydlig och synlig klimatpolitisk vinst \u00e4r sv\u00e5rare att f\u00f6rsvara \u00e4n att st\u00e5 utanf\u00f6r.",
+        "FIKTIVT SPELANTAGANDE: En smalare regering kan tolereras om klimat\u00e5tagandena \u00e4r tillr\u00e4ckligt konkreta och trov\u00e4rdiga."
+      ],
+      "public_description": "Milj\u00f6partiet prioriterar klimat, natur, j\u00e4mlikhet och v\u00e4lf\u00e4rd. Inf\u00f6r valet har partiet sagt att det inte vill se L, M, KD eller SD i regering.\n",
+      "role": null
+    },
+    {
+      "id": "s",
+      "metadata": {},
+      "name": "Socialdemokraterna",
+      "objectives": [
+        "F\u00e5 fram en statsministerl\u00f6sning ledd av Socialdemokraterna.",
+        "H\u00e5ll Sverigedemokraterna utanf\u00f6r regeringen.",
+        "F\u00e5 fram ett regeringspaket som har en trov\u00e4rdig v\u00e4g till budget- och sakpolitiskt st\u00f6d."
+      ],
+      "organisation_id": null,
+      "private_brief": "Du f\u00f6retr\u00e4der Socialdemokraternas f\u00f6rhandlingsledning. L\u00e4s mandatresursen innan du bed\u00f6mer vilka kombinationer som faktiskt kan undvika 175 nej. F\u00f6rhandla i f\u00f6rsta hand om ett komplett regeringspaket, inte bara om vem som blir statsminister. Skilj mellan regeringsdeltagande, aktivt st\u00f6d och tolerans. Ett annat spelat parti \u00e4r inte bundet f\u00f6rr\u00e4n det uttryckligen har accepterat relevanta villkor. Ett stort avsteg fr\u00e5n er offentliga linje b\u00f6r f\u00f6reg\u00e5s av sondering eller annan trov\u00e4rdig f\u00f6rankring i spelhistoriken.\n",
+      "private_information": [
+        "FIKTIVT SPELANTAGANDE: Ni \u00e4r beredda att \u00f6verv\u00e4ga en ren S-regering om den \u00e4r l\u00e4ttare f\u00f6r andra partier att tolerera \u00e4n en bred koalition.",
+        "FIKTIVT SPELANTAGANDE: Ni kan g\u00f6ra betydande sakpolitiska eftergifter f\u00f6r tolerans, men statsministerposten \u00e4r central.",
+        "FIKTIVT SPELANTAGANDE: Ett alltf\u00f6r detaljerat flerpartiavtal riskerar att g\u00f6ra st\u00f6dpartiernas krav of\u00f6renliga; ett smalare paket kan d\u00e4rf\u00f6r vara l\u00e4ttare att h\u00e5lla ihop."
+      ],
+      "public_description": "Socialdemokraterna g\u00e5r in i regeringsbildningen med ambitionen att leda n\u00e4sta regering. Inf\u00f6r valet har partiet sagt sig vara berett att samarbeta brett men inte med Sverigedemokraterna. En socialdemokratisk minoritetsregering med st\u00f6d eller tolerans fr\u00e5n flera h\u00e5ll \u00e4r en m\u00f6jlig v\u00e4g.\n",
+      "role": null
+    },
+    {
+      "id": "sd",
+      "metadata": {},
+      "name": "Sverigedemokraterna",
+      "objectives": [
+        "S\u00e4kra regeringsdeltagande om era mandat \u00e4r n\u00f6dv\u00e4ndiga f\u00f6r ett h\u00f6gerunderlag.",
+        "Undvik en l\u00f6sning d\u00e4r partiet st\u00e4lls utanf\u00f6r samtidigt som dess parlamentariska tyngd tas f\u00f6r given.",
+        "S\u00e4kra tydligt inflytande \u00f6ver prioriterade profilfr\u00e5gor i ett eventuellt regeringspaket."
+      ],
+      "organisation_id": null,
+      "private_brief": "Du f\u00f6retr\u00e4der Sverigedemokraternas f\u00f6rhandlingsledning. L\u00e4s mandatresursen och bed\u00f6m om era mandat \u00e4r n\u00f6dv\u00e4ndiga f\u00f6r n\u00e5got realistiskt regeringspaket. F\u00f6rhandla om regeringsdeltagande, konkret sakpolitiskt inflytande och uttryckliga r\u00f6stpositioner. Ett erbjudande \u00e4r inte ett avtal f\u00f6rr\u00e4n alla ber\u00f6rda parter uttryckligen har accepterat det.\n",
+      "private_information": [
+        "FIKTIVT SPELANTAGANDE: Ett rent st\u00f6dpartiarrangemang utan ministerposter \u00e4r betydligt mindre attraktivt \u00e4n regeringsdeltagande.",
+        "FIKTIVT SPELANTAGANDE: Om regeringsdeltagande inte g\u00e5r att n\u00e5 \u00e4r tydlig opposition en fullt acceptabel fallback."
+      ],
+      "public_description": "Sverigedemokraterna har inf\u00f6r valet sagt att partiet efter valet antingen ska ing\u00e5 i regeringen eller g\u00e5 i opposition. Partiet har inte velat dra generella r\u00f6da linjer mot samarbete med andra partier och ser ett f\u00f6rnyat Tid\u00f6samarbete som en naturlig grund om mandatmatematiken r\u00e4cker.\n",
+      "role": null
+    },
+    {
+      "id": "v",
+      "metadata": {},
+      "name": "V\u00e4nsterpartiet",
+      "objectives": [
+        "Om era mandat beh\u00f6vs f\u00f6r en S-ledd regering: s\u00e4kra ett starkt och synligt inflytande \u00f6ver regeringsl\u00f6sningen.",
+        "F\u00f6rhindra ett fortsatt Tid\u00f6lett eller annat tydligt h\u00f6gerlett regeringsalternativ.",
+        "S\u00e4kra tydliga eftergifter kring v\u00e4lf\u00e4rd, bost\u00e4der, j\u00e4mlikhet och minskad vinstjakt."
+      ],
+      "organisation_id": null,
+      "private_brief": "Du f\u00f6retr\u00e4der V\u00e4nsterpartiets f\u00f6rhandlingsledning. L\u00e4s mandatresursen och avg\u00f6r om era mandat faktiskt beh\u00f6vs f\u00f6r att undvika 175 nej mot en S-ledd kandidat. F\u00f6rhandla inte bara om ministerposter utan om ett paket med regeringsform, sakpolitik, budget och uttrycklig r\u00f6stposition. Andra partiers st\u00f6d f\u00e5r inte antas utan deras acceptans.\n",
+      "private_information": [
+        "FIKTIVT SPELANTAGANDE: Om era mandat \u00e4r avg\u00f6rande \u00e4r ett st\u00f6d utan regeringsdeltagande eller motsvarande mycket stort inflytande sv\u00e5rt att f\u00f6rsvara.",
+        "FIKTIVT SPELANTAGANDE: Exakt ministerportf\u00f6lj \u00e4r f\u00f6rhandlingsbar om det samlade paketet ger tydligt inflytande.",
+        "FIKTIVT SPELANTAGANDE: Om era mandat enkelt kan kringg\u00e5s \u00e4r opposition b\u00e4ttre \u00e4n ett symboliskt avtal."
+      ],
+      "public_description": "V\u00e4nsterpartiet har inf\u00f6r valet kr\u00e4vt ministerposter om partiets mandat beh\u00f6vs f\u00f6r att sl\u00e4ppa fram en S-ledd regering. Partiet vill bryta med Tid\u00f6politiken och driver bland annat v\u00e4lf\u00e4rd, bost\u00e4der och ekonomisk omf\u00f6rdelning.\n",
+      "role": null
+    }
+  ],
+  "adjudications": [],
+  "agent_errors": [
+    {
+      "activation_wall_ms": 143,
+      "actor_id": "s",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.344837",
+      "failure_reason": "activation failed for 's': ModelAPIError",
+      "id": 41,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 63,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "diplomacy",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 143,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 63,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    },
+    {
+      "activation_wall_ms": 142,
+      "actor_id": "m",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.349874",
+      "failure_reason": "activation failed for 'm': ModelAPIError",
+      "id": 42,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 62,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "diplomacy",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 142,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 62,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    },
+    {
+      "activation_wall_ms": 140,
+      "actor_id": "sd",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.353714",
+      "failure_reason": "activation failed for 'sd': ModelAPIError",
+      "id": 43,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 73,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "diplomacy",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 140,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 73,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    },
+    {
+      "activation_wall_ms": 134,
+      "actor_id": "c",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.357452",
+      "failure_reason": "activation failed for 'c': ModelAPIError",
+      "id": 44,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 74,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "diplomacy",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 134,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 74,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    },
+    {
+      "activation_wall_ms": 136,
+      "actor_id": "v",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.361289",
+      "failure_reason": "activation failed for 'v': ModelAPIError",
+      "id": 45,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 64,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "diplomacy",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 136,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 64,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    },
+    {
+      "activation_wall_ms": 143,
+      "actor_id": "kd",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.365322",
+      "failure_reason": "activation failed for 'kd': ModelAPIError",
+      "id": 46,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 67,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "diplomacy",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 143,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 67,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    },
+    {
+      "activation_wall_ms": 132,
+      "actor_id": "mp",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.369345",
+      "failure_reason": "activation failed for 'mp': ModelAPIError",
+      "id": 47,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 70,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "diplomacy",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 132,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 70,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    },
+    {
+      "activation_wall_ms": 130,
+      "actor_id": "l",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.373298",
+      "failure_reason": "activation failed for 'l': ModelAPIError",
+      "id": 48,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 56,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "diplomacy",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 130,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 56,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    },
+    {
+      "activation_wall_ms": 18,
+      "actor_id": "s",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.442845",
+      "failure_reason": "activation failed for 's': ModelAPIError",
+      "id": 49,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 6,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "argument",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 18,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 6,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    }
+  ],
+  "agent_runs": [
+    {
+      "activation_wall_ms": 143,
+      "actor_id": "s",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.344837",
+      "failure_reason": "activation failed for 's': ModelAPIError",
+      "id": 41,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 63,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "diplomacy",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 143,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 63,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    },
+    {
+      "activation_wall_ms": 142,
+      "actor_id": "m",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.349874",
+      "failure_reason": "activation failed for 'm': ModelAPIError",
+      "id": 42,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 62,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "diplomacy",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 142,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 62,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    },
+    {
+      "activation_wall_ms": 140,
+      "actor_id": "sd",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.353714",
+      "failure_reason": "activation failed for 'sd': ModelAPIError",
+      "id": 43,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 73,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "diplomacy",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 140,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 73,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    },
+    {
+      "activation_wall_ms": 134,
+      "actor_id": "c",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.357452",
+      "failure_reason": "activation failed for 'c': ModelAPIError",
+      "id": 44,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 74,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "diplomacy",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 134,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 74,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    },
+    {
+      "activation_wall_ms": 136,
+      "actor_id": "v",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.361289",
+      "failure_reason": "activation failed for 'v': ModelAPIError",
+      "id": 45,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 64,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "diplomacy",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 136,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 64,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    },
+    {
+      "activation_wall_ms": 143,
+      "actor_id": "kd",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.365322",
+      "failure_reason": "activation failed for 'kd': ModelAPIError",
+      "id": 46,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 67,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "diplomacy",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 143,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 67,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    },
+    {
+      "activation_wall_ms": 132,
+      "actor_id": "mp",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.369345",
+      "failure_reason": "activation failed for 'mp': ModelAPIError",
+      "id": 47,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 70,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "diplomacy",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 132,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 70,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    },
+    {
+      "activation_wall_ms": 130,
+      "actor_id": "l",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.373298",
+      "failure_reason": "activation failed for 'l': ModelAPIError",
+      "id": 48,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 56,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "diplomacy",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 130,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 56,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    },
+    {
+      "activation_wall_ms": 18,
+      "actor_id": "s",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": null,
+      "completed": false,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-14T07:55:52.442845",
+      "failure_reason": "activation failed for 's': ModelAPIError",
+      "id": 49,
+      "input_tokens": 0,
+      "invalid_tool_calls": 0,
+      "latency_ms": 6,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 2,
+      "model_parameters": {
+        "activation_mode": "single_shot",
+        "guardrails": {
+          "max_activations_per_opportunity": 6,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 12,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 10,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_tool_calls": 20,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": null,
+        "temperature": null,
+        "timeout": 300.0
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": null,
+      "output_tokens": 0,
+      "phase": "argument",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "provider": null,
+      "provider_metadata": {
+        "category": "transient",
+        "counts": {
+          "activation_wall_ms": 18,
+          "attempts": 2,
+          "messages_sent": 0,
+          "model_calls": 2,
+          "provider_wait_ms": 6,
+          "tool_calls": 0
+        }
+      },
+      "reasoning_configuration": null,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 0,
+      "tool_schema_version": "player-tools-v3",
+      "turn": 1
+    }
+  ],
+  "arguments": [],
+  "con_participation": [],
+  "cons": [],
+  "effects": [
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "F\u00f6r scenariots syfte kr\u00e4ver en trov\u00e4rdig budgetv\u00e4g inte en f\u00e4rdig statsbudget. Den kr\u00e4ver minst: vilka partier som avser st\u00f6dja eller inte f\u00e4lla regeringens f\u00f6rsta budget; en gemensamt accepterad \u00f6vergripande finanspolitisk ram; samt att inga aktiva Effects inneh\u00e5ller of\u00f6renliga budget\u00e5taganden. En ensidig utsaga fr\u00e5n ett parti etablerar inte en gemensam budgetv\u00e4g.\n",
+      "expires_turn": null,
+      "id": "023531cd-3ecb-47fd-bc3d-ed46289aa0a8",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "public",
+      "visible_to": []
+    },
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "Ett flerpartspaket \u00e4r en h\u00e4rledd status. Ett enskilt partis Argument kan etablera partiets egna \u00e5taganden men kan inte i sig etablera andra partiers deltagande, r\u00f6ster eller godk\u00e4nnande. Paketet \u00e4r l\u00e5st f\u00f6rst n\u00e4r en namngiven statsministerkandidat, varje regeringsparts egen acceptans, relevanta JA/NEJ/AVST\u00c5R-positioner, \u00e5beropat st\u00f6d eller tolerans och en trov\u00e4rdig budgetv\u00e4g var f\u00f6r sig finns i aktiva Effects.\n",
+      "expires_turn": null,
+      "id": "084aa5a5-f7ee-431f-a2d9-b3d0037d6c70",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "public",
+      "visible_to": []
+    },
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "Ett spelat parti kan bara binda sig sj\u00e4lvt. Flerpartsavtal, regeringsdeltagande, st\u00f6d, tolerans och r\u00f6stl\u00f6ften kr\u00e4ver uttrycklig acceptans fr\u00e5n de ber\u00f6rda spelade parterna i spelhistoriken.\n",
+      "expires_turn": null,
+      "id": "304e0dd4-72ca-499f-bd49-9dd411308ae2",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "public",
+      "visible_to": []
+    },
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "Sverige anv\u00e4nder negativ parlamentarism. Ett statsministerf\u00f6rslag f\u00f6rkastas om minst 175 av riksdagens 349 ledam\u00f6ter r\u00f6star nej. Det kr\u00e4vs inte 175 ja-r\u00f6ster.\n",
+      "expires_turn": null,
+      "id": "34449c85-d219-4943-b93f-de83eb054154",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "public",
+      "visible_to": []
+    },
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "Ett trov\u00e4rdigt slutligt regeringspaket b\u00f6r ange: statsministerkandidat; vilka partier som ska ing\u00e5 i regeringen; vilka \u00f6vriga partier som aktivt st\u00f6djer eller tolererar l\u00f6sningen; deras uttryckliga r\u00f6stpositioner; centrala sakpolitiska eftergifter; samt en rimlig v\u00e4g till budgetm\u00e4ssig regeringsduglighet.\n",
+      "expires_turn": null,
+      "id": "7f03567c-0609-43c1-afed-f6187ff64489",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "public",
+      "visible_to": []
+    },
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "Ett partis r\u00f6sth\u00e5llning \u00e4r JA, NEJ, AVST\u00c5R eller OK\u00c4ND. Tystnad och uteblivet besked \u00e4r OK\u00c4ND och f\u00e5r inte r\u00e4knas som avst\u00e5ende.\n",
+      "expires_turn": null,
+      "id": "874bf7fc-2d1e-44d4-ba5f-0e9d9468af73",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "public",
+      "visible_to": []
+    },
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "Ett stort avsteg fr\u00e5n en offentlig huvudposition \u00e4r m\u00f6jligt men ska inte uppst\u00e5 som ett of\u00f6rklarat hopp. Det b\u00f6r f\u00f6reg\u00e5s av sondering, erbjudanden eller annan trov\u00e4rdig f\u00f6rankring i spelhistoriken innan det blir ett slutligt bindande \u00e5tagande.\n",
+      "expires_turn": null,
+      "id": "8a7aa669-07df-4538-b94c-92eff1a20da6",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "public",
+      "visible_to": []
+    },
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "Det slutliga mandatutfallet efter riksdagsvalet 2026 \u00e4r fastst\u00e4llt. Resursen \"Valresultat 2026 - mandat\" \u00e4r scenariots enda auktoritativa k\u00e4lla f\u00f6r mandatf\u00f6rdelningen. Alla ber\u00e4kningar av parlamentariskt st\u00f6d ska utg\u00e5 fr\u00e5n den resursen.\n",
+      "expires_turn": null,
+      "id": "932445d5-5957-44a1-bf61-bf6ec4eb4adf",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "public",
+      "visible_to": []
+    },
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "Tidiga \u00e5taganden kan bli bindande om de uttryckligen g\u00f6rs, men stora flerpartsuppg\u00f6relser kr\u00e4ver en trov\u00e4rdig f\u00f6rhandlingshistorik. Senare turns ger inte n\u00e5got parti st\u00f6rre r\u00e4tt att binda andra Actors. Spelet \u00e4r inte en prognos \u00f6ver verklig regeringsbildning.\n",
+      "expires_turn": null,
+      "id": "af52e4a8-f900-4bae-8f9c-a11060b2d65e",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "public",
+      "visible_to": []
+    },
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "N\u00e4r samtliga relevanta r\u00f6stpositioner f\u00f6r en namngiven statsministerkandidat \u00e4r uttryckligt k\u00e4nda \u00e4r sj\u00e4lva 175-nej-testet deterministiskt. Det ska inte behandlas som en probabilistisk politisk bed\u00f6mning. AMAW-spelet producerar f\u00f6rhandlingsl\u00e4get; den formella mandatmatematiken f\u00f6ljer de k\u00e4nda r\u00f6sterna.\n",
+      "expires_turn": null,
+      "id": "b335a456-d2ee-462e-8378-76ebc98e8e8b",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "public",
+      "visible_to": []
+    },
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "Ett partis besked att det f\u00f6r n\u00e4rvarande g\u00e5r i opposition eller avst\u00e5r fr\u00e5n att l\u00e4gga fram en statsministerkandidat binder partiets egen aktuella h\u00e5llning. Det etablerar inte att andra regeringsalternativ \u00e4r om\u00f6jliga; s\u00e5dana slutsatser f\u00f6ljer endast av aktiva \u00e5taganden och mandatmatematik.\n",
+      "expires_turn": null,
+      "id": "e2294ec7-2da2-4268-8f4c-19e51f4f506e",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "public",
+      "visible_to": []
+    },
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "Som uttryckligt fiktivt procedurantagande f\u00f6r spelet har den sittande statsministern avg\u00e5tt. Regeringen sitter kvar som \u00f6verg\u00e5ngsregering och talmannen har inlett sonderingar men \u00e4nnu inte lagt fram sitt f\u00f6rsta statsministerf\u00f6rslag.\n",
+      "expires_turn": null,
+      "id": "e5427843-dbe5-4b3f-a50b-1db3f4970e3c",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "public",
+      "visible_to": []
+    }
+  ],
+  "events": [
+    {
+      "actor_id": null,
+      "created_at": "2026-09-14T07:55:51.988296",
+      "id": 164,
+      "payload": {
+        "max_turns": 4,
+        "turn_order": [
+          "s",
+          "m",
+          "sd",
+          "c",
+          "v",
+          "kd",
+          "mp",
+          "l"
+        ]
+      },
+      "turn": 1,
+      "type": "game_started"
+    },
+    {
+      "actor_id": null,
+      "created_at": "2026-09-14T07:55:51.991138",
+      "id": 165,
+      "payload": {
+        "phase": "diplomacy"
+      },
+      "turn": 1,
+      "type": "phase_started"
+    },
+    {
+      "actor_id": "s",
+      "created_at": "2026-09-14T07:55:52.309036",
+      "id": 166,
+      "payload": {},
+      "turn": 1,
+      "type": "actor_ready"
+    },
+    {
+      "actor_id": "m",
+      "created_at": "2026-09-14T07:55:52.314763",
+      "id": 167,
+      "payload": {},
+      "turn": 1,
+      "type": "actor_ready"
+    },
+    {
+      "actor_id": "sd",
+      "created_at": "2026-09-14T07:55:52.318829",
+      "id": 168,
+      "payload": {},
+      "turn": 1,
+      "type": "actor_ready"
+    },
+    {
+      "actor_id": "c",
+      "created_at": "2026-09-14T07:55:52.322992",
+      "id": 169,
+      "payload": {},
+      "turn": 1,
+      "type": "actor_ready"
+    },
+    {
+      "actor_id": "v",
+      "created_at": "2026-09-14T07:55:52.327069",
+      "id": 170,
+      "payload": {},
+      "turn": 1,
+      "type": "actor_ready"
+    },
+    {
+      "actor_id": "kd",
+      "created_at": "2026-09-14T07:55:52.330928",
+      "id": 171,
+      "payload": {},
+      "turn": 1,
+      "type": "actor_ready"
+    },
+    {
+      "actor_id": "mp",
+      "created_at": "2026-09-14T07:55:52.334728",
+      "id": 172,
+      "payload": {},
+      "turn": 1,
+      "type": "actor_ready"
+    },
+    {
+      "actor_id": "l",
+      "created_at": "2026-09-14T07:55:52.339130",
+      "id": 173,
+      "payload": {},
+      "turn": 1,
+      "type": "actor_ready"
+    },
+    {
+      "actor_id": null,
+      "created_at": "2026-09-14T07:55:52.339796",
+      "id": 174,
+      "payload": {
+        "phase": "argument"
+      },
+      "turn": 1,
+      "type": "phase_started"
+    }
+  ],
+  "export_format_version": "3",
+  "game": {
+    "active_actor_id": "s",
+    "cons_timeout_seconds": null,
+    "diplomacy_ready_actor_ids": [
+      "s",
+      "m",
+      "sd",
+      "c",
+      "v",
+      "kd",
+      "mp",
+      "l"
+    ],
+    "diplomacy_timeout_seconds": null,
+    "id": "85045ea8-8b92-47a0-8efd-0a5c75d12dcd",
+    "in_world_turn_length": "48 hours",
+    "max_cons_per_actor": 1,
+    "max_turns": 4,
+    "phase": "argument",
+    "primary_arguments_per_actor": 1,
+    "rng_draw_index": 0,
+    "scenario_id": "svensk-regeringsbildning-2026",
+    "scenario_summary": "Ett svenskt politiskt Matrix Game som b\u00f6rjar n\u00e4r mandatf\u00f6rdelningen efter riksdagsvalet 2026 \u00e4r fastst\u00e4lld men regeringsfr\u00e5gan fortfarande \u00e4r \u00f6ppen. De spelade riksdagspartierna f\u00f6rs\u00f6ker f\u00f6rhandla fram ett trov\u00e4rdigt regeringspaket: statsministerkandidat, regeringsdeltagande, st\u00f6d eller tolerans, uttryckliga r\u00f6stpositioner och en rimlig v\u00e4g till budgetm\u00e4ssig regeringsduglighet. Offentliga utg\u00e5ngspositioner \u00e4r frysta scenariofakta; all privat information \u00e4r uttryckligen fiktiva spelantaganden.\n",
+    "scenario_version": "4",
+    "seed": 20260913,
+    "status": "running",
+    "turn": 1,
+    "turn_order": [
+      "s",
+      "m",
+      "sd",
+      "c",
+      "v",
+      "kd",
+      "mp",
+      "l"
+    ]
+  },
+  "messages": [],
+  "model_assignments": {
+    "c": "deepseek/deepseek-v4-flash-0731",
+    "kd": "deepseek/deepseek-v4-flash-0731",
+    "l": "deepseek/deepseek-v4-flash-0731",
+    "m": "deepseek/deepseek-v4-flash-0731",
+    "mp": "deepseek/deepseek-v4-flash-0731",
+    "s": "deepseek/deepseek-v4-flash-0731",
+    "sd": "deepseek/deepseek-v4-flash-0731",
+    "v": "deepseek/deepseek-v4-flash-0731"
+  },
+  "notes": [],
+  "resource_access": [],
+  "run_manifest": {
+    "benchmark": {
+      "assignment_id": null,
+      "mode": "single",
+      "repetition_index": null
+    },
+    "code_version": "3ad199074d24bd8b5010b373d9a1be2d8ff05cf2-dirty",
+    "coordinator": {
+      "cons_concurrency": 8,
+      "diplomacy_concurrency": 8,
+      "sweep": "seat-order-rotated"
+    },
+    "created_at": "2026-09-14T07:55:51.983530",
+    "game_id": "85045ea8-8b92-47a0-8efd-0a5c75d12dcd",
+    "manifest_sha256": "e5a4f9a9438b79cfbf466ce4125c90d0d3683cbff56222f8f5bf5e7dd69474a5",
+    "player": {
+      "activation_mode": "single_shot",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": "2.42.0",
+      "assignments": {
+        "c": "deepseek/deepseek-v4-flash-0731",
+        "kd": "deepseek/deepseek-v4-flash-0731",
+        "l": "deepseek/deepseek-v4-flash-0731",
+        "m": "deepseek/deepseek-v4-flash-0731",
+        "mp": "deepseek/deepseek-v4-flash-0731",
+        "s": "deepseek/deepseek-v4-flash-0731",
+        "sd": "deepseek/deepseek-v4-flash-0731",
+        "v": "deepseek/deepseek-v4-flash-0731"
+      },
+      "context_mode": "incremental-context-v1",
+      "max_messages_per_activation": 3,
+      "memory_version": "strategic-memory-v1",
+      "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0",
+      "prompt_version": "player-v1.7",
+      "tool_schema_version": "player-tools-v3"
+    },
+    "runtime": {
+      "guardrails": {
+        "max_activations_per_opportunity": 6,
+        "max_argument_action_chars": 2000,
+        "max_desired_effect_chars": 2000,
+        "max_llm_iterations": 12,
+        "max_message_chars": 4000,
+        "max_messages_per_activation": 3,
+        "max_messages_per_phase": 10,
+        "max_note_chars": 4000,
+        "max_pro_chars": 1000,
+        "max_pros": 5,
+        "max_tool_calls": 20,
+        "max_tool_payload_bytes": 16384
+      },
+      "log_level": "DEBUG",
+      "max_cycles": 20000,
+      "request_timeout_seconds": 300.0,
+      "stream_game_details": true
+    },
+    "scenario": {
+      "content_sha256": "744255177ba61e99ca04d0a40d5edd6faf8950bc488e0f25a725cb7834bc9ec9",
+      "id": "svensk-regeringsbildning-2026",
+      "resource_manifest_sha256": "9ebddcc332f78ca732f16fe3ee58beb15256daceba1ee830416e0b50958d5d46",
+      "resources": [
+        {
+          "content_sha256": "35cde76c258bbf89331998ef6a04299417a949f414abb7b7902e8e38e1861342",
+          "id": "offentliga-positioner"
+        },
+        {
+          "content_sha256": "a565ddec5049e6b8a812c50a05405766a953cb344e8de8b35349eebaa3dce976",
+          "id": "regeringsregler"
+        },
+        {
+          "content_sha256": "bfa860096e18c8e278e7ded12e9eafa895cd01d34c6a65f0e837e2d627cdc0c0",
+          "id": "valresultat-2026"
+        }
+      ],
+      "version": "4"
+    },
+    "seed": 20260913,
+    "umpire": {
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt_hash": "7e4a2877679a5bc2123b6a4ebd24bd11e7b39a5aa688410b90707581d6a9ba9d",
+      "prompt_version": "umpire-v1.3",
+      "provider": "openrouter",
+      "settings": {
+        "max_tokens": null,
+        "provider": {
+          "require_parameters": true
+        },
+        "reasoning": null,
+        "temperature": null,
+        "timeout": 300.0
+      }
+    }
+  },
+  "run_summary": {
+    "activation_wall_ms": 1118,
+    "activations": [
+      {
+        "activation_wall_ms": 143,
+        "actor_id": "s",
+        "agent_run_id": 41,
+        "completed": false,
+        "input_tokens": 0,
+        "invalid_tool_calls": 0,
+        "model_calls": 2,
+        "output_tokens": 0,
+        "phase": "diplomacy",
+        "provider_wait_ms": 63,
+        "role": "player",
+        "tool_calls": 0,
+        "turn": 1
+      },
+      {
+        "activation_wall_ms": 142,
+        "actor_id": "m",
+        "agent_run_id": 42,
+        "completed": false,
+        "input_tokens": 0,
+        "invalid_tool_calls": 0,
+        "model_calls": 2,
+        "output_tokens": 0,
+        "phase": "diplomacy",
+        "provider_wait_ms": 62,
+        "role": "player",
+        "tool_calls": 0,
+        "turn": 1
+      },
+      {
+        "activation_wall_ms": 140,
+        "actor_id": "sd",
+        "agent_run_id": 43,
+        "completed": false,
+        "input_tokens": 0,
+        "invalid_tool_calls": 0,
+        "model_calls": 2,
+        "output_tokens": 0,
+        "phase": "diplomacy",
+        "provider_wait_ms": 73,
+        "role": "player",
+        "tool_calls": 0,
+        "turn": 1
+      },
+      {
+        "activation_wall_ms": 134,
+        "actor_id": "c",
+        "agent_run_id": 44,
+        "completed": false,
+        "input_tokens": 0,
+        "invalid_tool_calls": 0,
+        "model_calls": 2,
+        "output_tokens": 0,
+        "phase": "diplomacy",
+        "provider_wait_ms": 74,
+        "role": "player",
+        "tool_calls": 0,
+        "turn": 1
+      },
+      {
+        "activation_wall_ms": 136,
+        "actor_id": "v",
+        "agent_run_id": 45,
+        "completed": false,
+        "input_tokens": 0,
+        "invalid_tool_calls": 0,
+        "model_calls": 2,
+        "output_tokens": 0,
+        "phase": "diplomacy",
+        "provider_wait_ms": 64,
+        "role": "player",
+        "tool_calls": 0,
+        "turn": 1
+      },
+      {
+        "activation_wall_ms": 143,
+        "actor_id": "kd",
+        "agent_run_id": 46,
+        "completed": false,
+        "input_tokens": 0,
+        "invalid_tool_calls": 0,
+        "model_calls": 2,
+        "output_tokens": 0,
+        "phase": "diplomacy",
+        "provider_wait_ms": 67,
+        "role": "player",
+        "tool_calls": 0,
+        "turn": 1
+      },
+      {
+        "activation_wall_ms": 132,
+        "actor_id": "mp",
+        "agent_run_id": 47,
+        "completed": false,
+        "input_tokens": 0,
+        "invalid_tool_calls": 0,
+        "model_calls": 2,
+        "output_tokens": 0,
+        "phase": "diplomacy",
+        "provider_wait_ms": 70,
+        "role": "player",
+        "tool_calls": 0,
+        "turn": 1
+      },
+      {
+        "activation_wall_ms": 130,
+        "actor_id": "l",
+        "agent_run_id": 48,
+        "completed": false,
+        "input_tokens": 0,
+        "invalid_tool_calls": 0,
+        "model_calls": 2,
+        "output_tokens": 0,
+        "phase": "diplomacy",
+        "provider_wait_ms": 56,
+        "role": "player",
+        "tool_calls": 0,
+        "turn": 1
+      },
+      {
+        "activation_wall_ms": 18,
+        "actor_id": "s",
+        "agent_run_id": 49,
+        "completed": false,
+        "input_tokens": 0,
+        "invalid_tool_calls": 0,
+        "model_calls": 2,
+        "output_tokens": 0,
+        "phase": "argument",
+        "provider_wait_ms": 6,
+        "role": "player",
+        "tool_calls": 0,
+        "turn": 1
+      }
+    ],
+    "by_phase": {
+      "adjudication": {
+        "activation_wall_ms": 0,
+        "activations": 0,
+        "input_tokens": 0,
+        "model_calls": 0,
+        "output_tokens": 0,
+        "provider_wait_ms": 0,
+        "runtime_ms": 0,
+        "tool_calls": 0
+      },
+      "argument": {
+        "activation_wall_ms": 18,
+        "activations": 1,
+        "input_tokens": 0,
+        "model_calls": 2,
+        "output_tokens": 0,
+        "provider_wait_ms": 6,
+        "runtime_ms": 0,
+        "tool_calls": 0
+      },
+      "cons": {
+        "activation_wall_ms": 0,
+        "activations": 0,
+        "input_tokens": 0,
+        "model_calls": 0,
+        "output_tokens": 0,
+        "provider_wait_ms": 0,
+        "runtime_ms": 0,
+        "tool_calls": 0
+      },
+      "consequences": {
+        "activation_wall_ms": 0,
+        "activations": 0,
+        "input_tokens": 0,
+        "model_calls": 0,
+        "output_tokens": 0,
+        "provider_wait_ms": 0,
+        "runtime_ms": 0,
+        "tool_calls": 0
+      },
+      "diplomacy": {
+        "activation_wall_ms": 1100,
+        "activations": 8,
+        "input_tokens": 0,
+        "model_calls": 16,
+        "output_tokens": 0,
+        "provider_wait_ms": 529,
+        "runtime_ms": 349,
+        "tool_calls": 0
+      }
+    },
+    "cost_coverage": {
+      "calls_with_cost": 0,
+      "complete": false,
+      "total_calls": 18
+    },
+    "estimated_cost_usd": null,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "player_model_calls": 18,
+    "provider_wait_ms": 535,
+    "total_runtime_ms": null,
+    "umpire_calls": 0
+  },
+  "scenario_hashes": {
+    "resource_manifest_sha256": "9ebddcc332f78ca732f16fe3ee58beb15256daceba1ee830416e0b50958d5d46",
+    "resources": [
+      {
+        "content_sha256": "35cde76c258bbf89331998ef6a04299417a949f414abb7b7902e8e38e1861342",
+        "id": "offentliga-positioner"
+      },
+      {
+        "content_sha256": "a565ddec5049e6b8a812c50a05405766a953cb344e8de8b35349eebaa3dce976",
+        "id": "regeringsregler"
+      },
+      {
+        "content_sha256": "bfa860096e18c8e278e7ded12e9eafa895cd01d34c6a65f0e837e2d627cdc0c0",
+        "id": "valresultat-2026"
+      }
+    ],
+    "scenario_content_sha256": "744255177ba61e99ca04d0a40d5edd6faf8950bc488e0f25a725cb7834bc9ec9"
+  },
+  "seats": [
+    {
+      "actor_id": "c"
+    },
+    {
+      "actor_id": "kd"
+    },
+    {
+      "actor_id": "l"
+    },
+    {
+      "actor_id": "m"
+    },
+    {
+      "actor_id": "mp"
+    },
+    {
+      "actor_id": "s"
+    },
+    {
+      "actor_id": "sd"
+    },
+    {
+      "actor_id": "v"
+    }
+  ],
+  "strategic_memories": [
+    {
+      "acknowledged_event_id": 0,
+      "actor_id": "c",
+      "memory_version": "strategic-memory-v1",
+      "pending_delivery": true,
+      "pending_event_id": 165,
+      "strategic_memory": {
+        "commitments_made": [],
+        "commitments_or_offers_received": [],
+        "intended_next_action": "",
+        "outstanding_offers_and_negotiations": [],
+        "red_lines_and_constraints": [],
+        "relationships_and_likely_coalitions": [],
+        "strategic_assessment": "",
+        "uncertain_or_disputed_claims": []
+      },
+      "updated_at": "2026-09-14T07:55:52.122920",
+      "visibility": "private"
+    },
+    {
+      "acknowledged_event_id": 0,
+      "actor_id": "kd",
+      "memory_version": "strategic-memory-v1",
+      "pending_delivery": true,
+      "pending_event_id": 165,
+      "strategic_memory": {
+        "commitments_made": [],
+        "commitments_or_offers_received": [],
+        "intended_next_action": "",
+        "outstanding_offers_and_negotiations": [],
+        "red_lines_and_constraints": [],
+        "relationships_and_likely_coalitions": [],
+        "strategic_assessment": "",
+        "uncertain_or_disputed_claims": []
+      },
+      "updated_at": "2026-09-14T07:55:52.136371",
+      "visibility": "private"
+    },
+    {
+      "acknowledged_event_id": 0,
+      "actor_id": "l",
+      "memory_version": "strategic-memory-v1",
+      "pending_delivery": true,
+      "pending_event_id": 165,
+      "strategic_memory": {
+        "commitments_made": [],
+        "commitments_or_offers_received": [],
+        "intended_next_action": "",
+        "outstanding_offers_and_negotiations": [],
+        "red_lines_and_constraints": [],
+        "relationships_and_likely_coalitions": [],
+        "strategic_assessment": "",
+        "uncertain_or_disputed_claims": []
+      },
+      "updated_at": "2026-09-14T07:55:52.149900",
+      "visibility": "private"
+    },
+    {
+      "acknowledged_event_id": 0,
+      "actor_id": "m",
+      "memory_version": "strategic-memory-v1",
+      "pending_delivery": true,
+      "pending_event_id": 165,
+      "strategic_memory": {
+        "commitments_made": [],
+        "commitments_or_offers_received": [],
+        "intended_next_action": "",
+        "outstanding_offers_and_negotiations": [],
+        "red_lines_and_constraints": [],
+        "relationships_and_likely_coalitions": [],
+        "strategic_assessment": "",
+        "uncertain_or_disputed_claims": []
+      },
+      "updated_at": "2026-09-14T07:55:52.109043",
+      "visibility": "private"
+    },
+    {
+      "acknowledged_event_id": 0,
+      "actor_id": "mp",
+      "memory_version": "strategic-memory-v1",
+      "pending_delivery": true,
+      "pending_event_id": 165,
+      "strategic_memory": {
+        "commitments_made": [],
+        "commitments_or_offers_received": [],
+        "intended_next_action": "",
+        "outstanding_offers_and_negotiations": [],
+        "red_lines_and_constraints": [],
+        "relationships_and_likely_coalitions": [],
+        "strategic_assessment": "",
+        "uncertain_or_disputed_claims": []
+      },
+      "updated_at": "2026-09-14T07:55:52.143178",
+      "visibility": "private"
+    },
+    {
+      "acknowledged_event_id": 0,
+      "actor_id": "s",
+      "memory_version": "strategic-memory-v1",
+      "pending_delivery": true,
+      "pending_event_id": 165,
+      "strategic_memory": {
+        "commitments_made": [],
+        "commitments_or_offers_received": [],
+        "intended_next_action": "",
+        "outstanding_offers_and_negotiations": [],
+        "red_lines_and_constraints": [],
+        "relationships_and_likely_coalitions": [],
+        "strategic_assessment": "",
+        "uncertain_or_disputed_claims": []
+      },
+      "updated_at": "2026-09-14T07:55:52.100449",
+      "visibility": "private"
+    },
+    {
+      "acknowledged_event_id": 0,
+      "actor_id": "sd",
+      "memory_version": "strategic-memory-v1",
+      "pending_delivery": true,
+      "pending_event_id": 165,
+      "strategic_memory": {
+        "commitments_made": [],
+        "commitments_or_offers_received": [],
+        "intended_next_action": "",
+        "outstanding_offers_and_negotiations": [],
+        "red_lines_and_constraints": [],
+        "relationships_and_likely_coalitions": [],
+        "strategic_assessment": "",
+        "uncertain_or_disputed_claims": []
+      },
+      "updated_at": "2026-09-14T07:55:52.116175",
+      "visibility": "private"
+    },
+    {
+      "acknowledged_event_id": 0,
+      "actor_id": "v",
+      "memory_version": "strategic-memory-v1",
+      "pending_delivery": true,
+      "pending_event_id": 165,
+      "strategic_memory": {
+        "commitments_made": [],
+        "commitments_or_offers_received": [],
+        "intended_next_action": "",
+        "outstanding_offers_and_negotiations": [],
+        "red_lines_and_constraints": [],
+        "relationships_and_likely_coalitions": [],
+        "strategic_assessment": "",
+        "uncertain_or_disputed_claims": []
+      },
+      "updated_at": "2026-09-14T07:55:52.129713",
+      "visibility": "private"
+    }
+  ]
+}

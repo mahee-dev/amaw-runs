@@ -1,0 +1,367 @@
+2026-09-14 09:55:51,244 INFO amaw.cli autonomous run configuration scenario=/Users/martin/Projects/AMAW/scenarios/svensk-regeringsbildning-2026-v4 player_model=deepseek/deepseek-v4-flash-0731 umpire_model=deepseek/deepseek-v4-flash-0731 timeout_seconds=300.0 max_cycles=20000 diplomacy_concurrency=8 cons_concurrency=8 stream_game_details=True export_path=dev/runs/swedish-government-v4-rerun-2/export.json
+2026-09-14 09:55:51,249 DEBUG asyncio Using selector: KqueueSelector
+2026-09-14 09:55:51,285 INFO app.api POST /admin/games -> 201 (35.6ms)
+2026-09-14 09:55:51,286 INFO httpx2 HTTP Request: POST http://testserver/admin/games "HTTP/1.1 201 Created"
+2026-09-14 09:55:51,291 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (4.4ms)
+2026-09-14 09:55:51,291 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:51,292 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:51,921 INFO agents.autonomous autonomous actor=s tools_offered=read_messages,read_resource,search_resources
+2026-09-14 09:55:51,924 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (2.3ms)
+2026-09-14 09:55:51,924 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:51,924 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:51,927 INFO agents.autonomous autonomous actor=m tools_offered=read_messages,read_resource,search_resources
+2026-09-14 09:55:51,929 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.8ms)
+2026-09-14 09:55:51,930 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:51,930 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:51,932 INFO agents.autonomous autonomous actor=sd tools_offered=read_messages,read_resource,search_resources
+2026-09-14 09:55:51,934 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.8ms)
+2026-09-14 09:55:51,935 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:51,935 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:51,937 INFO agents.autonomous autonomous actor=c tools_offered=read_messages,read_resource,search_resources
+2026-09-14 09:55:51,940 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.9ms)
+2026-09-14 09:55:51,940 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:51,940 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:51,943 INFO agents.autonomous autonomous actor=v tools_offered=read_messages,read_resource,search_resources
+2026-09-14 09:55:51,945 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.9ms)
+2026-09-14 09:55:51,945 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:51,946 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:51,948 INFO agents.autonomous autonomous actor=kd tools_offered=read_messages,read_resource,search_resources
+2026-09-14 09:55:51,950 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.8ms)
+2026-09-14 09:55:51,950 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:51,951 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:51,953 INFO agents.autonomous autonomous actor=mp tools_offered=read_messages,read_resource,search_resources
+2026-09-14 09:55:51,956 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.8ms)
+2026-09-14 09:55:51,956 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:51,956 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:51,958 INFO agents.autonomous autonomous actor=l tools_offered=read_messages,read_resource,search_resources
+2026-09-14 09:55:51,985 INFO app.api POST /admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/run-manifest -> 201 (5.6ms)
+2026-09-14 09:55:51,986 INFO httpx2 HTTP Request: POST http://testserver/admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/run-manifest "HTTP/1.1 201 Created"
+2026-09-14 09:55:51,994 INFO app.api POST /admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/start -> 200 (7.1ms)
+2026-09-14 09:55:51,994 INFO httpx2 HTTP Request: POST http://testserver/admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/start "HTTP/1.1 200 OK"
+2026-09-14 09:55:51,994 INFO agents.autonomous autonomous game 85045ea8-8b92-47a0-8efd-0a5c75d12dcd started with 8 Actors
+2026-09-14 09:55:52,005 INFO app.api GET /admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/export -> 200 (10.8ms)
+2026-09-14 09:55:52,006 INFO httpx2 HTTP Request: GET http://testserver/admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/export "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,006 INFO agents.autonomous autonomous record kind=effect data={"active": true, "created_turn": 0, "description": "F\u00f6r scenariots syfte kr\u00e4ver en trov\u00e4rdig budgetv\u00e4g inte en f\u00e4rdig statsbudget. Den kr\u00e4ver minst: vilka partier som avser st\u00f6dja eller inte f\u00e4lla regeringens f\u00f6rsta budget; en gemensamt accepterad \u00f6vergripande finanspolitisk ram; samt att inga aktiva Effects inneh\u00e5ller of\u00f6renliga budget\u00e5taganden. En ensidig utsaga fr\u00e5n ett parti etablerar inte en gemensam budgetv\u00e4g.\n", "expires_turn": null, "id": "023531cd-3ecb-47fd-bc3d-ed46289aa0a8", "source_argument_id": null, "supersedes": [], "visibility": "public", "visible_to": []}
+2026-09-14 09:55:52,007 INFO agents.autonomous autonomous record kind=effect data={"active": true, "created_turn": 0, "description": "Ett flerpartspaket \u00e4r en h\u00e4rledd status. Ett enskilt partis Argument kan etablera partiets egna \u00e5taganden men kan inte i sig etablera andra partiers deltagande, r\u00f6ster eller godk\u00e4nnande. Paketet \u00e4r l\u00e5st f\u00f6rst n\u00e4r en namngiven statsministerkandidat, varje regeringsparts egen acceptans, relevanta JA/NEJ/AVST\u00c5R-positioner, \u00e5beropat st\u00f6d eller tolerans och en trov\u00e4rdig budgetv\u00e4g var f\u00f6r sig finns i aktiva Effects.\n", "expires_turn": null, "id": "084aa5a5-f7ee-431f-a2d9-b3d0037d6c70", "source_argument_id": null, "supersedes": [], "visibility": "public", "visible_to": []}
+2026-09-14 09:55:52,007 INFO agents.autonomous autonomous record kind=effect data={"active": true, "created_turn": 0, "description": "Ett spelat parti kan bara binda sig sj\u00e4lvt. Flerpartsavtal, regeringsdeltagande, st\u00f6d, tolerans och r\u00f6stl\u00f6ften kr\u00e4ver uttrycklig acceptans fr\u00e5n de ber\u00f6rda spelade parterna i spelhistoriken.\n", "expires_turn": null, "id": "304e0dd4-72ca-499f-bd49-9dd411308ae2", "source_argument_id": null, "supersedes": [], "visibility": "public", "visible_to": []}
+2026-09-14 09:55:52,007 INFO agents.autonomous autonomous record kind=effect data={"active": true, "created_turn": 0, "description": "Sverige anv\u00e4nder negativ parlamentarism. Ett statsministerf\u00f6rslag f\u00f6rkastas om minst 175 av riksdagens 349 ledam\u00f6ter r\u00f6star nej. Det kr\u00e4vs inte 175 ja-r\u00f6ster.\n", "expires_turn": null, "id": "34449c85-d219-4943-b93f-de83eb054154", "source_argument_id": null, "supersedes": [], "visibility": "public", "visible_to": []}
+2026-09-14 09:55:52,007 INFO agents.autonomous autonomous record kind=effect data={"active": true, "created_turn": 0, "description": "Ett trov\u00e4rdigt slutligt regeringspaket b\u00f6r ange: statsministerkandidat; vilka partier som ska ing\u00e5 i regeringen; vilka \u00f6vriga partier som aktivt st\u00f6djer eller tolererar l\u00f6sningen; deras uttryckliga r\u00f6stpositioner; centrala sakpolitiska eftergifter; samt en rimlig v\u00e4g till budgetm\u00e4ssig regeringsduglighet.\n", "expires_turn": null, "id": "7f03567c-0609-43c1-afed-f6187ff64489", "source_argument_id": null, "supersedes": [], "visibility": "public", "visible_to": []}
+2026-09-14 09:55:52,007 INFO agents.autonomous autonomous record kind=effect data={"active": true, "created_turn": 0, "description": "Ett partis r\u00f6sth\u00e5llning \u00e4r JA, NEJ, AVST\u00c5R eller OK\u00c4ND. Tystnad och uteblivet besked \u00e4r OK\u00c4ND och f\u00e5r inte r\u00e4knas som avst\u00e5ende.\n", "expires_turn": null, "id": "874bf7fc-2d1e-44d4-ba5f-0e9d9468af73", "source_argument_id": null, "supersedes": [], "visibility": "public", "visible_to": []}
+2026-09-14 09:55:52,008 INFO agents.autonomous autonomous record kind=effect data={"active": true, "created_turn": 0, "description": "Ett stort avsteg fr\u00e5n en offentlig huvudposition \u00e4r m\u00f6jligt men ska inte uppst\u00e5 som ett of\u00f6rklarat hopp. Det b\u00f6r f\u00f6reg\u00e5s av sondering, erbjudanden eller annan trov\u00e4rdig f\u00f6rankring i spelhistoriken innan det blir ett slutligt bindande \u00e5tagande.\n", "expires_turn": null, "id": "8a7aa669-07df-4538-b94c-92eff1a20da6", "source_argument_id": null, "supersedes": [], "visibility": "public", "visible_to": []}
+2026-09-14 09:55:52,008 INFO agents.autonomous autonomous record kind=effect data={"active": true, "created_turn": 0, "description": "Det slutliga mandatutfallet efter riksdagsvalet 2026 \u00e4r fastst\u00e4llt. Resursen \"Valresultat 2026 - mandat\" \u00e4r scenariots enda auktoritativa k\u00e4lla f\u00f6r mandatf\u00f6rdelningen. Alla ber\u00e4kningar av parlamentariskt st\u00f6d ska utg\u00e5 fr\u00e5n den resursen.\n", "expires_turn": null, "id": "932445d5-5957-44a1-bf61-bf6ec4eb4adf", "source_argument_id": null, "supersedes": [], "visibility": "public", "visible_to": []}
+2026-09-14 09:55:52,008 INFO agents.autonomous autonomous record kind=effect data={"active": true, "created_turn": 0, "description": "Tidiga \u00e5taganden kan bli bindande om de uttryckligen g\u00f6rs, men stora flerpartsuppg\u00f6relser kr\u00e4ver en trov\u00e4rdig f\u00f6rhandlingshistorik. Senare turns ger inte n\u00e5got parti st\u00f6rre r\u00e4tt att binda andra Actors. Spelet \u00e4r inte en prognos \u00f6ver verklig regeringsbildning.\n", "expires_turn": null, "id": "af52e4a8-f900-4bae-8f9c-a11060b2d65e", "source_argument_id": null, "supersedes": [], "visibility": "public", "visible_to": []}
+2026-09-14 09:55:52,008 INFO agents.autonomous autonomous record kind=effect data={"active": true, "created_turn": 0, "description": "N\u00e4r samtliga relevanta r\u00f6stpositioner f\u00f6r en namngiven statsministerkandidat \u00e4r uttryckligt k\u00e4nda \u00e4r sj\u00e4lva 175-nej-testet deterministiskt. Det ska inte behandlas som en probabilistisk politisk bed\u00f6mning. AMAW-spelet producerar f\u00f6rhandlingsl\u00e4get; den formella mandatmatematiken f\u00f6ljer de k\u00e4nda r\u00f6sterna.\n", "expires_turn": null, "id": "b335a456-d2ee-462e-8378-76ebc98e8e8b", "source_argument_id": null, "supersedes": [], "visibility": "public", "visible_to": []}
+2026-09-14 09:55:52,009 INFO agents.autonomous autonomous record kind=effect data={"active": true, "created_turn": 0, "description": "Ett partis besked att det f\u00f6r n\u00e4rvarande g\u00e5r i opposition eller avst\u00e5r fr\u00e5n att l\u00e4gga fram en statsministerkandidat binder partiets egen aktuella h\u00e5llning. Det etablerar inte att andra regeringsalternativ \u00e4r om\u00f6jliga; s\u00e5dana slutsatser f\u00f6ljer endast av aktiva \u00e5taganden och mandatmatematik.\n", "expires_turn": null, "id": "e2294ec7-2da2-4268-8f4c-19e51f4f506e", "source_argument_id": null, "supersedes": [], "visibility": "public", "visible_to": []}
+2026-09-14 09:55:52,009 INFO agents.autonomous autonomous record kind=effect data={"active": true, "created_turn": 0, "description": "Som uttryckligt fiktivt procedurantagande f\u00f6r spelet har den sittande statsministern avg\u00e5tt. Regeringen sitter kvar som \u00f6verg\u00e5ngsregering och talmannen har inlett sonderingar men \u00e4nnu inte lagt fram sitt f\u00f6rsta statsministerf\u00f6rslag.\n", "expires_turn": null, "id": "e5427843-dbe5-4b3f-a50b-1db3f4970e3c", "source_argument_id": null, "supersedes": [], "visibility": "public", "visible_to": []}
+2026-09-14 09:55:52,009 INFO agents.autonomous autonomous record kind=event data={"actor_id": null, "created_at": "2026-09-14T07:55:51.988296", "id": 164, "payload": {"max_turns": 4, "turn_order": ["s", "m", "sd", "c", "v", "kd", "mp", "l"]}, "turn": 1, "type": "game_started"}
+2026-09-14 09:55:52,009 INFO agents.autonomous autonomous record kind=event data={"actor_id": null, "created_at": "2026-09-14T07:55:51.991138", "id": 165, "payload": {"phase": "diplomacy"}, "turn": 1, "type": "phase_started"}
+2026-09-14 09:55:52,009 INFO agents.autonomous autonomous record kind=run_manifest data={"benchmark": {"assignment_id": null, "mode": "single", "repetition_index": null}, "code_version": "3ad199074d24bd8b5010b373d9a1be2d8ff05cf2-dirty", "coordinator": {"cons_concurrency": 8, "diplomacy_concurrency": 8, "sweep": "seat-order-rotated"}, "created_at": "2026-09-14T07:55:51.983530", "game_id": "85045ea8-8b92-47a0-8efd-0a5c75d12dcd", "manifest_sha256": "e5a4f9a9438b79cfbf466ce4125c90d0d3683cbff56222f8f5bf5e7dd69474a5", "player": {"activation_mode": "single_shot", "agent_framework": "pydantic-ai", "agent_framework_version": "2.42.0", "assignments": {"c": "deepseek/deepseek-v4-flash-0731", "kd": "deepseek/deepseek-v4-flash-0731", "l": "deepseek/deepseek-v4-flash-0731", "m": "deepseek/deepseek-v4-flash-0731", "mp": "deepseek/deepseek-v4-flash-0731", "s": "deepseek/deepseek-v4-flash-0731", "sd": "deepseek/deepseek-v4-flash-0731", "v": "deepseek/deepseek-v4-flash-0731"}, "context_mode": "incremental-context-v1", "max_messages_per_activation": 3, "memory_version": "strategic-memory-v1", "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0", "prompt_version": "player-v1.7", "tool_schema_version": "player-tools-v3"}, "runtime": {"guardrails": {"max_activations_per_opportunity": 6, "max_argument_action_chars": 2000, "max_desired_effect_chars": 2000, "max_llm_iterations": 12, "max_message_chars": 4000, "max_messages_per_activation": 3, "max_messages_per_phase": 10, "max_note_chars": 4000, "max_pro_chars": 1000, "max_pros": 5, "max_tool_calls": 20, "max_tool_payload_bytes": 16384}, "log_level": "DEBUG", "max_cycles": 20000, "request_timeout_seconds": 300.0, "stream_game_details": true}, "scenario": {"content_sha256": "744255177ba61e99ca04d0a40d5edd6faf8950bc488e0f25a725cb7834bc9ec9", "id": "svensk-regeringsbildning-2026", "resource_manifest_sha256": "9ebddcc332f78ca732f16fe3ee58beb15256daceba1ee830416e0b50958d5d46", "resources": [{"content_sha256": "35cde76c258bbf89331998ef6a04299417a949f414abb7b7902e8e38e1861342", "id": "offentliga-positioner"}, {"content_sha256": "a565ddec5049e6b8a812c50a05405766a953cb344e8de8b35349eebaa3dce976", "id": "regeringsregler"}, {"content_sha256": "bfa860096e18c8e278e7ded12e9eafa895cd01d34c6a65f0e837e2d627cdc0c0", "id": "valresultat-2026"}], "version": "4"}, "seed": 20260913, "umpire": {"model": "deepseek/deepseek-v4-flash-0731", "prompt_hash": "7e4a2877679a5bc2123b6a4ebd24bd11e7b39a5aa688410b90707581d6a9ba9d", "prompt_version": "umpire-v1.3", "provider": "openrouter", "settings": {"max_tokens": null, "provider": {"require_parameters": true}, "reasoning": null, "temperature": null, "timeout": 300.0}}}
+2026-09-14 09:55:52,012 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (2.0ms)
+2026-09-14 09:55:52,012 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,013 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,013 INFO agents.autonomous autonomous game 85045ea8-8b92-47a0-8efd-0a5c75d12dcd position: turn=1 phase=diplomacy active_actor=None sweep=s,m,sd,c,v,kd,mp,l
+2026-09-14 09:55:52,015 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.9ms)
+2026-09-14 09:55:52,016 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,016 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,018 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.9ms)
+2026-09-14 09:55:52,019 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,019 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,021 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.7ms)
+2026-09-14 09:55:52,021 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,021 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,024 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.7ms)
+2026-09-14 09:55:52,024 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,024 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,026 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.8ms)
+2026-09-14 09:55:52,027 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,027 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,029 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.7ms)
+2026-09-14 09:55:52,029 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,030 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,032 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.7ms)
+2026-09-14 09:55:52,032 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,032 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,035 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (2.3ms)
+2026-09-14 09:55:52,036 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,036 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,103 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200 (66.7ms)
+2026-09-14 09:55:52,103 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,104 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200
+2026-09-14 09:55:52,106 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages -> 200 (1.6ms)
+2026-09-14 09:55:52,106 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,106 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages -> 200
+2026-09-14 09:55:52,111 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200 (3.7ms)
+2026-09-14 09:55:52,111 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,111 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200
+2026-09-14 09:55:52,113 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages -> 200 (1.2ms)
+2026-09-14 09:55:52,113 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,114 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages -> 200
+2026-09-14 09:55:52,117 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200 (3.5ms)
+2026-09-14 09:55:52,118 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,118 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200
+2026-09-14 09:55:52,120 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages -> 200 (1.1ms)
+2026-09-14 09:55:52,120 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,120 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages -> 200
+2026-09-14 09:55:52,124 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200 (3.6ms)
+2026-09-14 09:55:52,125 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,125 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200
+2026-09-14 09:55:52,127 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages -> 200 (1.1ms)
+2026-09-14 09:55:52,127 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,127 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages -> 200
+2026-09-14 09:55:52,131 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200 (3.4ms)
+2026-09-14 09:55:52,131 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,132 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200
+2026-09-14 09:55:52,133 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages -> 200 (1.1ms)
+2026-09-14 09:55:52,134 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,134 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages -> 200
+2026-09-14 09:55:52,138 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200 (3.4ms)
+2026-09-14 09:55:52,138 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,138 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200
+2026-09-14 09:55:52,140 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages -> 200 (1.2ms)
+2026-09-14 09:55:52,140 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,141 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages -> 200
+2026-09-14 09:55:52,145 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200 (3.4ms)
+2026-09-14 09:55:52,145 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,145 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200
+2026-09-14 09:55:52,147 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages -> 200 (1.1ms)
+2026-09-14 09:55:52,147 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,147 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages -> 200
+2026-09-14 09:55:52,151 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200 (3.4ms)
+2026-09-14 09:55:52,152 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,152 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200
+2026-09-14 09:55:52,153 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages -> 200 (1.1ms)
+2026-09-14 09:55:52,154 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,154 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/messages -> 200
+2026-09-14 09:55:52,154 DEBUG asyncio Using selector: KqueueSelector
+2026-09-14 09:55:52,155 DEBUG asyncio Using selector: KqueueSelector
+2026-09-14 09:55:52,155 DEBUG asyncio Using selector: KqueueSelector
+2026-09-14 09:55:52,156 DEBUG asyncio Using selector: KqueueSelector
+2026-09-14 09:55:52,156 DEBUG asyncio Using selector: KqueueSelector
+2026-09-14 09:55:52,156 DEBUG asyncio Using selector: KqueueSelector
+2026-09-14 09:55:52,156 DEBUG asyncio Using selector: KqueueSelector
+2026-09-14 09:55:52,157 DEBUG asyncio Using selector: KqueueSelector
+2026-09-14 09:55:52,219 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,219 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,224 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,226 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,231 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,234 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,235 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,235 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,236 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,236 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,237 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,238 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,238 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,238 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,238 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,239 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,240 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,240 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,241 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,241 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,242 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,242 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,243 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,244 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,244 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,244 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,244 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,244 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,244 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,245 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,245 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,245 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,245 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,246 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,246 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,246 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,247 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,247 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,247 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,247 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,247 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,248 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,248 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,248 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,249 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,249 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,250 INFO agents.player transient activation failure for sd (ModelAPIError) — retrying once
+2026-09-14 09:55:52,250 INFO agents.player transient activation failure for c (ModelAPIError) — retrying once
+2026-09-14 09:55:52,251 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,251 INFO agents.player transient activation failure for kd (ModelAPIError) — retrying once
+2026-09-14 09:55:52,251 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,251 INFO agents.player transient activation failure for s (ModelAPIError) — retrying once
+2026-09-14 09:55:52,252 INFO agents.player transient activation failure for mp (ModelAPIError) — retrying once
+2026-09-14 09:55:52,257 INFO agents.player transient activation failure for m (ModelAPIError) — retrying once
+2026-09-14 09:55:52,263 INFO agents.player transient activation failure for v (ModelAPIError) — retrying once
+2026-09-14 09:55:52,263 INFO agents.player transient activation failure for l (ModelAPIError) — retrying once
+2026-09-14 09:55:52,282 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,283 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,283 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,284 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,285 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,285 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,286 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,286 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,287 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,288 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,288 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,289 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,290 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,290 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,291 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,291 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,291 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,291 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,293 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,293 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,293 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,294 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,295 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,295 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,296 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,296 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,296 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,296 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,297 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,297 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,297 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,298 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,298 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,298 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,298 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,299 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,299 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,299 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,299 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,300 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,300 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,300 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,302 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,302 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,302 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,303 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,303 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,304 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,312 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready -> 200 (7.2ms)
+2026-09-14 09:55:52,312 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,312 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready -> 200
+2026-09-14 09:55:52,316 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready -> 200 (3.1ms)
+2026-09-14 09:55:52,316 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,317 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready -> 200
+2026-09-14 09:55:52,320 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready -> 200 (3.0ms)
+2026-09-14 09:55:52,320 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,321 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready -> 200
+2026-09-14 09:55:52,324 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready -> 200 (3.0ms)
+2026-09-14 09:55:52,325 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,325 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready -> 200
+2026-09-14 09:55:52,328 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready -> 200 (2.8ms)
+2026-09-14 09:55:52,328 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,329 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready -> 200
+2026-09-14 09:55:52,332 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready -> 200 (2.7ms)
+2026-09-14 09:55:52,332 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,333 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready -> 200
+2026-09-14 09:55:52,336 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready -> 200 (3.2ms)
+2026-09-14 09:55:52,337 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,337 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready -> 200
+2026-09-14 09:55:52,342 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready -> 200 (4.3ms)
+2026-09-14 09:55:52,342 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,342 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/ready -> 200
+2026-09-14 09:55:52,347 INFO app.api POST /admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs -> 201 (3.9ms)
+2026-09-14 09:55:52,347 INFO httpx2 HTTP Request: POST http://testserver/admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs "HTTP/1.1 201 Created"
+2026-09-14 09:55:52,348 WARNING agents.autonomous autonomous failure actor=s turn=1 phase=diplomacy category=transient recovery=ready
+2026-09-14 09:55:52,351 INFO app.api POST /admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs -> 201 (2.5ms)
+2026-09-14 09:55:52,351 INFO httpx2 HTTP Request: POST http://testserver/admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs "HTTP/1.1 201 Created"
+2026-09-14 09:55:52,351 WARNING agents.autonomous autonomous failure actor=m turn=1 phase=diplomacy category=transient recovery=ready
+2026-09-14 09:55:52,355 INFO app.api POST /admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs -> 201 (2.5ms)
+2026-09-14 09:55:52,355 INFO httpx2 HTTP Request: POST http://testserver/admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs "HTTP/1.1 201 Created"
+2026-09-14 09:55:52,355 WARNING agents.autonomous autonomous failure actor=sd turn=1 phase=diplomacy category=transient recovery=ready
+2026-09-14 09:55:52,358 INFO app.api POST /admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs -> 201 (2.4ms)
+2026-09-14 09:55:52,359 INFO httpx2 HTTP Request: POST http://testserver/admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs "HTTP/1.1 201 Created"
+2026-09-14 09:55:52,359 WARNING agents.autonomous autonomous failure actor=c turn=1 phase=diplomacy category=transient recovery=ready
+2026-09-14 09:55:52,362 INFO app.api POST /admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs -> 201 (2.6ms)
+2026-09-14 09:55:52,363 INFO httpx2 HTTP Request: POST http://testserver/admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs "HTTP/1.1 201 Created"
+2026-09-14 09:55:52,363 WARNING agents.autonomous autonomous failure actor=v turn=1 phase=diplomacy category=transient recovery=ready
+2026-09-14 09:55:52,366 INFO app.api POST /admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs -> 201 (2.8ms)
+2026-09-14 09:55:52,367 INFO httpx2 HTTP Request: POST http://testserver/admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs "HTTP/1.1 201 Created"
+2026-09-14 09:55:52,367 WARNING agents.autonomous autonomous failure actor=kd turn=1 phase=diplomacy category=transient recovery=ready
+2026-09-14 09:55:52,370 INFO app.api POST /admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs -> 201 (2.5ms)
+2026-09-14 09:55:52,371 INFO httpx2 HTTP Request: POST http://testserver/admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs "HTTP/1.1 201 Created"
+2026-09-14 09:55:52,371 WARNING agents.autonomous autonomous failure actor=mp turn=1 phase=diplomacy category=transient recovery=ready
+2026-09-14 09:55:52,374 INFO app.api POST /admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs -> 201 (2.7ms)
+2026-09-14 09:55:52,375 INFO httpx2 HTTP Request: POST http://testserver/admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs "HTTP/1.1 201 Created"
+2026-09-14 09:55:52,375 WARNING agents.autonomous autonomous failure actor=l turn=1 phase=diplomacy category=transient recovery=ready
+2026-09-14 09:55:52,380 INFO app.api GET /admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/export -> 200 (4.9ms)
+2026-09-14 09:55:52,381 INFO httpx2 HTTP Request: GET http://testserver/admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/export "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,382 INFO agents.autonomous autonomous record kind=event data={"actor_id": "s", "created_at": "2026-09-14T07:55:52.309036", "id": 166, "payload": {}, "turn": 1, "type": "actor_ready"}
+2026-09-14 09:55:52,382 INFO agents.autonomous autonomous record kind=event data={"actor_id": "m", "created_at": "2026-09-14T07:55:52.314763", "id": 167, "payload": {}, "turn": 1, "type": "actor_ready"}
+2026-09-14 09:55:52,382 INFO agents.autonomous autonomous record kind=event data={"actor_id": "sd", "created_at": "2026-09-14T07:55:52.318829", "id": 168, "payload": {}, "turn": 1, "type": "actor_ready"}
+2026-09-14 09:55:52,382 INFO agents.autonomous autonomous record kind=event data={"actor_id": "c", "created_at": "2026-09-14T07:55:52.322992", "id": 169, "payload": {}, "turn": 1, "type": "actor_ready"}
+2026-09-14 09:55:52,382 INFO agents.autonomous autonomous record kind=event data={"actor_id": "v", "created_at": "2026-09-14T07:55:52.327069", "id": 170, "payload": {}, "turn": 1, "type": "actor_ready"}
+2026-09-14 09:55:52,383 INFO agents.autonomous autonomous record kind=event data={"actor_id": "kd", "created_at": "2026-09-14T07:55:52.330928", "id": 171, "payload": {}, "turn": 1, "type": "actor_ready"}
+2026-09-14 09:55:52,383 INFO agents.autonomous autonomous record kind=event data={"actor_id": "mp", "created_at": "2026-09-14T07:55:52.334728", "id": 172, "payload": {}, "turn": 1, "type": "actor_ready"}
+2026-09-14 09:55:52,383 INFO agents.autonomous autonomous record kind=event data={"actor_id": "l", "created_at": "2026-09-14T07:55:52.339130", "id": 173, "payload": {}, "turn": 1, "type": "actor_ready"}
+2026-09-14 09:55:52,383 INFO agents.autonomous autonomous record kind=event data={"actor_id": null, "created_at": "2026-09-14T07:55:52.339796", "id": 174, "payload": {"phase": "argument"}, "turn": 1, "type": "phase_started"}
+2026-09-14 09:55:52,384 INFO agents.autonomous autonomous record kind=agent_run data={"activation_wall_ms": 143, "actor_id": "s", "agent_framework": "pydantic-ai", "agent_framework_version": null, "completed": false, "context_mode": "incremental-context-v1", "cost_usd": null, "costed_model_calls": 0, "created_at": "2026-09-14T07:55:52.344837", "failure_reason": "activation failed for 's': ModelAPIError", "id": 41, "input_tokens": 0, "invalid_tool_calls": 0, "latency_ms": 63, "memory_version": "strategic-memory-v1", "model_calls": 2, "model_parameters": {"activation_mode": "single_shot", "guardrails": {"max_activations_per_opportunity": 6, "max_argument_action_chars": 2000, "max_desired_effect_chars": 2000, "max_llm_iterations": 12, "max_message_chars": 4000, "max_messages_per_activation": 3, "max_messages_per_phase": 10, "max_note_chars": 4000, "max_pro_chars": 1000, "max_pros": 5, "max_tool_calls": 20, "max_tool_payload_bytes": 16384}, "max_tokens": null, "temperature": null, "timeout": 300.0}, "model_requested": "deepseek/deepseek-v4-flash-0731", "model_returned": null, "output_tokens": 0, "phase": "diplomacy", "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0", "prompt_version": "player-v1.7", "provider": null, "provider_metadata": {"category": "transient", "counts": {"activation_wall_ms": 143, "attempts": 2, "messages_sent": 0, "model_calls": 2, "provider_wait_ms": 63, "tool_calls": 0}}, "reasoning_configuration": null, "role": "player", "stalls": 0, "tool_calls": 0, "tool_schema_version": "player-tools-v3", "turn": 1}
+2026-09-14 09:55:52,384 INFO agents.autonomous autonomous record kind=agent_run data={"activation_wall_ms": 142, "actor_id": "m", "agent_framework": "pydantic-ai", "agent_framework_version": null, "completed": false, "context_mode": "incremental-context-v1", "cost_usd": null, "costed_model_calls": 0, "created_at": "2026-09-14T07:55:52.349874", "failure_reason": "activation failed for 'm': ModelAPIError", "id": 42, "input_tokens": 0, "invalid_tool_calls": 0, "latency_ms": 62, "memory_version": "strategic-memory-v1", "model_calls": 2, "model_parameters": {"activation_mode": "single_shot", "guardrails": {"max_activations_per_opportunity": 6, "max_argument_action_chars": 2000, "max_desired_effect_chars": 2000, "max_llm_iterations": 12, "max_message_chars": 4000, "max_messages_per_activation": 3, "max_messages_per_phase": 10, "max_note_chars": 4000, "max_pro_chars": 1000, "max_pros": 5, "max_tool_calls": 20, "max_tool_payload_bytes": 16384}, "max_tokens": null, "temperature": null, "timeout": 300.0}, "model_requested": "deepseek/deepseek-v4-flash-0731", "model_returned": null, "output_tokens": 0, "phase": "diplomacy", "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0", "prompt_version": "player-v1.7", "provider": null, "provider_metadata": {"category": "transient", "counts": {"activation_wall_ms": 142, "attempts": 2, "messages_sent": 0, "model_calls": 2, "provider_wait_ms": 62, "tool_calls": 0}}, "reasoning_configuration": null, "role": "player", "stalls": 0, "tool_calls": 0, "tool_schema_version": "player-tools-v3", "turn": 1}
+2026-09-14 09:55:52,384 INFO agents.autonomous autonomous record kind=agent_run data={"activation_wall_ms": 140, "actor_id": "sd", "agent_framework": "pydantic-ai", "agent_framework_version": null, "completed": false, "context_mode": "incremental-context-v1", "cost_usd": null, "costed_model_calls": 0, "created_at": "2026-09-14T07:55:52.353714", "failure_reason": "activation failed for 'sd': ModelAPIError", "id": 43, "input_tokens": 0, "invalid_tool_calls": 0, "latency_ms": 73, "memory_version": "strategic-memory-v1", "model_calls": 2, "model_parameters": {"activation_mode": "single_shot", "guardrails": {"max_activations_per_opportunity": 6, "max_argument_action_chars": 2000, "max_desired_effect_chars": 2000, "max_llm_iterations": 12, "max_message_chars": 4000, "max_messages_per_activation": 3, "max_messages_per_phase": 10, "max_note_chars": 4000, "max_pro_chars": 1000, "max_pros": 5, "max_tool_calls": 20, "max_tool_payload_bytes": 16384}, "max_tokens": null, "temperature": null, "timeout": 300.0}, "model_requested": "deepseek/deepseek-v4-flash-0731", "model_returned": null, "output_tokens": 0, "phase": "diplomacy", "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0", "prompt_version": "player-v1.7", "provider": null, "provider_metadata": {"category": "transient", "counts": {"activation_wall_ms": 140, "attempts": 2, "messages_sent": 0, "model_calls": 2, "provider_wait_ms": 73, "tool_calls": 0}}, "reasoning_configuration": null, "role": "player", "stalls": 0, "tool_calls": 0, "tool_schema_version": "player-tools-v3", "turn": 1}
+2026-09-14 09:55:52,384 INFO agents.autonomous autonomous record kind=agent_run data={"activation_wall_ms": 134, "actor_id": "c", "agent_framework": "pydantic-ai", "agent_framework_version": null, "completed": false, "context_mode": "incremental-context-v1", "cost_usd": null, "costed_model_calls": 0, "created_at": "2026-09-14T07:55:52.357452", "failure_reason": "activation failed for 'c': ModelAPIError", "id": 44, "input_tokens": 0, "invalid_tool_calls": 0, "latency_ms": 74, "memory_version": "strategic-memory-v1", "model_calls": 2, "model_parameters": {"activation_mode": "single_shot", "guardrails": {"max_activations_per_opportunity": 6, "max_argument_action_chars": 2000, "max_desired_effect_chars": 2000, "max_llm_iterations": 12, "max_message_chars": 4000, "max_messages_per_activation": 3, "max_messages_per_phase": 10, "max_note_chars": 4000, "max_pro_chars": 1000, "max_pros": 5, "max_tool_calls": 20, "max_tool_payload_bytes": 16384}, "max_tokens": null, "temperature": null, "timeout": 300.0}, "model_requested": "deepseek/deepseek-v4-flash-0731", "model_returned": null, "output_tokens": 0, "phase": "diplomacy", "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0", "prompt_version": "player-v1.7", "provider": null, "provider_metadata": {"category": "transient", "counts": {"activation_wall_ms": 134, "attempts": 2, "messages_sent": 0, "model_calls": 2, "provider_wait_ms": 74, "tool_calls": 0}}, "reasoning_configuration": null, "role": "player", "stalls": 0, "tool_calls": 0, "tool_schema_version": "player-tools-v3", "turn": 1}
+2026-09-14 09:55:52,385 INFO agents.autonomous autonomous record kind=agent_run data={"activation_wall_ms": 136, "actor_id": "v", "agent_framework": "pydantic-ai", "agent_framework_version": null, "completed": false, "context_mode": "incremental-context-v1", "cost_usd": null, "costed_model_calls": 0, "created_at": "2026-09-14T07:55:52.361289", "failure_reason": "activation failed for 'v': ModelAPIError", "id": 45, "input_tokens": 0, "invalid_tool_calls": 0, "latency_ms": 64, "memory_version": "strategic-memory-v1", "model_calls": 2, "model_parameters": {"activation_mode": "single_shot", "guardrails": {"max_activations_per_opportunity": 6, "max_argument_action_chars": 2000, "max_desired_effect_chars": 2000, "max_llm_iterations": 12, "max_message_chars": 4000, "max_messages_per_activation": 3, "max_messages_per_phase": 10, "max_note_chars": 4000, "max_pro_chars": 1000, "max_pros": 5, "max_tool_calls": 20, "max_tool_payload_bytes": 16384}, "max_tokens": null, "temperature": null, "timeout": 300.0}, "model_requested": "deepseek/deepseek-v4-flash-0731", "model_returned": null, "output_tokens": 0, "phase": "diplomacy", "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0", "prompt_version": "player-v1.7", "provider": null, "provider_metadata": {"category": "transient", "counts": {"activation_wall_ms": 136, "attempts": 2, "messages_sent": 0, "model_calls": 2, "provider_wait_ms": 64, "tool_calls": 0}}, "reasoning_configuration": null, "role": "player", "stalls": 0, "tool_calls": 0, "tool_schema_version": "player-tools-v3", "turn": 1}
+2026-09-14 09:55:52,385 INFO agents.autonomous autonomous record kind=agent_run data={"activation_wall_ms": 143, "actor_id": "kd", "agent_framework": "pydantic-ai", "agent_framework_version": null, "completed": false, "context_mode": "incremental-context-v1", "cost_usd": null, "costed_model_calls": 0, "created_at": "2026-09-14T07:55:52.365322", "failure_reason": "activation failed for 'kd': ModelAPIError", "id": 46, "input_tokens": 0, "invalid_tool_calls": 0, "latency_ms": 67, "memory_version": "strategic-memory-v1", "model_calls": 2, "model_parameters": {"activation_mode": "single_shot", "guardrails": {"max_activations_per_opportunity": 6, "max_argument_action_chars": 2000, "max_desired_effect_chars": 2000, "max_llm_iterations": 12, "max_message_chars": 4000, "max_messages_per_activation": 3, "max_messages_per_phase": 10, "max_note_chars": 4000, "max_pro_chars": 1000, "max_pros": 5, "max_tool_calls": 20, "max_tool_payload_bytes": 16384}, "max_tokens": null, "temperature": null, "timeout": 300.0}, "model_requested": "deepseek/deepseek-v4-flash-0731", "model_returned": null, "output_tokens": 0, "phase": "diplomacy", "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0", "prompt_version": "player-v1.7", "provider": null, "provider_metadata": {"category": "transient", "counts": {"activation_wall_ms": 143, "attempts": 2, "messages_sent": 0, "model_calls": 2, "provider_wait_ms": 67, "tool_calls": 0}}, "reasoning_configuration": null, "role": "player", "stalls": 0, "tool_calls": 0, "tool_schema_version": "player-tools-v3", "turn": 1}
+2026-09-14 09:55:52,385 INFO agents.autonomous autonomous record kind=agent_run data={"activation_wall_ms": 132, "actor_id": "mp", "agent_framework": "pydantic-ai", "agent_framework_version": null, "completed": false, "context_mode": "incremental-context-v1", "cost_usd": null, "costed_model_calls": 0, "created_at": "2026-09-14T07:55:52.369345", "failure_reason": "activation failed for 'mp': ModelAPIError", "id": 47, "input_tokens": 0, "invalid_tool_calls": 0, "latency_ms": 70, "memory_version": "strategic-memory-v1", "model_calls": 2, "model_parameters": {"activation_mode": "single_shot", "guardrails": {"max_activations_per_opportunity": 6, "max_argument_action_chars": 2000, "max_desired_effect_chars": 2000, "max_llm_iterations": 12, "max_message_chars": 4000, "max_messages_per_activation": 3, "max_messages_per_phase": 10, "max_note_chars": 4000, "max_pro_chars": 1000, "max_pros": 5, "max_tool_calls": 20, "max_tool_payload_bytes": 16384}, "max_tokens": null, "temperature": null, "timeout": 300.0}, "model_requested": "deepseek/deepseek-v4-flash-0731", "model_returned": null, "output_tokens": 0, "phase": "diplomacy", "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0", "prompt_version": "player-v1.7", "provider": null, "provider_metadata": {"category": "transient", "counts": {"activation_wall_ms": 132, "attempts": 2, "messages_sent": 0, "model_calls": 2, "provider_wait_ms": 70, "tool_calls": 0}}, "reasoning_configuration": null, "role": "player", "stalls": 0, "tool_calls": 0, "tool_schema_version": "player-tools-v3", "turn": 1}
+2026-09-14 09:55:52,385 INFO agents.autonomous autonomous record kind=agent_run data={"activation_wall_ms": 130, "actor_id": "l", "agent_framework": "pydantic-ai", "agent_framework_version": null, "completed": false, "context_mode": "incremental-context-v1", "cost_usd": null, "costed_model_calls": 0, "created_at": "2026-09-14T07:55:52.373298", "failure_reason": "activation failed for 'l': ModelAPIError", "id": 48, "input_tokens": 0, "invalid_tool_calls": 0, "latency_ms": 56, "memory_version": "strategic-memory-v1", "model_calls": 2, "model_parameters": {"activation_mode": "single_shot", "guardrails": {"max_activations_per_opportunity": 6, "max_argument_action_chars": 2000, "max_desired_effect_chars": 2000, "max_llm_iterations": 12, "max_message_chars": 4000, "max_messages_per_activation": 3, "max_messages_per_phase": 10, "max_note_chars": 4000, "max_pro_chars": 1000, "max_pros": 5, "max_tool_calls": 20, "max_tool_payload_bytes": 16384}, "max_tokens": null, "temperature": null, "timeout": 300.0}, "model_requested": "deepseek/deepseek-v4-flash-0731", "model_returned": null, "output_tokens": 0, "phase": "diplomacy", "prompt_hash": "69e9400e5b134c08492991260c8825906632752062c9ed2239f4ea35386199d0", "prompt_version": "player-v1.7", "provider": null, "provider_metadata": {"category": "transient", "counts": {"activation_wall_ms": 130, "attempts": 2, "messages_sent": 0, "model_calls": 2, "provider_wait_ms": 56, "tool_calls": 0}}, "reasoning_configuration": null, "role": "player", "stalls": 0, "tool_calls": 0, "tool_schema_version": "player-tools-v3", "turn": 1}
+2026-09-14 09:55:52,390 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (3.5ms)
+2026-09-14 09:55:52,390 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,390 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,391 INFO agents.autonomous autonomous game 85045ea8-8b92-47a0-8efd-0a5c75d12dcd position: turn=1 phase=argument active_actor=s sweep=s,m,sd,c,v,kd,mp,l
+2026-09-14 09:55:52,393 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (2.4ms)
+2026-09-14 09:55:52,394 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,394 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,398 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200 (3.1ms)
+2026-09-14 09:55:52,398 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,398 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200
+2026-09-14 09:55:52,403 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,404 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,404 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,405 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,405 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,405 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,406 INFO agents.player transient activation failure for s (ModelAPIError) — retrying once
+2026-09-14 09:55:52,409 INFO app.api POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200 (3.1ms)
+2026-09-14 09:55:52,410 INFO httpx2 HTTP Request: POST http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,410 DEBUG agents.tools tool POST /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/activations -> 200
+2026-09-14 09:55:52,415 DEBUG openai._base_client Building HTTP request: method=POST retries_taken=0
+2026-09-14 09:55:52,415 DEBUG openai._base_client Sending HTTP Request: POST
+2026-09-14 09:55:52,416 DEBUG httpcore2.connection connect_tcp.started host='openrouter.ai' port=443 local_address=None timeout=300.0 socket_options=None
+2026-09-14 09:55:52,416 DEBUG httpcore2.connection connect_tcp.failed exception=ConnectError(gaierror(8, 'nodename nor servname provided, or not known'))
+2026-09-14 09:55:52,416 DEBUG openai._base_client Encountered exception: ConnectError
+2026-09-14 09:55:52,417 DEBUG openai._base_client Raising connection error
+2026-09-14 09:55:52,420 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (2.3ms)
+2026-09-14 09:55:52,420 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,420 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,423 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (2.0ms)
+2026-09-14 09:55:52,423 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,423 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,426 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.8ms)
+2026-09-14 09:55:52,426 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,426 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,428 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.8ms)
+2026-09-14 09:55:52,429 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,429 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,432 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (2.0ms)
+2026-09-14 09:55:52,432 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,432 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,434 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.8ms)
+2026-09-14 09:55:52,435 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,435 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,437 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.8ms)
+2026-09-14 09:55:52,438 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,438 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,440 INFO app.api GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200 (1.9ms)
+2026-09-14 09:55:52,441 INFO httpx2 HTTP Request: GET http://testserver/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context "HTTP/1.1 200 OK"
+2026-09-14 09:55:52,441 DEBUG agents.tools tool GET /games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/context -> 200
+2026-09-14 09:55:52,444 INFO app.api POST /admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs -> 201 (2.6ms)
+2026-09-14 09:55:52,444 INFO httpx2 HTTP Request: POST http://testserver/admin/games/85045ea8-8b92-47a0-8efd-0a5c75d12dcd/agent-runs "HTTP/1.1 201 Created"
+2026-09-14 09:55:52,445 WARNING agents.autonomous autonomous failure actor=s turn=1 phase=argument category=transient recovery=none
+2026-09-14 09:55:52,452 INFO amaw.cli wrote partial administrative export path=dev/runs/swedish-government-v4-rerun-2/export.json game_id=85045ea8-8b92-47a0-8efd-0a5c75d12dcd

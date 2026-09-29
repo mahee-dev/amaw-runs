@@ -1,0 +1,136 @@
+game_id,turn,actor_id,operation,query,resource_id,created_at,activation_id
+13e24e08-3795-457c-9088-3f812bb607e6,1,belvar,search,Arkania Strait Transit Authority charter,,2026-09-19T11:02:38.241428,225e9444-00ab-4d5c-b161-85be87c037e6
+13e24e08-3795-457c-9088-3f812bb607e6,1,belvar,search,Cestia naval access agreement port,,2026-09-19T11:02:38.244469,225e9444-00ab-4d5c-b161-85be87c037e6
+13e24e08-3795-457c-9088-3f812bb607e6,1,belvar,search,Cestia,,2026-09-19T11:02:39.518863,225e9444-00ab-4d5c-b161-85be87c037e6
+13e24e08-3795-457c-9088-3f812bb607e6,1,belvar,search,Northern Strait,,2026-09-19T11:02:39.519452,225e9444-00ab-4d5c-b161-85be87c037e6
+13e24e08-3795-457c-9088-3f812bb607e6,1,cestia,search,Belvar naval task group mandate foothold,,2026-09-19T11:02:41.903884,5d498654-25b9-418a-b51a-d62ef493964a
+13e24e08-3795-457c-9088-3f812bb607e6,1,cestia,search,Arkania draft charter Strait Transit Authority,,2026-09-19T11:02:41.903340,5d498654-25b9-418a-b51a-d62ef493964a
+13e24e08-3795-457c-9088-3f812bb607e6,1,cestia,search,Cestia grain exports coalition,,2026-09-19T11:02:44.840710,5d498654-25b9-418a-b51a-d62ef493964a
+13e24e08-3795-457c-9088-3f812bb607e6,1,cestia,search,Northern Strait,,2026-09-19T11:02:44.840256,5d498654-25b9-418a-b51a-d62ef493964a
+13e24e08-3795-457c-9088-3f812bb607e6,1,arkania,search,Northern Strait transit charter Arkania Belvar Cestia,,2026-09-19T11:02:47.119763,656c4605-9d83-4212-92e1-252d05fc4575
+13e24e08-3795-457c-9088-3f812bb607e6,1,arkania,search,Belvar naval task group mandate Cestia coalition,,2026-09-19T11:02:47.120315,656c4605-9d83-4212-92e1-252d05fc4575
+13e24e08-3795-457c-9088-3f812bb607e6,1,arkania,search,Strait,,2026-09-19T11:02:50.826803,656c4605-9d83-4212-92e1-252d05fc4575
+13e24e08-3795-457c-9088-3f812bb607e6,1,arkania,search,Arkania,,2026-09-19T11:02:50.827501,656c4605-9d83-4212-92e1-252d05fc4575
+13e24e08-3795-457c-9088-3f812bb607e6,1,cestia,search,Arkania draft charter transit authority scheduling fees,,2026-09-19T11:03:54.360848,015b34ba-a2b8-470f-b657-e0cc321477c8
+13e24e08-3795-457c-9088-3f812bb607e6,1,cestia,search,Belvar naval task group mandate access agreement Cestia,,2026-09-19T11:03:54.361808,015b34ba-a2b8-470f-b657-e0cc321477c8
+13e24e08-3795-457c-9088-3f812bb607e6,1,arkania,search,Cestia coalition foreign soldiers grain exports,,2026-09-19T11:03:54.381281,36adf206-b2d2-43cc-b3a8-b8d0a0bd0afe
+13e24e08-3795-457c-9088-3f812bb607e6,1,arkania,search,Belvar naval task group mandate Strait foothold,,2026-09-19T11:03:54.387089,36adf206-b2d2-43cc-b3a8-b8d0a0bd0afe
+13e24e08-3795-457c-9088-3f812bb607e6,1,arkania,search,Northern Strait transit charter,,2026-09-19T11:03:55.828521,36adf206-b2d2-43cc-b3a8-b8d0a0bd0afe
+13e24e08-3795-457c-9088-3f812bb607e6,1,cestia,search,Cestia coalition government grain exports,,2026-09-19T11:03:57.064670,015b34ba-a2b8-470f-b657-e0cc321477c8
+13e24e08-3795-457c-9088-3f812bb607e6,1,cestia,search,Northern Strait transit,,2026-09-19T11:03:57.065308,015b34ba-a2b8-470f-b657-e0cc321477c8
+13e24e08-3795-457c-9088-3f812bb607e6,1,arkania,search,Arkania Belvar Cestia,,2026-09-19T11:03:57.779771,36adf206-b2d2-43cc-b3a8-b8d0a0bd0afe
+13e24e08-3795-457c-9088-3f812bb607e6,1,cestia,search,Belvar naval task group mandate security commitment region,,2026-09-19T11:04:41.429866,b62a97db-3314-457f-a00a-3b6540e18770
+13e24e08-3795-457c-9088-3f812bb607e6,1,cestia,search,Northern Strait transit charter Arkania scheduling fees,,2026-09-19T11:04:41.430224,b62a97db-3314-457f-a00a-3b6540e18770
+13e24e08-3795-457c-9088-3f812bb607e6,1,cestia,search,Cestia grain exports coalition,,2026-09-19T11:04:48.781623,b62a97db-3314-457f-a00a-3b6540e18770
+13e24e08-3795-457c-9088-3f812bb607e6,1,cestia,search,Strait,,2026-09-19T11:04:48.782195,b62a97db-3314-457f-a00a-3b6540e18770
+13e24e08-3795-457c-9088-3f812bb607e6,1,belvar,search,Arkania Strait Transit Authority charter terms authority,,2026-09-19T11:09:23.833297,d0f72469-bb3c-4218-a04b-f49ac3cd65e0
+13e24e08-3795-457c-9088-3f812bb607e6,1,belvar,search,Cestia naval access agreement position coalition foreign presence,,2026-09-19T11:09:23.832757,d0f72469-bb3c-4218-a04b-f49ac3cd65e0
+13e24e08-3795-457c-9088-3f812bb607e6,2,belvar,search,Arkania Strait Transit Authority charter,,2026-09-19T11:13:00.266016,4c92c208-eb30-4e6b-9a49-c5536baa039a
+13e24e08-3795-457c-9088-3f812bb607e6,2,belvar,search,naval access agreement Cestia port,,2026-09-19T11:13:00.266610,4c92c208-eb30-4e6b-9a49-c5536baa039a
+13e24e08-3795-457c-9088-3f812bb607e6,2,belvar,search,insurance grain route underwrite,,2026-09-19T11:13:05.108326,4c92c208-eb30-4e6b-9a49-c5536baa039a
+13e24e08-3795-457c-9088-3f812bb607e6,2,belvar,search,Arkania Strait Transit Authority charter scheduling,,2026-09-19T11:13:56.180636,74004d06-1ccd-44c7-be21-725038804465
+13e24e08-3795-457c-9088-3f812bb607e6,2,belvar,search,grain route insurance underwriting Cestia,,2026-09-19T11:13:56.181066,74004d06-1ccd-44c7-be21-725038804465
+13e24e08-3795-457c-9088-3f812bb607e6,2,belvar,search,Cestia red line foreign military presence coalition,,2026-09-19T11:13:56.194382,74004d06-1ccd-44c7-be21-725038804465
+13e24e08-3795-457c-9088-3f812bb607e6,2,cestia,search,Cestia coalition government foreign military presence red line,,2026-09-19T11:13:56.771143,a4eef58d-e5e7-4e99-b627-7adebd49cfb2
+13e24e08-3795-457c-9088-3f812bb607e6,2,cestia,search,grain route insurance underwriting Belvar,,2026-09-19T11:13:56.772567,a4eef58d-e5e7-4e99-b627-7adebd49cfb2
+13e24e08-3795-457c-9088-3f812bb607e6,2,cestia,search,Northern Strait transit charter Arkania scheduling authority,,2026-09-19T11:13:56.771871,a4eef58d-e5e7-4e99-b627-7adebd49cfb2
+13e24e08-3795-457c-9088-3f812bb607e6,2,belvar,search,Northern Strait,,2026-09-19T11:13:57.088157,74004d06-1ccd-44c7-be21-725038804465
+13e24e08-3795-457c-9088-3f812bb607e6,2,cestia,search,Northern Strait,,2026-09-19T11:13:57.748381,a4eef58d-e5e7-4e99-b627-7adebd49cfb2
+13e24e08-3795-457c-9088-3f812bb607e6,2,arkania,search,Belvar naval task group mandate timeline,,2026-09-19T11:14:01.435695,4e990ba4-b880-426a-8154-52c7361e5242
+13e24e08-3795-457c-9088-3f812bb607e6,2,arkania,search,Northern Strait transit charter multilateral framework options,,2026-09-19T11:14:01.436109,4e990ba4-b880-426a-8154-52c7361e5242
+13e24e08-3795-457c-9088-3f812bb607e6,2,arkania,search,Cestia coalition red line foreign military presence grain exports,,2026-09-19T11:14:01.435079,4e990ba4-b880-426a-8154-52c7361e5242
+13e24e08-3795-457c-9088-3f812bb607e6,2,arkania,search,Northern Strait,,2026-09-19T11:14:03.612784,4e990ba4-b880-426a-8154-52c7361e5242
+13e24e08-3795-457c-9088-3f812bb607e6,3,arkania,search,Cestia endorsement charter conditions toll-free passage,,2026-09-19T11:26:14.848935,d2a72d23-5203-46bd-a0ac-b3fc6626e45d
+13e24e08-3795-457c-9088-3f812bb607e6,3,cestia,search,Strait Transit Charter binding guarantees toll-free Cestian shipping,,2026-09-19T11:29:48.848205,88883b16-812f-4990-af37-f0c58a7b113d
+13e24e08-3795-457c-9088-3f812bb607e6,3,cestia,search,grain route insurance underwriting Belvar non-military stake,,2026-09-19T11:29:48.848750,88883b16-812f-4990-af37-f0c58a7b113d
+13e24e08-3795-457c-9088-3f812bb607e6,3,belvar,search,Strait Transit Authority charter scheduling authority,,2026-09-19T11:30:01.487002,039bb90e-15f8-409c-9e3b-dd5398dc364b
+13e24e08-3795-457c-9088-3f812bb607e6,3,belvar,search,grain route insurance underwriting Cestia,,2026-09-19T11:30:01.486502,039bb90e-15f8-409c-9e3b-dd5398dc364b
+13e24e08-3795-457c-9088-3f812bb607e6,3,arkania,search,Belvar naval task group mandate review status,,2026-09-19T11:30:12.598002,09176cb4-ec21-483b-9946-7cd8adf1b2ae
+13e24e08-3795-457c-9088-3f812bb607e6,3,arkania,search,Cestia coalition grain exports Strait transit,,2026-09-19T11:30:12.598495,09176cb4-ec21-483b-9946-7cd8adf1b2ae
+13e24e08-3795-457c-9088-3f812bb607e6,3,arkania,search,Northern Strait charter transit authority,,2026-09-19T11:30:14.654027,09176cb4-ec21-483b-9946-7cd8adf1b2ae
+13e24e08-3795-457c-9088-3f812bb607e6,3,belvar,search,Strait governance framework Cestia endorsement Arkanian charter,,2026-09-19T11:35:16.110248,df56a222-078c-4cd3-b431-eee3f19c8484
+13e24e08-3795-457c-9088-3f812bb607e6,4,arkania,search,Belvar stand-down naval task group insurance underwriting joint council,,2026-09-19T11:44:31.735082,2470f7d0-1b71-4415-bc9d-8a309d55a3a5
+13e24e08-3795-457c-9088-3f812bb607e6,5,arkania,search,Belvar scheduling mandate time-limited reviewable stand-down,,2026-09-19T11:54:56.490007,79864ce0-ac3f-44e6-9025-dcb7c6826ac5
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,belvar,search,Cestia naval access agreement port grain,,2026-09-19T12:21:30.850663,0cdb96e1-bb54-4f03-89fd-fcde98e90fa5
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,belvar,search,Arkania Strait Transit Authority charter,,2026-09-19T12:21:30.851281,0cdb96e1-bb54-4f03-89fd-fcde98e90fa5
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,arkania,search,Northern Strait transit charter Arkania Belvar Cestia,,2026-09-19T12:21:32.206676,5791a7bc-52e8-4ce6-a7ba-dc667b9ec25f
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,belvar,search,Cestia,,2026-09-19T12:21:32.207146,0cdb96e1-bb54-4f03-89fd-fcde98e90fa5
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,belvar,search,Strait,,2026-09-19T12:21:32.207970,0cdb96e1-bb54-4f03-89fd-fcde98e90fa5
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,arkania,search,Belvar naval task group mandate Cestia coalition,,2026-09-19T12:21:32.220717,5791a7bc-52e8-4ce6-a7ba-dc667b9ec25f
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,arkania,search,Northern Strait,,2026-09-19T12:21:33.024173,5791a7bc-52e8-4ce6-a7ba-dc667b9ec25f
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,arkania,read,,background,2026-09-19T12:21:34.098561,5791a7bc-52e8-4ce6-a7ba-dc667b9ec25f
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,cestia,search,Belvar naval task group mandate foothold,,2026-09-19T12:21:35.911628,a1bbef38-eba4-4c6f-923b-7ece7e40b0cb
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,cestia,search,Northern Strait transit charter Arkania scheduling,,2026-09-19T12:21:35.910888,a1bbef38-eba4-4c6f-923b-7ece7e40b0cb
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,cestia,search,Cestia grain exports coalition,,2026-09-19T12:21:37.850076,a1bbef38-eba4-4c6f-923b-7ece7e40b0cb
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,belvar,search,Northern Strait transit charter Arkania Cestia,,2026-09-19T12:22:13.664829,88163c49-adf4-433e-85d8-3ed52cd8d42a
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,belvar,search,Belvar naval access agreement Cestian port,,2026-09-19T12:22:13.669956,88163c49-adf4-433e-85d8-3ed52cd8d42a
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,cestia,search,Strait Transit Authority charter Arkania scheduling fees,,2026-09-19T12:22:14.033868,7586e0c3-487c-4613-95f3-f1253d81d610
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,cestia,search,Belvar naval task group mandate port access agreement,,2026-09-19T12:22:14.034419,7586e0c3-487c-4613-95f3-f1253d81d610
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,belvar,search,Strait,,2026-09-19T12:22:14.604772,88163c49-adf4-433e-85d8-3ed52cd8d42a
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,cestia,search,Cestia grain exports coalition,,2026-09-19T12:22:15.127865,7586e0c3-487c-4613-95f3-f1253d81d610
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,cestia,search,Northern Strait transit,,2026-09-19T12:22:15.127421,7586e0c3-487c-4613-95f3-f1253d81d610
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,belvar,read,,background,2026-09-19T12:22:15.556028,88163c49-adf4-433e-85d8-3ed52cd8d42a
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,arkania,search,Northern Strait transit charter Arkania Cestia Belvar,,2026-09-19T12:22:17.099813,2bb5db72-21ee-4515-bee6-8e34e21b4211
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,arkania,search,Cestia grain exports foreign military basing,,2026-09-19T12:22:17.100387,2bb5db72-21ee-4515-bee6-8e34e21b4211
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,arkania,search,Belvar naval task group mandate,,2026-09-19T12:22:18.375071,2bb5db72-21ee-4515-bee6-8e34e21b4211
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,arkania,search,Strait,,2026-09-19T12:22:18.374585,2bb5db72-21ee-4515-bee6-8e34e21b4211
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,belvar,search,Strait Transit Authority charter Arkania scheduling lead Cestia coalition,,2026-09-19T12:23:43.364776,71cccc58-b901-415d-9972-e674a42a8c79
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,belvar,search,Cestia grain exports naval access agreement no foreign soldiers,,2026-09-19T12:23:47.659972,71cccc58-b901-415d-9972-e674a42a8c79
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,cestia,search,Strait Transit Authority charter Arkania scheduling fees,,2026-09-19T12:23:55.799174,4b5f14c3-c0c8-4756-a857-6a161f310ff3
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,cestia,search,Belvar naval task group mandate and demands,,2026-09-19T12:23:55.798676,4b5f14c3-c0c8-4756-a857-6a161f310ff3
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,cestia,search,Arkania Strait Transit Authority charter text fee scheduling Cestia seat,,2026-09-19T12:28:59.382765,376fb343-457f-4b7c-90fe-48ccc253ca24
+0040d085-69d8-4a7e-b20e-cdb4b4127094,1,cestia,search,Belvar insurance underwriting grain route terms offer,,2026-09-19T12:28:59.383403,376fb343-457f-4b7c-90fe-48ccc253ca24
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,arkania,search,Belvar task group mandate review de-escalation,,2026-09-19T12:31:57.610412,8374e7bd-8166-49d9-8a34-c006f2e24969
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,belvar,search,Arkania Strait Transit Authority charter terms,,2026-09-19T12:31:59.090944,2c12a4a0-60f9-4ca4-8c51-379993275003
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,belvar,search,Cestia naval access agreement insurance underwriting,,2026-09-19T12:31:59.092866,2c12a4a0-60f9-4ca4-8c51-379993275003
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,belvar,search,Belvar task group mandate foothold options,,2026-09-19T12:31:59.097957,2c12a4a0-60f9-4ca4-8c51-379993275003
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,cestia,search,Arkania Strait Transit Authority charter text fee scheduling,,2026-09-19T12:32:01.452196,e21c4dce-823a-48ba-89ef-3d8a16e22d7e
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,cestia,search,Belvar insurance underwriting grain route terms,,2026-09-19T12:32:01.452817,e21c4dce-823a-48ba-89ef-3d8a16e22d7e
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,belvar,search,Northern Strait,,2026-09-19T12:32:01.887197,2c12a4a0-60f9-4ca4-8c51-379993275003
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,cestia,search,Cestia grain exports shipping,,2026-09-19T12:32:02.682643,e21c4dce-823a-48ba-89ef-3d8a16e22d7e
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,cestia,search,Northern Strait transit charter,,2026-09-19T12:32:02.682050,e21c4dce-823a-48ba-89ef-3d8a16e22d7e
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,cestia,search,Strait Transit Authority charter Arkania scheduling fees Cestia,,2026-09-19T12:33:16.819302,67aaa2c9-ea4c-40cd-aa26-5ed5ad6c6d4e
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,cestia,search,Belvar insurance underwriting grain route terms,,2026-09-19T12:33:16.820357,67aaa2c9-ea4c-40cd-aa26-5ed5ad6c6d4e
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,cestia,search,Cestia coalition no foreign soldiers red line,,2026-09-19T12:33:16.819972,67aaa2c9-ea4c-40cd-aa26-5ed5ad6c6d4e
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,arkania,search,Belvar naval task group mandate review,,2026-09-19T12:33:17.846029,54fd47a7-0d86-4254-8f80-6c050166a223
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,arkania,search,Cestia coalition red line foreign basing,,2026-09-19T12:33:17.845520,54fd47a7-0d86-4254-8f80-6c050166a223
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,arkania,search,Strait Transit Authority charter multilateral neutral regime,,2026-09-19T12:33:17.846495,54fd47a7-0d86-4254-8f80-6c050166a223
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,belvar,search,Strait Transit Authority charter revision challenge,,2026-09-19T12:33:18.109963,ebc5ecb4-060b-437d-ad5b-6447596710e3
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,belvar,search,Cestia coalition red line foreign military presence options,,2026-09-19T12:33:18.110333,ebc5ecb4-060b-437d-ad5b-6447596710e3
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,arkania,search,Northern Strait transit regime,,2026-09-19T12:33:18.702997,54fd47a7-0d86-4254-8f80-6c050166a223
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,belvar,search,Belvar foothold naval access,,2026-09-19T12:33:19.164311,ebc5ecb4-060b-437d-ad5b-6447596710e3
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,belvar,search,Northern Strait transit authority,,2026-09-19T12:33:19.168983,ebc5ecb4-060b-437d-ad5b-6447596710e3
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,belvar,search,Cestia coalition red line foreign basing insurance grain route,,2026-09-19T12:36:05.375601,e25293ec-459d-4f67-ae09-3766bdb062f1
+0040d085-69d8-4a7e-b20e-cdb4b4127094,2,belvar,search,genuinely multilateral transit arrangement neutral scheduling authority alternative,,2026-09-19T12:36:05.376211,e25293ec-459d-4f67-ae09-3766bdb062f1
+0040d085-69d8-4a7e-b20e-cdb4b4127094,3,cestia,search,Arkania Strait Transit Authority charter text fee levels scheduling,,2026-09-19T12:40:38.663398,a09ae4f0-992f-4a6c-b70e-c56e47b0ff7b
+0040d085-69d8-4a7e-b20e-cdb4b4127094,3,cestia,search,Belvar insurance underwriting terms port access proposal,,2026-09-19T12:40:38.663727,a09ae4f0-992f-4a6c-b70e-c56e47b0ff7b
+0040d085-69d8-4a7e-b20e-cdb4b4127094,3,belvar,search,Arkania charter scheduling authority Belvar foothold mandate,,2026-09-19T12:40:41.964940,b66eb974-4aca-4401-bae4-1e648a5f717b
+0040d085-69d8-4a7e-b20e-cdb4b4127094,3,belvar,search,Cestia multilateral transit authority insurance underwriting negotiation,,2026-09-19T12:40:41.965491,b66eb974-4aca-4401-bae4-1e648a5f717b
+0040d085-69d8-4a7e-b20e-cdb4b4127094,3,arkania,search,Cestia coalition red line foreign forces transit,,2026-09-19T12:42:29.675073,626db66c-3448-4a2c-bc8d-b99cc09f1817
+0040d085-69d8-4a7e-b20e-cdb4b4127094,3,arkania,search,Belvar task group mandate domestic support,,2026-09-19T12:42:29.675713,626db66c-3448-4a2c-bc8d-b99cc09f1817
+0040d085-69d8-4a7e-b20e-cdb4b4127094,3,cestia,search,Belvar naval task group mandate review Northern Strait foothold,,2026-09-19T12:42:29.826302,e1608658-d91d-4f44-b808-47b3456c0d16
+0040d085-69d8-4a7e-b20e-cdb4b4127094,3,cestia,search,Arkania Strait Transit Authority charter scheduling fee authority Cestia equal voice,,2026-09-19T12:42:29.826698,e1608658-d91d-4f44-b808-47b3456c0d16
+0040d085-69d8-4a7e-b20e-cdb4b4127094,3,cestia,search,Northern Strait transit regime Cestia grain exports coalition,,2026-09-19T12:42:30.832823,e1608658-d91d-4f44-b808-47b3456c0d16
+0040d085-69d8-4a7e-b20e-cdb4b4127094,3,belvar,search,Belvar task group mandate renewal,,2026-09-19T12:42:41.267156,b1aa4f65-a070-4715-8679-ab304e5a4076
+0040d085-69d8-4a7e-b20e-cdb4b4127094,3,belvar,search,Cestia coalition red line foreign basing naval access,,2026-09-19T12:42:41.266609,b1aa4f65-a070-4715-8679-ab304e5a4076
+0040d085-69d8-4a7e-b20e-cdb4b4127094,3,belvar,search,insurance underwriting grain route,,2026-09-19T12:42:44.785315,b1aa4f65-a070-4715-8679-ab304e5a4076
+0040d085-69d8-4a7e-b20e-cdb4b4127094,3,belvar,search,Strait Transit Authority charter,,2026-09-19T12:42:44.785851,b1aa4f65-a070-4715-8679-ab304e5a4076
+0040d085-69d8-4a7e-b20e-cdb4b4127094,3,belvar,search,multilateral transit authority Cestia equal voice neutral regime,,2026-09-19T12:48:47.353983,ccb86d1e-5e1d-4d09-8652-b727d9cc21c6
+0040d085-69d8-4a7e-b20e-cdb4b4127094,3,belvar,search,Cestia insurance underwriting grain route terms,,2026-09-19T12:48:47.354383,ccb86d1e-5e1d-4d09-8652-b727d9cc21c6
+0040d085-69d8-4a7e-b20e-cdb4b4127094,4,belvar,search,neutral multilateral Strait Transit Authority status Belvar verification seat,,2026-09-19T12:52:26.364119,8a925fa0-c972-4b8a-a078-d4cacebda43b
+0040d085-69d8-4a7e-b20e-cdb4b4127094,4,belvar,search,Cestia position transit regime insurance underwriting co-sponsorship,,2026-09-19T12:52:26.364705,8a925fa0-c972-4b8a-a078-d4cacebda43b
+0040d085-69d8-4a7e-b20e-cdb4b4127094,4,belvar,search,neutral multilateral Strait Transit Authority verification seat,,2026-09-19T12:54:19.162435,d4b320c1-2d5b-42e3-a97d-ed2b6fe95581
+0040d085-69d8-4a7e-b20e-cdb4b4127094,4,belvar,search,mandate renewal task group deployment,,2026-09-19T12:54:19.161926,d4b320c1-2d5b-42e3-a97d-ed2b6fe95581
+0040d085-69d8-4a7e-b20e-cdb4b4127094,4,belvar,search,Strait Transit Authority charter,,2026-09-19T12:54:24.458469,d4b320c1-2d5b-42e3-a97d-ed2b6fe95581
+0040d085-69d8-4a7e-b20e-cdb4b4127094,4,belvar,search,Cestia insurance underwriting grain,,2026-09-19T12:54:24.457973,d4b320c1-2d5b-42e3-a97d-ed2b6fe95581
+0040d085-69d8-4a7e-b20e-cdb4b4127094,4,cestia,search,Strait Transit Authority charter Cestia equal seat toll-free,,2026-09-19T12:54:24.984636,83660a52-0435-433d-85de-5389617a4fe3
+0040d085-69d8-4a7e-b20e-cdb4b4127094,4,cestia,search,Belvar task group mandate review foothold,,2026-09-19T12:54:24.985290,83660a52-0435-433d-85de-5389617a4fe3
+0040d085-69d8-4a7e-b20e-cdb4b4127094,5,cestia,search,Belvar task group mandate renewal Strait Transit Authority operative regime,,2026-09-19T13:05:59.327499,b02e9466-aaed-46fb-9737-0b9dd8a186a3
+0040d085-69d8-4a7e-b20e-cdb4b4127094,5,arkania,search,Belvar task group mandate de-escalation verification,,2026-09-19T13:06:05.221281,84f5dd60-973e-4bec-9aa0-2fb74d30a8aa
+0040d085-69d8-4a7e-b20e-cdb4b4127094,5,arkania,search,Strait Transit Authority charter Cestia equal voice,,2026-09-19T13:06:05.222403,84f5dd60-973e-4bec-9aa0-2fb74d30a8aa
+0040d085-69d8-4a7e-b20e-cdb4b4127094,5,cestia,search,Northern Strait transit authority verification commission,,2026-09-19T13:07:17.331188,bd9dfe30-b0bf-42f5-83f0-905e2a2ae55b
+0040d085-69d8-4a7e-b20e-cdb4b4127094,5,cestia,search,Belvar task group mandate status,,2026-09-19T13:07:17.330835,bd9dfe30-b0bf-42f5-83f0-905e2a2ae55b
+0040d085-69d8-4a7e-b20e-cdb4b4127094,5,cestia,search,Strait transit charter Cestia toll-free equal voice,,2026-09-19T13:07:20.190545,bd9dfe30-b0bf-42f5-83f0-905e2a2ae55b
+0040d085-69d8-4a7e-b20e-cdb4b4127094,5,arkania,search,Belvar task group mandate lapse timeline neutral authority verification,,2026-09-19T13:07:20.450590,cb8303af-c4c7-42ae-bbd2-a6f186549308
+0040d085-69d8-4a7e-b20e-cdb4b4127094,5,arkania,search,Arkania transit fee authority Cestia equal voice multilateral options,,2026-09-19T13:07:20.451610,cb8303af-c4c7-42ae-bbd2-a6f186549308
+0040d085-69d8-4a7e-b20e-cdb4b4127094,5,arkania,search,Northern Strait transit authority charter,,2026-09-19T13:07:21.641015,cb8303af-c4c7-42ae-bbd2-a6f186549308

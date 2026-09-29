@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<false/>
+	<key>Label</key>
+	<string>com.amaw.i160-ns-v16-20260928-112326</string>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/opt/homebrew/bin/uv</string>
+		<string>run</string>
+		<string>amaw</string>
+		<string>run</string>
+		<string>scenarios/northern-strait</string>
+		<string>--player-model</string>
+		<string>deepseek/deepseek-v4-flash-0731</string>
+		<string>--umpire-model</string>
+		<string>deepseek/deepseek-v4-flash-0731</string>
+		<string>--umpire-prompt-version</string>
+		<string>umpire-v1.6</string>
+		<string>--seed</string>
+		<string>424242</string>
+		<string>--request-timeout-seconds</string>
+		<string>300</string>
+		<string>--activation-mode</string>
+		<string>single_shot</string>
+		<string>--player-temperature</string>
+		<string>0</string>
+		<string>--player-reasoning-effort</string>
+		<string>low</string>
+		<string>--player-max-tokens</string>
+		<string>8000</string>
+		<string>--umpire-temperature</string>
+		<string>0</string>
+		<string>--umpire-reasoning-effort</string>
+		<string>low</string>
+		<string>--umpire-max-tokens</string>
+		<string>16000</string>
+		<string>--log-level</string>
+		<string>DEBUG</string>
+		<string>--log-file</string>
+		<string>dev/runs/i160-northern-strait-umpire-v16-20260928-112326/run.log</string>
+		<string>--stream-game-details</string>
+		<string>--export-path</string>
+		<string>dev/runs/i160-northern-strait-umpire-v16-20260928-112326/export.json</string>
+		<string>--run-class</string>
+		<string>playtest</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/martin/Projects/AMAW/dev/runs/i160-northern-strait-umpire-v16-20260928-112326/stdout.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/martin/Projects/AMAW/dev/runs/i160-northern-strait-umpire-v16-20260928-112326/stdout.log</string>
+	<key>WorkingDirectory</key>
+	<string>/Users/martin/Projects/AMAW</string>
+</dict>
+</plist>

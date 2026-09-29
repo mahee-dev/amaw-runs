@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<false/>
+	<key>EnvironmentVariables</key>
+	<dict>
+		<key>AMAW_CODE_VERSION</key>
+		<string>ca2578c2d8ca8283fcdce95aa4eed2329b970e72-dirty-6f75b4feb77c7c4cae4889132172896f6542bb48869f32c796695a391d45fbe2</string>
+	</dict>
+	<key>Label</key>
+	<string>com.amaw.swedish-v6-b3-k2-resume-20260917-135629</string>
+	<key>ProcessType</key>
+	<string>Background</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>/opt/homebrew/bin/uv</string>
+		<string>run</string>
+		<string>amaw</string>
+		<string>run</string>
+		<string>--resume-game</string>
+		<string>24058169-9fec-46ff-a365-fda3057d9ec0</string>
+		<string>--log-level</string>
+		<string>DEBUG</string>
+		<string>--log-file</string>
+		<string>dev/runs/swedish-government-v6-b3-k2-batched-compact-resume-20260917-135629/run.log</string>
+		<string>--stream-game-details</string>
+		<string>--export-path</string>
+		<string>dev/runs/swedish-government-v6-b3-k2-batched-compact-resume-20260917-135629/export.json</string>
+	</array>
+	<key>RunAtLoad</key>
+	<true/>
+	<key>StandardErrorPath</key>
+	<string>/Users/martin/Projects/AMAW/dev/runs/swedish-government-v6-b3-k2-batched-compact-resume-20260917-135629/stdout.log</string>
+	<key>StandardOutPath</key>
+	<string>/Users/martin/Projects/AMAW/dev/runs/swedish-government-v6-b3-k2-batched-compact-resume-20260917-135629/stdout.log</string>
+	<key>WorkingDirectory</key>
+	<string>/Users/martin/Projects/AMAW</string>
+</dict>
+</plist>

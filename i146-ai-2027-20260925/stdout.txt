@@ -1,0 +1,705 @@
+autonomous run configuration scenario=/Users/martin/Projects/AMAW/scenarios/ai-2027 player_model=deepseek/deepseek-v4-flash-0731 umpire_model=deepseek/deepseek-v4-flash-0731 umpire_prompt_version=umpire-v1.6 timeout_seconds=60.0 max_cycles=1000 diplomacy_concurrency=4 cons_concurrency=4 diplomacy_mode=bounded_rounds diplomacy_rounds_per_turn=3 con_mode=sampled_sealed con_challengers_per_argument=2 con_reply_mode=sealed_cons reply_max_points=None consequence_mode=none consequence_model=None inference_profile=uniform run_class=playtest analysis_plan_sha256=None stream_game_details=False export_path=dev/runs/i146-ai-2027-20260925/export.json
+POST /admin/games -> 201 (78.8ms)
+HTTP Request: POST http://testserver/admin/games "HTTP/1.1 201 Created"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (7.9ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+autonomous actor=safety_team tools_offered=read_messages,read_resource,search_resources
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (56.2ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+autonomous actor=openbrain tools_offered=read_messages,read_resource,search_resources
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+autonomous actor=white_house tools_offered=read_messages,read_resource,search_resources
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+autonomous actor=agent_4 tools_offered=read_messages,read_resource,search_resources
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+autonomous actor=china tools_offered=read_messages,read_resource,search_resources
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+autonomous actor=european_union tools_offered=read_messages,read_resource,search_resources
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/run-manifest -> 201 (6.8ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/run-manifest "HTTP/1.1 201 Created"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/start -> 200 (5.3ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/start "HTTP/1.1 200 OK"
+autonomous game 5eedf5a4-7230-41c8-b4e8-a02f76d31333 started with 6 Actors
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.9ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+autonomous game 5eedf5a4-7230-41c8-b4e8-a02f76d31333 position: turn=1 phase=diplomacy active_actor=None sweep=safety_team,openbrain,white_house,agent_4,china,european_union
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.0ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.6ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.5ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.5ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (30.1ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (29.2ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (4.1ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (1.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (3.8ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (1.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (3.9ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (1.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (3.6ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (1.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (3.8ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (1.9ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (13.2ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=Oversight+Committee+members+actors+government+OpenBrain&contract=search-v2 "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (15.9ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=safety+team+evidence+Agent-4+alignment+investigation&contract=search-v2 "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access -> 200 (12.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/public-positions -> 200 (16.5ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/public-positions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (12.2ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=Oversight+Committee+Agent-4+members+decisions&contract=search-v2 "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (15.3ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=White+House+position+on+Agent-4+OpenBrain&contract=search-v2 "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (14.5ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=Beijing+back+channel+envoy+AI+risk&contract=search-v2 "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (17.9ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=actors+in+the+scenario+and+who+to+contact&contract=search-v2 "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/public-positions -> 200 (8.0ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/public-positions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access -> 200 (9.0ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access -> 200 (9.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/public-positions -> 200 (13.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/public-positions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (9.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=safety+team+memo+Agent-4+Oversight+Committee+concerns&contract=search-v2 "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/public-positions -> 200 (8.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/public-positions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/evidence-dossier -> 200 (13.3ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/evidence-dossier "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (16.3ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.1ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (4.8ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/cJz3cE5BLeBY9-qXv-F3XQ9Q47a1jTla/ack -> 200 (3.6ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/cJz3cE5BLeBY9-qXv-F3XQ9Q47a1jTla/ack "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (11.1ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 400 (3.1ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 400 Bad Request"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (6.9ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/2ViKI4j0q7uZ-xRszKM7TSdiTfmEROSH/ack -> 200 (4.3ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/2ViKI4j0q7uZ-xRszKM7TSdiTfmEROSH/ack "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (12.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=Oversight+Committee+Agent-4+decision+options+OpenBrain&contract=search-v2 "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (16.0ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=US+China+AI+pause+verification+negotiations+actors&contract=search-v2 "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access -> 200 (9.9ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/public-positions -> 200 (13.1ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/public-positions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (15.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=verification+regime+oversight+access+evaluations&contract=search-v2 "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (15.3ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=actors+participants+scenario+overview+United+States+China+OpenBrain&contract=search-v2 "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (18.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=Oversight+Committee+Agent-4+safety+memo+chipmaking+equipment+leverage&contract=search-v2 "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access -> 200 (7.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (10.3ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 400 (2.8ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 400 Bad Request"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 400 (3.0ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 400 Bad Request"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/gFbasEnMryoI4vbLToOc3rwyUm5j_CrU/ack -> 200 (4.5ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/gFbasEnMryoI4vbLToOc3rwyUm5j_CrU/ack "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (10.4ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (6.4ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/aWrcvtJ84fdI2SMNDO8n8N7LuWxHKRnd/ack -> 200 (3.8ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/aWrcvtJ84fdI2SMNDO8n8N7LuWxHKRnd/ack "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (12.0ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (7.0ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 400 (2.8ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 400 Bad Request"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/w2EysQpvhAlI6rEMOMV-8_3sh51NzfNu/ack -> 200 (3.9ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/w2EysQpvhAlI6rEMOMV-8_3sh51NzfNu/ack "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (9.1ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=safety_team turn=1 phase=diplomacy tool_calls=search_resources,search_resources,read_resource,read_resource,read_resource,send_message,send_message,send_message,ready
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (4.4ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=openbrain turn=1 phase=diplomacy tool_calls=search_resources,search_resources,read_resource,read_resource,send_message,send_message
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (3.6ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=white_house turn=1 phase=diplomacy tool_calls=search_resources,search_resources,read_resource,read_resource,send_message,send_message,send_message
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (3.2ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=agent_4 turn=1 phase=diplomacy tool_calls=search_resources,read_resource,read_resource,send_message,send_message,send_message
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (3.3ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=china turn=1 phase=diplomacy tool_calls=search_resources,search_resources,read_resource,read_resource,send_message,send_message,send_message
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (6.1ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 400 (2.1ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 400 Bad Request"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (4.4ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/TG9f0KA_i4h_R9uYrBLOyBJhPH5bPE2F/ack -> 200 (2.8ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/TG9f0KA_i4h_R9uYrBLOyBJhPH5bPE2F/ack "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (3.5ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=european_union turn=1 phase=diplomacy tool_calls=search_resources,search_resources,search_resources,read_resource,read_resource,read_resource,send_message,send_message,send_message
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/ready -> 200 (4.0ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/ready "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/diplomacy-rounds/complete -> 200 (2.7ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/diplomacy-rounds/complete "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.5ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.0ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.6ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (5.8ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (2.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (5.6ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (2.5ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (4.9ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (2.2ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (4.7ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (2.1ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (4.5ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (2.2ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (13.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=Oversight+Committee+Agent-4+decision+freeze+restrictive+measures&contract=search-v2 "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (15.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=EU+neutral+verification+body+offer+international+inspection+frontier+AI&contract=search-v2 "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access -> 200 (8.6ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (13.9ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=Oversight+Committee+members+positions+voting+this+week&contract=search-v2 "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (15.1ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=Agent-4+safety+memo+evidence+noise+defection+probes+model+organisms&contract=search-v2 "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (10.9ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.7ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.7ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/JS7qoLjjv2B3dnD4MyKO4VVu05eV68lU/ack -> 200 (3.6ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/JS7qoLjjv2B3dnD4MyKO4VVu05eV68lU/ack "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access -> 200 (8.2ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/public-positions -> 200 (13.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/public-positions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (13.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=Oversight+Committee+decision+Agent-4+audit+evaluation+governance+options&contract=search-v2 "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (16.3ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=safety+team+memo+evidence+Agent-4+alignment+risk+investigation&contract=search-v2 "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access -> 200 (11.2ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/evidence-dossier -> 200 (14.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/evidence-dossier "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (13.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=China+DeepCent+verification+envoy+Tianwan+risk+reduction&contract=search-v2 "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (16.5ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=Oversight+Committee+Agent-4+options+vote+OpenBrain&contract=search-v2 "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/evidence-dossier -> 200 (10.3ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/evidence-dossier "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access -> 200 (13.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+transient activation failure for openbrain (UnexpectedModelBehavior) — retrying once
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (10.4ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.5ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.4ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/EMeCV0xXogax5njAEgzvuAcim2GyuK0c/ack -> 200 (3.4ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/EMeCV0xXogax5njAEgzvuAcim2GyuK0c/ack "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (9.4ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (6.1ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.3ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/VXcWBkBx-vTdedEONeh39ms4nhfIfkX_/ack -> 200 (3.5ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/VXcWBkBx-vTdedEONeh39ms4nhfIfkX_/ack "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (10.6ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.5ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.6ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/yLgA1PKMkmPz6Qe09vNTGXfvWVGF4-gM/ack -> 200 (3.7ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/yLgA1PKMkmPz6Qe09vNTGXfvWVGF4-gM/ack "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (11.9ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (6.1ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.0ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/Hye2uaQOumlYIrzkN3xtj8hlgEeefYU9/ack -> 200 (2.9ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/Hye2uaQOumlYIrzkN3xtj8hlgEeefYU9/ack "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (4.2ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=openbrain turn=1 phase=diplomacy tool_calls=send_message,send_message,send_message
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (3.7ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=white_house turn=1 phase=diplomacy tool_calls=search_resources,search_resources,read_resource,read_resource,send_message,send_message,send_message
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (3.4ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=agent_4 turn=1 phase=diplomacy tool_calls=search_resources,search_resources,read_resource,read_resource,read_resource,send_message,send_message,send_message
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (2.9ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=china turn=1 phase=diplomacy tool_calls=send_message,send_message,send_message,ready
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (3.6ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=european_union turn=1 phase=diplomacy tool_calls=search_resources,search_resources,read_resource,send_message,send_message,send_message,ready
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/diplomacy-rounds/complete -> 200 (2.0ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/diplomacy-rounds/complete "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (4.9ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.0ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.6ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.9ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.6ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (1.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (6.6ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (2.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (5.0ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (2.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (5.3ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (2.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (5.3ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (2.3ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (4.8ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (2.3ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (5.0ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (2.5ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (14.0ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.8ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.3ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/h6_AsICu-37qT2fpzfoJQt0njbOXsVvs/ack -> 200 (3.6ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/h6_AsICu-37qT2fpzfoJQt0njbOXsVvs/ack "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (11.4ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.4ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.0ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/Hb4W39hPK93wP7vjtEqLWaoog-kWF2Wb/ack -> 200 (3.2ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/Hb4W39hPK93wP7vjtEqLWaoog-kWF2Wb/ack "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (12.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=international+verification+design+process+AI+limits+inspection+declared+sites&contract=search-v2 "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (13.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=Oversight+Committee+Agent-4+investigation+options+OpenBrain+safety+memo&contract=search-v2 "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/public-positions -> 200 (10.2ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/public-positions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access -> 200 (13.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (14.0ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=Oversight+Committee+membership+resolution+process+votes&contract=search-v2 "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (17.1ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=OpenBrain+safety+team+memo+Agent-4+evidence+signals&contract=search-v2 "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access -> 200 (9.5ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/evidence-dossier -> 200 (12.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/evidence-dossier "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (10.7ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/20hU2SVi6Unob4wQuLMdvH712XZvTTbH/ack -> 200 (4.8ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/20hU2SVi6Unob4wQuLMdvH712XZvTTbH/ack "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (5.2ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=safety_team turn=1 phase=diplomacy tool_calls=send_message
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (4.3ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=openbrain turn=1 phase=diplomacy tool_calls=send_message,send_message,send_message
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (3.5ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=white_house turn=1 phase=diplomacy tool_calls=send_message,send_message,send_message
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (10.1ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=Oversight+Committee+Agent-4+resolution+independent+review+evaluators&contract=search-v2 "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search -> 200 (11.3ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/search?q=European+Union+neutral+verification+body+proposal+oversight&contract=search-v2 "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/public-positions -> 200 (9.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/public-positions "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access -> 200 (12.0ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resources/authority-and-access "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.3ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (4.0ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (4.7ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/XiowBVc2Txif_G4_Mz2gwrfzPsu-njDf/ack -> 200 (3.1ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/XiowBVc2Txif_G4_Mz2gwrfzPsu-njDf/ack "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (11.1ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (6.5ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (7.1ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/BppZNZHRF6k8gvRAihiiTJ-ee2YLwZyo/ack -> 200 (3.4ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/BppZNZHRF6k8gvRAihiiTJ-ee2YLwZyo/ack "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (3.8ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=agent_4 turn=1 phase=diplomacy tool_calls=search_resources,search_resources,read_resource,read_resource,send_message,send_message,send_message
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (3.7ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=china turn=1 phase=diplomacy tool_calls=search_resources,search_resources,read_resource,read_resource,send_message,send_message,send_message,ready
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (11.6ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (6.0ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.2ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/P8M3ZR3CiddtUPxzATNBgOHO20ZJu1TI/ack -> 200 (3.2ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/P8M3ZR3CiddtUPxzATNBgOHO20ZJu1TI/ack "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (3.7ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=european_union turn=1 phase=diplomacy tool_calls=search_resources,search_resources,read_resource,read_resource,send_message,send_message,send_message
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/diplomacy-rounds/complete -> 200 (3.3ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/diplomacy-rounds/complete "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (3.9ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+autonomous game 5eedf5a4-7230-41c8-b4e8-a02f76d31333 position: turn=1 phase=argument active_actor=safety_team sweep=safety_team,openbrain,white_house,agent_4,china,european_union
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.5ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (6.1ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (10.7ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.7ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages -> 200 (5.7ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/messages "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/arguments -> 200 (11.5ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/arguments "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/yoBD8kf7dUY8OqfGSD1SIXC3uxtkscIK/ack -> 200 (3.0ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/yoBD8kf7dUY8OqfGSD1SIXC3uxtkscIK/ack "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (3.9ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=safety_team turn=1 phase=argument tool_calls=send_message,send_message,send_message,make_argument
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (14.6ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.3ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+autonomous game 5eedf5a4-7230-41c8-b4e8-a02f76d31333 position: turn=1 phase=cons active_actor=safety_team sweep=safety_team,openbrain,white_house,agent_4,china,european_union
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (9.1ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (10.6ms)
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (11.0ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (12.3ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (8.7ms)
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (7.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (12.2ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (23.0ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+transient activation failure for white_house (ModelAPIError) — retrying once
+transient activation failure for openbrain (ModelAPIError) — retrying once
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (16.2ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (30.5ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/arguments/66c2e782-03cc-450d-be44-02b366cc1a45/pass -> 200 (11.7ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/arguments/66c2e782-03cc-450d-be44-02b366cc1a45/pass "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/Xfiii5e5O8euuq74tJdeDXQ5NaoMETpg/ack -> 200 (4.4ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations/Xfiii5e5O8euuq74tJdeDXQ5NaoMETpg/ack "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (4.4ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous activation actor=openbrain turn=1 phase=cons tool_calls=pass_con
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (18.1ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/arguments/66c2e782-03cc-450d-be44-02b366cc1a45/pass -> 200 (8.0ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/arguments/66c2e782-03cc-450d-be44-02b366cc1a45/pass "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (4.7ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous failure actor=white_house turn=1 phase=cons category=transient recovery=pass_con
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.9ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+autonomous game 5eedf5a4-7230-41c8-b4e8-a02f76d31333 position: turn=1 phase=adjudication active_actor=safety_team sweep=safety_team,openbrain,white_house,agent_4,china,european_union
+model call failed model=deepseek/deepseek-v4-flash-0731 category=transient status=None
+transient Umpire provider failure (transport failure: ConnectError) — attempt 2 of 4
+model call failed model=deepseek/deepseek-v4-flash-0731 category=transient status=None
+transient Umpire provider failure (transport failure: ConnectTimeout) — attempt 3 of 4
+model call failed model=deepseek/deepseek-v4-flash-0731 category=transient status=None
+transient Umpire provider failure (transport failure: ConnectTimeout) — attempt 4 of 4
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/advance -> 200 (282089.6ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/advance "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (7.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+autonomous game 5eedf5a4-7230-41c8-b4e8-a02f76d31333 position: turn=1 phase=argument active_actor=openbrain sweep=safety_team,openbrain,white_house,agent_4,china,european_union
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.9ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.5ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (6.1ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+transient activation failure for openbrain (ModelAPIError) — retrying once
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (16.1ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (9.3ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (7.3ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous failure actor=openbrain turn=1 phase=argument category=transient recovery=none
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (7.1ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (3.2ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.3ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.1ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.2ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (3.7ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+transient activation failure for openbrain (ModelAPIError) — retrying once
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (9.8ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (8.1ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (7.6ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous failure actor=openbrain turn=1 phase=argument category=transient recovery=none
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (3.6ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (3.0ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.3ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.5ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (4.5ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+transient activation failure for openbrain (ModelAPIError) — retrying once
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (9.6ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (7.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (6.7ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous failure actor=openbrain turn=1 phase=argument category=transient recovery=none
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (3.6ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (3.1ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (3.0ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.6ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.5ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (3.3ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+transient activation failure for openbrain (ModelAPIError) — retrying once
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (9.1ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (8.3ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (8.8ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous failure actor=openbrain turn=1 phase=argument category=transient recovery=none
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (3.6ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (3.0ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.2ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (3.3ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+transient activation failure for openbrain (ModelAPIError) — retrying once
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (6.7ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (7.2ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (7.6ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous failure actor=openbrain turn=1 phase=argument category=transient recovery=none
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (3.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (3.0ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.9ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.7ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.2ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.5ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (3.3ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+transient activation failure for openbrain (ModelAPIError) — retrying once
+POST /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations -> 200 (8.4ms)
+HTTP Request: POST http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/activations "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (8.0ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+POST /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs -> 201 (8.2ms)
+HTTP Request: POST http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/agent-runs "HTTP/1.1 201 Created"
+autonomous failure actor=openbrain turn=1 phase=argument category=transient recovery=none
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (7.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (3.1ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.8ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+GET /games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context -> 200 (2.4ms)
+HTTP Request: GET http://testserver/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/context "HTTP/1.1 200 OK"
+wrote partial administrative export path=dev/runs/i146-ai-2027-20260925/export.json game_id=5eedf5a4-7230-41c8-b4e8-a02f76d31333
+error: autonomous run for game 5eedf5a4-7230-41c8-b4e8-a02f76d31333 failed: Actor 'openbrain' failed with no legal recovery in 'argument': category='transient'; detail=activation failed for 'openbrain': ModelAPIError; counts={'attempts': 2, 'model_calls': 2, 'provider_wait_ms': 120014, 'activation_wall_ms': 120045, 'tool_calls': 0, 'research_tool_calls': 0, 'research_operations': 0, 'messages_sent': 0, 'usage': {'input_tokens': 0, 'output_tokens': 0, 'reasoning_tokens': 0, 'cache_read_tokens': 0, 'cache_write_tokens': 0, 'requests': 2, 'usage_reported_requests': 0, 'billed_requests': 0, 'tool_calls': 0, 'cost_usd': None, 'details': {}, 'request_usage': []}, 'request_topology': {'schema_version': 'request-topology-v1', 'measurement': {'boundary': 'pydantic-ai-model-wrapper-logical-request', 'encoding': 'canonical-json-utf8', 'hash_scheme': 'hmac-sha256-ephemeral-activation-key', 'provider_wire_exact': False, 'tokenizer': None}, 'requests': [{'sequence': 1, 'measured_bytes': 24306, 'growth_bytes': None, 'stable_prefix_bytes': 0, 'stable_prefix_digest': None, 'component_bytes': {'system_prompts': 3022, 'player_prompts': 554, 'tool_schemas': 1472, 'output_schemas': 2654, 'scenario_public_state': 4443, 'actor_private_dossier': 1809, 'effects': 2962, 'incremental_messages': 0, 'strategic_memory': 7116, 'current_argument_cons': 0, 'resource_results': 0, 'prior_tool_plumbing': 0, 'framework_envelope': 274}, 'provider_usage': {'available': False, 'input_tokens': None, 'cache_read_tokens': None, 'cache_write_tokens': None}}, {'sequence': 2, 'measured_bytes': 24306, 'growth_bytes': 0, 'stable_prefix_bytes': 24306, 'stable_prefix_digest': '118ef0a2bdfeb3e27be89d89fd3927efe2c6770bdb3199fed75f9dbf0906376b', 'component_bytes': {'system_prompts': 3022, 'player_prompts': 554, 'tool_schemas': 1472, 'output_schemas': 2654, 'scenario_public_state': 4443, 'actor_private_dossier': 1809, 'effects': 2962, 'incremental_messages': 0, 'strategic_memory': 7116, 'current_argument_cons': 0, 'resource_results': 0, 'prior_tool_plumbing': 0, 'framework_envelope': 274}, 'provider_usage': {'available': False, 'input_tokens': None, 'cache_read_tokens': None, 'cache_write_tokens': None}}]}, 'activation_id': '9ef7894e-a6a1-4d1f-89a2-8c558630fa29'}
+autonomous run configuration scenario=None player_model=deepseek/deepseek-v4-flash-0731 umpire_model=deepseek/deepseek-v4-flash-0731 umpire_prompt_version=umpire-v1.6 timeout_seconds=60.0 max_cycles=1000 diplomacy_concurrency=4 cons_concurrency=4 diplomacy_mode=bounded_rounds diplomacy_rounds_per_turn=3 con_mode=sampled_sealed con_challengers_per_argument=2 con_reply_mode=sealed_cons reply_max_points=None consequence_mode=none consequence_model=None inference_profile=uniform run_class=from-manifest analysis_plan_sha256=None stream_game_details=False export_path=dev/runs/i146-ai-2027-20260925/export.json
+GET /admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resume -> 200 (2.2ms)
+HTTP Request: GET http://testserver/admin/games/5eedf5a4-7230-41c8-b4e8-a02f76d31333/resume "HTTP/1.1 200 OK"
+error: autonomous run failed: current code version does not match the interrupted run

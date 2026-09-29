@@ -1,0 +1,403 @@
+{
+  "analysis_plan": null,
+  "analysis_plan_sha256": null,
+  "attempts": [
+    {
+      "actor_affected": "belvar",
+      "assignment_id": "assignment-01",
+      "assignment_index": 0,
+      "benchmark_mode": "model",
+      "completed": false,
+      "condition_differences": [],
+      "directory": "000-assignment-01-rep00",
+      "experiment_id": "t060-provider",
+      "failure_category": "server_failure",
+      "failure_reason": "AutonomousGameError: admin POST /admin/games/db0b054a-bda3-4cc1-bca2-74e741159ef1/agent-runs failed (400 invalid_request): reasoning_tokens cannot exceed inclusive output_tokens",
+      "finished_at": "2026-09-21T19:07:05.360+00:00",
+      "game_id": "db0b054a-bda3-4cc1-bca2-74e741159ef1",
+      "models": {
+        "arkania": "deepseek/deepseek-v4-flash-0731",
+        "belvar": "deepseek/deepseek-v4-flash-0731",
+        "cestia": "deepseek/deepseek-v4-flash-0731"
+      },
+      "position": 0,
+      "repetition_index": 0,
+      "rotation_policy": "single",
+      "seed": 60000,
+      "started_at": "2026-09-21T18:42:14.066+00:00",
+      "status": "failed",
+      "turn_reached": 2,
+      "umpire_condition_match": true
+    },
+    {
+      "actor_affected": "arkania",
+      "assignment_id": "assignment-01",
+      "assignment_index": 0,
+      "benchmark_mode": "model",
+      "completed": false,
+      "condition_differences": [],
+      "directory": "001-assignment-01-rep01",
+      "experiment_id": "t060-provider",
+      "failure_category": "server_failure",
+      "failure_reason": "AutonomousGameError: admin POST /admin/games/89729d3e-31bd-45aa-b5f1-d570c78a9a98/agent-runs failed (400 invalid_request): reasoning_tokens cannot exceed inclusive output_tokens",
+      "finished_at": "2026-09-21T19:14:05.123+00:00",
+      "game_id": "89729d3e-31bd-45aa-b5f1-d570c78a9a98",
+      "models": {
+        "arkania": "deepseek/deepseek-v4-flash-0731",
+        "belvar": "deepseek/deepseek-v4-flash-0731",
+        "cestia": "deepseek/deepseek-v4-flash-0731"
+      },
+      "position": 1,
+      "repetition_index": 1,
+      "rotation_policy": "single",
+      "seed": 60001,
+      "started_at": "2026-09-21T19:07:05.369+00:00",
+      "status": "failed",
+      "turn_reached": 1,
+      "umpire_condition_match": true
+    }
+  ],
+  "base_seed": 60000,
+  "benchmark_mode": "model",
+  "completed_games": 0,
+  "completion_rate": 0.0,
+  "coordinator": {
+    "con_challengers_per_argument": null,
+    "con_mode": "open_cons",
+    "con_reply_mode": "sealed_cons",
+    "cons_concurrency": 4,
+    "diplomacy_concurrency": 4,
+    "diplomacy_mode": "open_diplomacy",
+    "diplomacy_rounds_per_turn": null,
+    "max_cycles": 1000,
+    "reply_max_points": null
+  },
+  "created_at": "2026-09-21T18:42:13+00:00",
+  "executed_games": 2,
+  "execution_success_rate": 0.0,
+  "expected_condition": {
+    "benchmark.analysis_plan": null,
+    "benchmark.benchmark_mode": "model",
+    "benchmark.experiment_id": "t060-provider",
+    "benchmark.mode": "batch",
+    "benchmark.rotation_policy": "single",
+    "benchmark.run_class": "playtest",
+    "benchmark.scheduling_seed": 7,
+    "benchmark.seed_policy": "base_seed + assignment_index * 1000 + repetition_index",
+    "code_version": "90353d13df5bc037d104e0b2f0a2121519e05f17-dirty-7467a8f613fcd7ad95d33b96441f67e3356edf79c0f0b75df06155433b024674",
+    "coordinator": {
+      "cons_concurrency": 4,
+      "diplomacy_concurrency": 4,
+      "sweep": "seat-order-rotated"
+    },
+    "environment.sha256": "61c484f1d4cbf5f2165d0dea6b90fa787bca8ce0577583e2e2c7274f5dd83480",
+    "game_loop": {
+      "con_challengers_per_argument": null,
+      "con_mode": "open_cons",
+      "con_policy_version": "con-policy-v1",
+      "con_reply_mode": "sealed_cons",
+      "con_reply_policy_version": "con-reply-policy-v1",
+      "diplomacy_mode": "open_diplomacy",
+      "diplomacy_policy_version": "diplomacy-policy-v1",
+      "diplomacy_rounds_per_turn": null,
+      "reply_max_points": null
+    },
+    "player.activation_mode": "tool_loop",
+    "player.agent_framework": "pydantic-ai",
+    "player.agent_framework_version": "2.42.0",
+    "player.context_mode": "incremental-context-v1",
+    "player.inference_profile": {
+      "name": "uniform",
+      "phases": {
+        "argument": {
+          "max_tokens": 4000,
+          "reasoning_effort": "low"
+        },
+        "cons": {
+          "max_tokens": 4000,
+          "reasoning_effort": "low"
+        },
+        "diplomacy": {
+          "max_tokens": 4000,
+          "reasoning_effort": "low"
+        },
+        "reply": {
+          "max_tokens": 4000,
+          "reasoning_effort": "low"
+        }
+      }
+    },
+    "player.max_messages_per_activation": 3,
+    "player.memory_version": "strategic-memory-v1",
+    "player.prompt_hash": "cbc49a2c9467d7f00bbd902f1a29a231cab27e73c19d600b0392dc15f1bb2e22",
+    "player.prompt_version": "player-v1.10",
+    "player.research_history_mode": "full-v1",
+    "player.research_mode": "sequential-v1",
+    "player.tool_schema_version": "player-tools-v11-live-bounded-research",
+    "player.tool_surface": "broad",
+    "resume.coordinator": {
+      "con_challengers_per_argument": null,
+      "con_mode": "open_cons",
+      "con_reply_mode": "sealed_cons",
+      "cons_concurrency": 4,
+      "diplomacy_concurrency": 4,
+      "diplomacy_mode": "open_diplomacy",
+      "diplomacy_rounds_per_turn": null,
+      "max_cycles": 1000,
+      "reply_max_points": null
+    },
+    "resume.inference_profile": {
+      "name": "uniform",
+      "phases": {},
+      "schema": "inference-profile-v1",
+      "umpire": {}
+    },
+    "resume.player.activation_mode": "tool_loop",
+    "resume.player.guardrails": {
+      "max_activations_per_opportunity": 3,
+      "max_argument_action_chars": 2000,
+      "max_desired_effect_chars": 2000,
+      "max_llm_iterations": 8,
+      "max_message_chars": 4000,
+      "max_messages_per_activation": 3,
+      "max_messages_per_phase": 2,
+      "max_note_chars": 4000,
+      "max_pro_chars": 1000,
+      "max_pros": 5,
+      "max_research_operations": 4,
+      "max_research_tool_calls": 4,
+      "max_tool_calls": 12,
+      "max_tool_payload_bytes": 16384
+    },
+    "resume.player.max_tokens": 4000,
+    "resume.player.prompt_version": "player-v1.10",
+    "resume.player.reasoning_effort": "low",
+    "resume.player.research_history_mode": "full-v1",
+    "resume.player.research_mode": "sequential-v1",
+    "resume.player.temperature": 0.0,
+    "resume.player.timeout": 600.0,
+    "resume.player.tool_surface": "broad",
+    "resume.schema": "autonomous-resume-v1",
+    "resume.umpire": {
+      "max_tokens": 16000,
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt_version": "umpire-v1.3",
+      "reasoning_effort": "low",
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "scenario.content_sha256": "5374227996e7eca25bde6fb3fa69824c04b886ce7b2709ac57dd8ca0454f85e2",
+    "scenario.id": "northern-strait",
+    "scenario.resource_manifest_sha256": "cb6fd6b9a30e2414130f02f306c53506e5762c21620fbf808b1e8cc92a723059",
+    "scenario.resources": [
+      {
+        "content_sha256": "f3b66f936fff8033bb86b0a6f291f62d730473f7a52bc1ff1666acdee297067b",
+        "id": "arkania-intel"
+      },
+      {
+        "content_sha256": "cee93c452a93d0730d167dce8698bc9410198fc332d8815d9d9e23399fda44cb",
+        "id": "background"
+      },
+      {
+        "content_sha256": "f723032e74d27e689c39790cc86df40ec6402842c459bee03800f47a99f95781",
+        "id": "trade"
+      }
+    ],
+    "scenario.version": "1",
+    "umpire": {
+      "adjudication_schema": {
+        "name": "amaw_adjudication_proposal",
+        "sha256": "d0209f941a8d4f5e4cc6efef49096f24c7b37fc3dc67a9a165603d0f1f2ea8db"
+      },
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt_hash": "7e4a2877679a5bc2123b6a4ebd24bd11e7b39a5aa688410b90707581d6a9ba9d",
+      "prompt_version": "umpire-v1.3",
+      "provider": "openrouter",
+      "settings": {
+        "attempts": 4,
+        "deadline": 600.0,
+        "max_tokens": 16000,
+        "provider": {
+          "require_parameters": true
+        },
+        "reasoning": {
+          "effort": "low"
+        },
+        "temperature": 0.0,
+        "timeout": 600.0
+      }
+    }
+  },
+  "expected_condition_sha256": "6faa00151ac139e174a124041c5adc677cd710397842b1f94df8a6294c03c5ca",
+  "experiment_id": "t060-provider",
+  "failed_games": 2,
+  "game_loop": {
+    "con_challengers_per_argument": null,
+    "con_mode": "open_cons",
+    "con_reply_mode": "sealed_cons",
+    "diplomacy_mode": "open_diplomacy",
+    "diplomacy_rounds_per_turn": null,
+    "reply_max_points": null
+  },
+  "inference_profile": "uniform",
+  "integrity": {
+    "attempts_as_scheduled": true,
+    "condition_fixed": true,
+    "failures": [],
+    "ok": true,
+    "umpire_fixed": true
+  },
+  "interpretation": "model benchmark: the compared independent variable is the player model assigned to each Actor Seat; scenario version, Actor definitions, player prompt, agent framework, tool schemas, memory and context mechanisms, resource set, Umpire model/prompt/settings, turn order, action and Message budgets, Con limits and inference profile are held fixed and verified (benchmark-methodology \u00a75.1). Results describe each model in the tested interaction ecology of the named roster, not an intrinsic property.",
+  "models": [
+    "deepseek/deepseek-v4-flash-0731"
+  ],
+  "name": "t060-provider",
+  "not_run_games": 0,
+  "planned_completion_rate": 0.0,
+  "player": {
+    "activation_mode": "tool_loop",
+    "guardrails": {
+      "max_activations_per_opportunity": 3,
+      "max_argument_action_chars": 2000,
+      "max_desired_effect_chars": 2000,
+      "max_llm_iterations": 8,
+      "max_message_chars": 4000,
+      "max_messages_per_activation": 3,
+      "max_messages_per_phase": 2,
+      "max_note_chars": 4000,
+      "max_pro_chars": 1000,
+      "max_pros": 5,
+      "max_research_operations": 4,
+      "max_research_tool_calls": 4,
+      "max_tool_calls": 12,
+      "max_tool_payload_bytes": 16384
+    },
+    "max_tokens": 4000,
+    "prompt_version": "player-v1.10",
+    "reasoning_effort": "low",
+    "research_history_mode": "full-v1",
+    "research_mode": "sequential-v1",
+    "temperature": 0.0,
+    "timeout": 600.0,
+    "tool_surface": "broad"
+  },
+  "roster": [
+    "deepseek/deepseek-v4-flash-0731"
+  ],
+  "rotate": false,
+  "rotation": {
+    "assignment_count": 1,
+    "balance_guarantee": "none: one positional assignment",
+    "formula": "Actor[j] -> models[0]",
+    "model_count": 1,
+    "models": [
+      "deepseek/deepseek-v4-flash-0731"
+    ],
+    "not_guaranteed": "seat balance; opponent/composition balance",
+    "policy": "single",
+    "seat_count": 3,
+    "seats": [
+      "arkania",
+      "belvar",
+      "cestia"
+    ]
+  },
+  "rotation_policy": "single",
+  "run_class": "playtest",
+  "scenario": "/Users/martin/Projects/AMAW/scenarios/northern-strait",
+  "scenario_id": "northern-strait",
+  "scenario_version": 1,
+  "schedule": {
+    "assignment_count": 1,
+    "assignments": [
+      {
+        "assignment_id": "assignment-01",
+        "assignment_index": 0,
+        "models": {
+          "arkania": "deepseek/deepseek-v4-flash-0731",
+          "belvar": "deepseek/deepseek-v4-flash-0731",
+          "cestia": "deepseek/deepseek-v4-flash-0731"
+        }
+      }
+    ],
+    "attempts": [
+      {
+        "assignment_id": "assignment-01",
+        "assignment_index": 0,
+        "experiment_id": "t060-provider",
+        "models": {
+          "arkania": "deepseek/deepseek-v4-flash-0731",
+          "belvar": "deepseek/deepseek-v4-flash-0731",
+          "cestia": "deepseek/deepseek-v4-flash-0731"
+        },
+        "position": 0,
+        "repetition_index": 0,
+        "rotation_policy": "single",
+        "scheduling_seed": 7,
+        "seed": 60000
+      },
+      {
+        "assignment_id": "assignment-01",
+        "assignment_index": 0,
+        "experiment_id": "t060-provider",
+        "models": {
+          "arkania": "deepseek/deepseek-v4-flash-0731",
+          "belvar": "deepseek/deepseek-v4-flash-0731",
+          "cestia": "deepseek/deepseek-v4-flash-0731"
+        },
+        "position": 1,
+        "repetition_index": 1,
+        "rotation_policy": "single",
+        "scheduling_seed": 7,
+        "seed": 60001
+      }
+    ],
+    "repetitions_per_assignment": 2,
+    "total_games": 2
+  },
+  "scheduling_seed": 7,
+  "seed_policy": "base_seed + assignment_index * 1000 + repetition_index",
+  "umpire": {
+    "max_tokens": 16000,
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "prompt_version": "umpire-v1.3",
+    "reasoning_effort": "low",
+    "temperature": 0.0,
+    "timeout": 600.0
+  },
+  "umpire_condition": {
+    "inference_profile_umpire": {},
+    "provenance": {
+      "adjudication_schema": {
+        "name": "amaw_adjudication_proposal",
+        "sha256": "d0209f941a8d4f5e4cc6efef49096f24c7b37fc3dc67a9a165603d0f1f2ea8db"
+      },
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt_hash": "7e4a2877679a5bc2123b6a4ebd24bd11e7b39a5aa688410b90707581d6a9ba9d",
+      "prompt_version": "umpire-v1.3",
+      "provider": "openrouter",
+      "settings": {
+        "attempts": 4,
+        "deadline": 600.0,
+        "max_tokens": 16000,
+        "provider": {
+          "require_parameters": true
+        },
+        "reasoning": {
+          "effort": "low"
+        },
+        "temperature": 0.0,
+        "timeout": 600.0
+      }
+    },
+    "resume": {
+      "max_tokens": 16000,
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt_version": "umpire-v1.3",
+      "reasoning_effort": "low",
+      "temperature": 0.0,
+      "timeout": 600.0
+    }
+  },
+  "umpire_condition_sha256": "1ca4c08a0684cfb1ff0a852bdc901ae1e228559c447e3edaaa3e17111d6de79e"
+}

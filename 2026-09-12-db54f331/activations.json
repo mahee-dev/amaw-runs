@@ -1,0 +1,1478 @@
+[
+  {
+    "actor_id": "arkania",
+    "turn": 1,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 12463,
+      "output_tokens": 1094,
+      "requests": 4,
+      "tool_calls": 6
+    },
+    "latency_seconds": 72.72433704091236,
+    "tool_call_names": [
+      "get_notes",
+      "read_messages",
+      "send_message",
+      "send_message",
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 1,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 11515,
+      "output_tokens": 1387,
+      "requests": 3,
+      "tool_calls": 4
+    },
+    "latency_seconds": 105.07925604190677,
+    "tool_call_names": [
+      "send_message",
+      "send_message",
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 1,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 15376,
+      "output_tokens": 1289,
+      "requests": 4,
+      "tool_calls": 4
+    },
+    "latency_seconds": 52.05985162500292,
+    "tool_call_names": [
+      "send_message",
+      "send_message",
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 1,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 12025,
+      "output_tokens": 864,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 23.295690583065152,
+    "tool_call_names": [
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 1,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 12378,
+      "output_tokens": 809,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 19.69493362493813,
+    "tool_call_names": [
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 1,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 14382,
+      "output_tokens": 1459,
+      "requests": 3,
+      "tool_calls": 3
+    },
+    "latency_seconds": 63.153834582772106,
+    "tool_call_names": [
+      "make_argument",
+      "send_message",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 1,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 26026,
+      "output_tokens": 1836,
+      "requests": 5,
+      "tool_calls": 4
+    },
+    "latency_seconds": 45.00497524999082,
+    "tool_call_names": [
+      "make_con",
+      "pass_con",
+      "send_message",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 1,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 27124,
+      "output_tokens": 2403,
+      "requests": 5,
+      "tool_calls": 4
+    },
+    "latency_seconds": 160.41052137501538,
+    "tool_call_names": [
+      "make_con",
+      "send_message",
+      "save_note",
+      "pass_con"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 1,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 27229,
+      "output_tokens": 3021,
+      "requests": 4,
+      "tool_calls": 5
+    },
+    "latency_seconds": 346.90154937515035,
+    "tool_call_names": [
+      "make_argument",
+      "send_message",
+      "send_message",
+      "save_note",
+      "observe"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 1,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 13885,
+      "output_tokens": 947,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 7.976239417213947,
+    "tool_call_names": [
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 1,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 20697,
+      "output_tokens": 1234,
+      "requests": 4,
+      "tool_calls": 3
+    },
+    "latency_seconds": 12.075518249999732,
+    "tool_call_names": [
+      "make_con",
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 1,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 17519,
+      "output_tokens": 1846,
+      "requests": 3,
+      "tool_calls": 4
+    },
+    "latency_seconds": 54.887596499640495,
+    "tool_call_names": [
+      "make_argument",
+      "send_message",
+      "send_message",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 1,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 16928,
+      "output_tokens": 697,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 9.596177041064948,
+    "tool_call_names": [
+      "make_con",
+      "pass_con"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 1,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 21113,
+      "output_tokens": 2342,
+      "requests": 3,
+      "tool_calls": 4
+    },
+    "latency_seconds": 22.812700625043362,
+    "tool_call_names": [
+      "make_con",
+      "send_message",
+      "save_note",
+      "pass_con"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 2,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 23752,
+      "output_tokens": 3296,
+      "requests": 3,
+      "tool_calls": 4
+    },
+    "latency_seconds": 97.62823275011033,
+    "tool_call_names": [
+      "send_message",
+      "send_message",
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 2,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 28610,
+      "output_tokens": 1885,
+      "requests": 4,
+      "tool_calls": 4
+    },
+    "latency_seconds": 14.53597858408466,
+    "tool_call_names": [
+      "send_message",
+      "send_message",
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 2,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 27497,
+      "output_tokens": 1880,
+      "requests": 4,
+      "tool_calls": 4
+    },
+    "latency_seconds": 52.993357417173684,
+    "tool_call_names": [
+      "send_message",
+      "send_message",
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 2,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 23259,
+      "output_tokens": 1328,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 12.372988999821246,
+    "tool_call_names": [
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 2,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 31652,
+      "output_tokens": 1238,
+      "requests": 4,
+      "tool_calls": 3
+    },
+    "latency_seconds": 11.651673249900341,
+    "tool_call_names": [
+      "observe",
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 2,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 21467,
+      "output_tokens": 1337,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 22.54929795814678,
+    "tool_call_names": [
+      "make_argument",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 2,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 24113,
+      "output_tokens": 682,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 10.064232249744236,
+    "tool_call_names": [
+      "make_con",
+      "pass_con"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 2,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 24029,
+      "output_tokens": 1312,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 65.61677683331072,
+    "tool_call_names": [
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 2,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 26478,
+      "output_tokens": 2554,
+      "requests": 3,
+      "tool_calls": 5
+    },
+    "latency_seconds": 24.32162025012076,
+    "tool_call_names": [
+      "make_argument",
+      "send_message",
+      "send_message",
+      "save_note",
+      "observe"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 2,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 24232,
+      "output_tokens": 1812,
+      "requests": 3,
+      "tool_calls": 3
+    },
+    "latency_seconds": 18.894667458254844,
+    "tool_call_names": [
+      "pass_con",
+      "send_message",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 2,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 22069,
+      "output_tokens": 1321,
+      "requests": 3,
+      "tool_calls": 3
+    },
+    "latency_seconds": 13.086188958026469,
+    "tool_call_names": [
+      "make_con",
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 2,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 25603,
+      "output_tokens": 1910,
+      "requests": 3,
+      "tool_calls": 4
+    },
+    "latency_seconds": 54.65997579181567,
+    "tool_call_names": [
+      "make_argument",
+      "send_message",
+      "send_message",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 2,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 30764,
+      "output_tokens": 838,
+      "requests": 4,
+      "tool_calls": 3
+    },
+    "latency_seconds": 65.00283375009894,
+    "tool_call_names": [
+      "make_con",
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 2,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 16567,
+      "output_tokens": 808,
+      "requests": 2,
+      "tool_calls": 2
+    },
+    "latency_seconds": 7.65586750023067,
+    "tool_call_names": [
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 3,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 64477,
+      "output_tokens": 3334,
+      "requests": 5,
+      "tool_calls": 6
+    },
+    "latency_seconds": 33.728716666810215,
+    "tool_call_names": [
+      "observe",
+      "read_messages",
+      "send_message",
+      "send_message",
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 3,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 25127,
+      "output_tokens": 1663,
+      "requests": 3,
+      "tool_calls": 4
+    },
+    "latency_seconds": 86.38917624996975,
+    "tool_call_names": [
+      "send_message",
+      "send_message",
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 3,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 32861,
+      "output_tokens": 3614,
+      "requests": 3,
+      "tool_calls": 4
+    },
+    "latency_seconds": 117.46916174981743,
+    "tool_call_names": [
+      "send_message",
+      "send_message",
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 3,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 28747,
+      "output_tokens": 977,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 18.90866862470284,
+    "tool_call_names": [
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 3,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 26395,
+      "output_tokens": 877,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 11.833865249995142,
+    "tool_call_names": [
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 3,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 30165,
+      "output_tokens": 1930,
+      "requests": 3,
+      "tool_calls": 3
+    },
+    "latency_seconds": 49.27252016682178,
+    "tool_call_names": [
+      "make_argument",
+      "send_message",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 3,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 42563,
+      "output_tokens": 1507,
+      "requests": 4,
+      "tool_calls": 3
+    },
+    "latency_seconds": 17.354272041935474,
+    "tool_call_names": [
+      "make_con",
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 3,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 42883,
+      "output_tokens": 1859,
+      "requests": 4,
+      "tool_calls": 3
+    },
+    "latency_seconds": 58.82506874995306,
+    "tool_call_names": [
+      "pass_con",
+      "send_message",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 3,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 35964,
+      "output_tokens": 3567,
+      "requests": 3,
+      "tool_calls": 4
+    },
+    "latency_seconds": 37.18099208269268,
+    "tool_call_names": [
+      "make_argument",
+      "send_message",
+      "send_message",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 3,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 32473,
+      "output_tokens": 1310,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 36.246764374896884,
+    "tool_call_names": [
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 3,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 30044,
+      "output_tokens": 1371,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 62.9507837081328,
+    "tool_call_names": [
+      "pass_con",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 3,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 52022,
+      "output_tokens": 3951,
+      "requests": 4,
+      "tool_calls": 4
+    },
+    "latency_seconds": 46.636113041546196,
+    "tool_call_names": [
+      "make_argument",
+      "send_message",
+      "send_message",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 3,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 20140,
+      "output_tokens": 814,
+      "requests": 2,
+      "tool_calls": 2
+    },
+    "latency_seconds": 25.16700466675684,
+    "tool_call_names": [
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 3,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 44553,
+      "output_tokens": 1427,
+      "requests": 4,
+      "tool_calls": 3
+    },
+    "latency_seconds": 33.53381062485278,
+    "tool_call_names": [
+      "pass_con",
+      "send_message",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 4,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 42681,
+      "output_tokens": 1431,
+      "requests": 4,
+      "tool_calls": 4
+    },
+    "latency_seconds": 26.481618291698396,
+    "tool_call_names": [
+      "send_message",
+      "send_message",
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 4,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 47181,
+      "output_tokens": 2044,
+      "requests": 4,
+      "tool_calls": 4
+    },
+    "latency_seconds": 36.91211654199287,
+    "tool_call_names": [
+      "send_message",
+      "save_note",
+      "send_message",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 4,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 48263,
+      "output_tokens": 1352,
+      "requests": 4,
+      "tool_calls": 4
+    },
+    "latency_seconds": 19.669717957731336,
+    "tool_call_names": [
+      "send_message",
+      "send_message",
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 4,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 54000,
+      "output_tokens": 1390,
+      "requests": 4,
+      "tool_calls": 4
+    },
+    "latency_seconds": 22.28482404211536,
+    "tool_call_names": [
+      "save_note",
+      "ready",
+      "observe",
+      "read_messages"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 4,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 23034,
+      "output_tokens": 1449,
+      "requests": 2,
+      "tool_calls": 2
+    },
+    "latency_seconds": 15.013281875289977,
+    "tool_call_names": [
+      "make_argument",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 4,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 23191,
+      "output_tokens": 728,
+      "requests": 2,
+      "tool_calls": 1
+    },
+    "latency_seconds": 14.921214667148888,
+    "tool_call_names": [
+      "pass_con"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 4,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 23440,
+      "output_tokens": 550,
+      "requests": 2,
+      "tool_calls": 1
+    },
+    "latency_seconds": 5.482956666033715,
+    "tool_call_names": [
+      "pass_con"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 4,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 35733,
+      "output_tokens": 1114,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 19.722158916760236,
+    "tool_call_names": [
+      "make_argument",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 4,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 23780,
+      "output_tokens": 554,
+      "requests": 2,
+      "tool_calls": 1
+    },
+    "latency_seconds": 5.913703416939825,
+    "tool_call_names": [
+      "pass_con"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 4,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 35429,
+      "output_tokens": 887,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 52.067333166953176,
+    "tool_call_names": [
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 4,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 37387,
+      "output_tokens": 1503,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 16.691713583189994,
+    "tool_call_names": [
+      "make_argument",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 4,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 36040,
+      "output_tokens": 657,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 12.43188733421266,
+    "tool_call_names": [
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 4,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 36256,
+      "output_tokens": 504,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 35.78638104069978,
+    "tool_call_names": [
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 5,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 36602,
+      "output_tokens": 936,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 24.556817499920726,
+    "tool_call_names": [
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 5,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 23971,
+      "output_tokens": 675,
+      "requests": 2,
+      "tool_calls": 2
+    },
+    "latency_seconds": 7.569191915914416,
+    "tool_call_names": [
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 5,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 37011,
+      "output_tokens": 954,
+      "requests": 3,
+      "tool_calls": 3
+    },
+    "latency_seconds": 22.979803999885917,
+    "tool_call_names": [
+      "send_message",
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 5,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 37742,
+      "output_tokens": 979,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 15.746867332607508,
+    "tool_call_names": [
+      "make_argument",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 5,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 24980,
+      "output_tokens": 692,
+      "requests": 2,
+      "tool_calls": 1
+    },
+    "latency_seconds": 14.282420916948467,
+    "tool_call_names": [
+      "pass_con"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 5,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 37873,
+      "output_tokens": 713,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 10.552059749606997,
+    "tool_call_names": [
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 5,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 42164,
+      "output_tokens": 2208,
+      "requests": 3,
+      "tool_calls": 4
+    },
+    "latency_seconds": 51.13045704178512,
+    "tool_call_names": [
+      "make_argument",
+      "send_message",
+      "save_note",
+      "observe"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 5,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 38725,
+      "output_tokens": 699,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 44.31470537511632,
+    "tool_call_names": [
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 5,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 38782,
+      "output_tokens": 724,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 30.66544362483546,
+    "tool_call_names": [
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 5,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 38897,
+      "output_tokens": 828,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 8.453466707840562,
+    "tool_call_names": [
+      "make_argument",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 5,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 38624,
+      "output_tokens": 446,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 10.499428709037602,
+    "tool_call_names": [
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 5,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 25279,
+      "output_tokens": 467,
+      "requests": 2,
+      "tool_calls": 1
+    },
+    "latency_seconds": 13.432824833784252,
+    "tool_call_names": [
+      "pass_con"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 6,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 38741,
+      "output_tokens": 580,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 15.101063124835491,
+    "tool_call_names": [
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 6,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 53077,
+      "output_tokens": 852,
+      "requests": 4,
+      "tool_calls": 3
+    },
+    "latency_seconds": 29.84713704092428,
+    "tool_call_names": [
+      "send_message",
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 6,
+    "phase": "diplomacy",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 39502,
+      "output_tokens": 1071,
+      "requests": 3,
+      "tool_calls": 3
+    },
+    "latency_seconds": 25.039673666935414,
+    "tool_call_names": [
+      "send_message",
+      "save_note",
+      "ready"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 6,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 40850,
+      "output_tokens": 990,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 19.239861709065735,
+    "tool_call_names": [
+      "make_argument",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 6,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 40169,
+      "output_tokens": 823,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 16.854556541889906,
+    "tool_call_names": [
+      "pass_con",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 6,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 26300,
+      "output_tokens": 214,
+      "requests": 2,
+      "tool_calls": 1
+    },
+    "latency_seconds": 8.89975304203108,
+    "tool_call_names": [
+      "pass_con"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 6,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 40928,
+      "output_tokens": 1174,
+      "requests": 3,
+      "tool_calls": 2
+    },
+    "latency_seconds": 12.942068125121295,
+    "tool_call_names": [
+      "make_argument",
+      "save_note"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 6,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 26513,
+      "output_tokens": 433,
+      "requests": 2,
+      "tool_calls": 1
+    },
+    "latency_seconds": 24.229692375287414,
+    "tool_call_names": [
+      "pass_con"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 6,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 26475,
+      "output_tokens": 329,
+      "requests": 2,
+      "tool_calls": 1
+    },
+    "latency_seconds": 13.649026250001043,
+    "tool_call_names": [
+      "pass_con"
+    ]
+  },
+  {
+    "actor_id": "cestia",
+    "turn": 6,
+    "phase": "argument",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 26519,
+      "output_tokens": 574,
+      "requests": 2,
+      "tool_calls": 1
+    },
+    "latency_seconds": 7.485388542059809,
+    "tool_call_names": [
+      "make_argument"
+    ]
+  },
+  {
+    "actor_id": "arkania",
+    "turn": 6,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 26686,
+      "output_tokens": 258,
+      "requests": 2,
+      "tool_calls": 1
+    },
+    "latency_seconds": 3.2936663748696446,
+    "tool_call_names": [
+      "pass_con"
+    ]
+  },
+  {
+    "actor_id": "belvar",
+    "turn": 6,
+    "phase": "cons",
+    "model_requested": "deepseek/deepseek-v4-flash-0731",
+    "model_returned": "deepseek/deepseek-v4-flash-0731",
+    "usage": {
+      "input_tokens": 26945,
+      "output_tokens": 540,
+      "requests": 2,
+      "tool_calls": 1
+    },
+    "latency_seconds": 7.156519207637757,
+    "tool_call_names": [
+      "pass_con"
+    ]
+  }
+]

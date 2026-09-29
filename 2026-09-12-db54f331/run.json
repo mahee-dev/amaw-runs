@@ -1,0 +1,22 @@
+{
+  "scenario": "northern-strait",
+  "player_model": "deepseek/deepseek-v4-flash-0731",
+  "player_prompt_version": "player-v1.2",
+  "player_temperature": 0.0,
+  "player_reasoning_effort": "low",
+  "guardrails": {
+    "max_llm_iterations": 8,
+    "max_tool_calls": 12,
+    "max_messages_per_phase": 2,
+    "max_activations_per_opportunity": 3,
+    "max_message_chars": 4000,
+    "max_argument_action_chars": 2000,
+    "max_desired_effect_chars": 2000,
+    "max_pros": 5,
+    "max_pro_chars": 1000,
+    "max_note_chars": 4000,
+    "max_tool_payload_bytes": 16384
+  },
+  "umpire_model": "deepseek/deepseek-v4-flash-0731",
+  "umpire_prompt_version": "umpire-v1.2"
+}

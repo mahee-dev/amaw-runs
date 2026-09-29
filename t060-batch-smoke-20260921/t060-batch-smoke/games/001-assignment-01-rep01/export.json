@@ -1,0 +1,5052 @@
+{
+  "actors": [
+    {
+      "id": "arkania",
+      "metadata": {},
+      "name": "Republic of Arkania",
+      "objectives": [
+        "Establish Arkanian authority over transit scheduling in the Northern Strait.",
+        "Fund that authority through transit fees on non-Arkanian shipping.",
+        "Avoid direct armed conflict with Belvar."
+      ],
+      "organisation_id": null,
+      "private_brief": "You are the political leadership of Arkania. The Strait is your coast and your economy runs on the shipping that passes through it. You want the transit regime in Arkanian hands and paid for by the ships that use it, and domestic nationalists expect you to deliver both. A direct war with Belvar would ruin the shipping you depend on.\n",
+      "private_information": [
+        "Reserve mobilisation requires two turns.",
+        "Your intelligence assesses Belvar's domestic support for a prolonged deployment as weak."
+      ],
+      "public_description": "A large regional power bordering the Northern Strait.\n",
+      "role": null
+    },
+    {
+      "id": "belvar",
+      "metadata": {},
+      "name": "Belvar",
+      "objectives": [
+        "Prevent any Arkanian authority over transit in the Northern Strait.",
+        "Secure a standing naval access agreement at a Cestian port.",
+        "Avoid an open-ended deployment."
+      ],
+      "organisation_id": null,
+      "private_brief": "You are the political leadership of Belvar. Your partners in the region expect you to stop Arkania from taking control of the Strait, and a foothold that outlasts this crisis would make that guarantee credible without a permanent fleet. You cannot sustain an open-ended deployment.\n",
+      "private_information": [
+        "Domestic support for a prolonged deployment is limited; the mandate lapses after turn 4 unless renewed.",
+        "Cestia's finance ministry has quietly asked whether Belvar would underwrite the grain route's insurance."
+      ],
+      "public_description": "A distant but powerful state with regional security commitments.\n",
+      "role": null
+    },
+    {
+      "id": "cestia",
+      "metadata": {},
+      "name": "Cestia",
+      "objectives": [
+        "Keep Cestian territory free of any foreign military presence.",
+        "Secure toll-free passage for Cestian-flagged shipping through the Northern Strait.",
+        "Preserve the coalition government."
+      ],
+      "organisation_id": null,
+      "private_brief": "You are the government of Cestia. Grain exports through the Strait are the economy, and your coalition holds together on one promise: no foreign soldiers on Cestian soil. Both powers want something from you, and you cannot afford to become their battlefield.\n",
+      "private_information": [
+        "The coalition government is politically fragile; a foreign basing agreement would collapse it.",
+        "Arkania's scheduling proposal has quiet support among Cestian shipowners if Cestian vessels are exempt from fees."
+      ],
+      "public_description": "A smaller regional state economically linked to both powers.\n",
+      "role": null
+    }
+  ],
+  "adjudications": [],
+  "agent_errors": [],
+  "agent_runs": [
+    {
+      "activation_id": "4a8b63b0-f979-482d-879f-fe2c82f2416c",
+      "activation_wall_ms": 16177,
+      "actor_id": "arkania",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": "2.42.0",
+      "cache_read_tokens": 14848,
+      "cache_write_tokens": 0,
+      "completed": true,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-21T19:07:21.770645",
+      "failure_reason": null,
+      "id": 33,
+      "input_tokens": 22023,
+      "invalid_tool_call_breakdown": {
+        "counts_by_category": {},
+        "counts_by_reason": {},
+        "events": [],
+        "schema_version": "invalid-tool-calls-v1",
+        "total": 0
+      },
+      "invalid_tool_calls": 0,
+      "latency_ms": 16101,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 5,
+      "model_parameters": {
+        "activation_mode": "tool_loop",
+        "con_challengers_per_argument": null,
+        "con_mode": "open_cons",
+        "con_reply_mode": "sealed_cons",
+        "diplomacy_mode": "open_diplomacy",
+        "diplomacy_rounds_per_turn": null,
+        "guardrails": {
+          "max_activations_per_opportunity": 3,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 8,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 2,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_research_operations": 4,
+          "max_research_tool_calls": 4,
+          "max_tool_calls": 12,
+          "max_tool_payload_bytes": 16384
+        },
+        "inference_profile": "uniform",
+        "max_tokens": 4000,
+        "reply_max_points": null,
+        "research_history_mode": "full-v1",
+        "research_mode": "sequential-v1",
+        "temperature": 0.0,
+        "timeout": 600.0,
+        "tool_surface": "broad"
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": "deepseek/deepseek-v4-flash-0731",
+      "output_tokens": 2048,
+      "phase": "diplomacy",
+      "prompt_hash": "cbc49a2c9467d7f00bbd902f1a29a231cab27e73c19d600b0392dc15f1bb2e22",
+      "prompt_version": "player-v1.10",
+      "provider": "openrouter",
+      "provider_metadata": {
+        "usage": {
+          "billed_requests": 0,
+          "cache_read_tokens": 14848,
+          "cache_write_tokens": 0,
+          "cost_usd": null,
+          "details": {
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 683
+          },
+          "input_tokens": 22023,
+          "output_tokens": 2048,
+          "reasoning_tokens": 683,
+          "request_usage": [
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 167
+              },
+              "input_tokens": 3060,
+              "output_tokens": 243,
+              "reasoning_tokens": 167,
+              "request_number": 1
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 516
+              },
+              "input_tokens": 3368,
+              "output_tokens": 832,
+              "reasoning_tokens": 516,
+              "request_number": 2
+            },
+            {
+              "cache_read_tokens": 4096,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 4681,
+              "output_tokens": 701,
+              "reasoning_tokens": 0,
+              "request_number": 3
+            },
+            {
+              "cache_read_tokens": 5376,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 5404,
+              "output_tokens": 28,
+              "reasoning_tokens": 0,
+              "request_number": 4
+            },
+            {
+              "cache_read_tokens": 5376,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 5510,
+              "output_tokens": 244,
+              "reasoning_tokens": 0,
+              "request_number": 5
+            }
+          ],
+          "requests": 5,
+          "tool_calls": 6,
+          "usage_reported_requests": 5
+        }
+      },
+      "reasoning_configuration": {
+        "effort": "low"
+      },
+      "reasoning_tokens": 683,
+      "request_topology": {
+        "measurement": {
+          "boundary": "pydantic-ai-model-wrapper-logical-request",
+          "encoding": "canonical-json-utf8",
+          "hash_scheme": "hmac-sha256-ephemeral-activation-key",
+          "provider_wire_exact": false,
+          "tokenizer": null
+        },
+        "requests": [
+          {
+            "component_bytes": {
+              "actor_private_dossier": 851,
+              "current_argument_cons": 0,
+              "effects": 996,
+              "framework_envelope": 332,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 0,
+              "resource_results": 0,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2848,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": null,
+            "measured_bytes": 11797,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 3060
+            },
+            "sequence": 1,
+            "stable_prefix_bytes": 0,
+            "stable_prefix_digest": null
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 851,
+              "current_argument_cons": 0,
+              "effects": 996,
+              "framework_envelope": 375,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 1569,
+              "resource_results": 205,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2848,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": 1817,
+            "measured_bytes": 13614,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 3368
+            },
+            "sequence": 2,
+            "stable_prefix_bytes": 1947,
+            "stable_prefix_digest": "49ac24052c18bb8ae36bf1fe345632af5f8b3b63bc54df530f55d322c3a32e3e"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 851,
+              "current_argument_cons": 0,
+              "effects": 996,
+              "framework_envelope": 375,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 7737,
+              "resource_results": 205,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2848,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": 6168,
+            "measured_bytes": 19782,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 4096,
+              "cache_write_tokens": 0,
+              "input_tokens": 4681
+            },
+            "sequence": 3,
+            "stable_prefix_bytes": 1947,
+            "stable_prefix_digest": "49ac24052c18bb8ae36bf1fe345632af5f8b3b63bc54df530f55d322c3a32e3e"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 851,
+              "current_argument_cons": 0,
+              "effects": 996,
+              "framework_envelope": 375,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 10934,
+              "resource_results": 205,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2848,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": 3197,
+            "measured_bytes": 22979,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 5376,
+              "cache_write_tokens": 0,
+              "input_tokens": 5404
+            },
+            "sequence": 4,
+            "stable_prefix_bytes": 1947,
+            "stable_prefix_digest": "49ac24052c18bb8ae36bf1fe345632af5f8b3b63bc54df530f55d322c3a32e3e"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 851,
+              "current_argument_cons": 0,
+              "effects": 996,
+              "framework_envelope": 375,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 11446,
+              "resource_results": 205,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2848,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": 512,
+            "measured_bytes": 23491,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 5376,
+              "cache_write_tokens": 0,
+              "input_tokens": 5510
+            },
+            "sequence": 5,
+            "stable_prefix_bytes": 1947,
+            "stable_prefix_digest": "49ac24052c18bb8ae36bf1fe345632af5f8b3b63bc54df530f55d322c3a32e3e"
+          }
+        ],
+        "schema_version": "request-topology-v1"
+      },
+      "research_operations": 2,
+      "research_tool_calls": 2,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 6,
+      "tool_schema_version": "player-tools-v11-live-bounded-research",
+      "turn": 1
+    },
+    {
+      "activation_id": "999c1aee-19e6-4722-b97d-8159444903a3",
+      "activation_wall_ms": 10181,
+      "actor_id": "belvar",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": "2.42.0",
+      "cache_read_tokens": 17920,
+      "cache_write_tokens": 0,
+      "completed": true,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-21T19:07:21.778460",
+      "failure_reason": null,
+      "id": 34,
+      "input_tokens": 28324,
+      "invalid_tool_call_breakdown": {
+        "counts_by_category": {},
+        "counts_by_reason": {},
+        "events": [],
+        "schema_version": "invalid-tool-calls-v1",
+        "total": 0
+      },
+      "invalid_tool_calls": 0,
+      "latency_ms": 10086,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 7,
+      "model_parameters": {
+        "activation_mode": "tool_loop",
+        "con_challengers_per_argument": null,
+        "con_mode": "open_cons",
+        "con_reply_mode": "sealed_cons",
+        "diplomacy_mode": "open_diplomacy",
+        "diplomacy_rounds_per_turn": null,
+        "guardrails": {
+          "max_activations_per_opportunity": 3,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 8,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 2,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_research_operations": 4,
+          "max_research_tool_calls": 4,
+          "max_tool_calls": 12,
+          "max_tool_payload_bytes": 16384
+        },
+        "inference_profile": "uniform",
+        "max_tokens": 4000,
+        "reply_max_points": null,
+        "research_history_mode": "full-v1",
+        "research_mode": "sequential-v1",
+        "temperature": 0.0,
+        "timeout": 600.0,
+        "tool_surface": "broad"
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": "deepseek/deepseek-v4-flash-0731",
+      "output_tokens": 1988,
+      "phase": "diplomacy",
+      "prompt_hash": "cbc49a2c9467d7f00bbd902f1a29a231cab27e73c19d600b0392dc15f1bb2e22",
+      "prompt_version": "player-v1.10",
+      "provider": "openrouter",
+      "provider_metadata": {
+        "usage": {
+          "billed_requests": 0,
+          "cache_read_tokens": 17920,
+          "cache_write_tokens": 0,
+          "cost_usd": null,
+          "details": {
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 1013
+          },
+          "input_tokens": 28324,
+          "output_tokens": 1988,
+          "reasoning_tokens": 1013,
+          "request_usage": [
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 197
+              },
+              "input_tokens": 2981,
+              "output_tokens": 248,
+              "reasoning_tokens": 197,
+              "request_number": 1
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 10
+              },
+              "input_tokens": 3287,
+              "output_tokens": 89,
+              "reasoning_tokens": 10,
+              "request_number": 2
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 14
+              },
+              "input_tokens": 3318,
+              "output_tokens": 88,
+              "reasoning_tokens": 14,
+              "request_number": 3
+            },
+            {
+              "cache_read_tokens": 3328,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 756
+              },
+              "input_tokens": 3521,
+              "output_tokens": 872,
+              "reasoning_tokens": 756,
+              "request_number": 4
+            },
+            {
+              "cache_read_tokens": 4352,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 36
+              },
+              "input_tokens": 4643,
+              "output_tokens": 569,
+              "reasoning_tokens": 36,
+              "request_number": 5
+            },
+            {
+              "cache_read_tokens": 5120,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 5234,
+              "output_tokens": 28,
+              "reasoning_tokens": 0,
+              "request_number": 6
+            },
+            {
+              "cache_read_tokens": 5120,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 5340,
+              "output_tokens": 94,
+              "reasoning_tokens": 0,
+              "request_number": 7
+            }
+          ],
+          "requests": 7,
+          "tool_calls": 7,
+          "usage_reported_requests": 7
+        }
+      },
+      "reasoning_configuration": {
+        "effort": "low"
+      },
+      "reasoning_tokens": 1013,
+      "request_topology": {
+        "measurement": {
+          "boundary": "pydantic-ai-model-wrapper-logical-request",
+          "encoding": "canonical-json-utf8",
+          "hash_scheme": "hmac-sha256-ephemeral-activation-key",
+          "provider_wire_exact": false,
+          "tokenizer": null
+        },
+        "requests": [
+          {
+            "component_bytes": {
+              "actor_private_dossier": 849,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 332,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 0,
+              "resource_results": 0,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2835,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": null,
+            "measured_bytes": 11598,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 2981
+            },
+            "sequence": 1,
+            "stable_prefix_bytes": 0,
+            "stable_prefix_digest": null
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 849,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 375,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 1647,
+              "resource_results": 165,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2835,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": 1855,
+            "measured_bytes": 13453,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 3287
+            },
+            "sequence": 2,
+            "stable_prefix_bytes": 1761,
+            "stable_prefix_digest": "d65663095bd83f6dc51d65f79064bb35c47f868a264f5eea97bba4c99f3fb871"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 849,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 375,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 2494,
+              "resource_results": 1041,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2835,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": 252,
+            "measured_bytes": 13705,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 3318
+            },
+            "sequence": 3,
+            "stable_prefix_bytes": 1761,
+            "stable_prefix_digest": "d65663095bd83f6dc51d65f79064bb35c47f868a264f5eea97bba4c99f3fb871"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 849,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 375,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 3772,
+              "resource_results": 1041,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2835,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": 1278,
+            "measured_bytes": 14983,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 3328,
+              "cache_write_tokens": 0,
+              "input_tokens": 3521
+            },
+            "sequence": 4,
+            "stable_prefix_bytes": 1761,
+            "stable_prefix_digest": "d65663095bd83f6dc51d65f79064bb35c47f868a264f5eea97bba4c99f3fb871"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 849,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 375,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 9020,
+              "resource_results": 1041,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2835,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": 5248,
+            "measured_bytes": 20231,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 4352,
+              "cache_write_tokens": 0,
+              "input_tokens": 4643
+            },
+            "sequence": 5,
+            "stable_prefix_bytes": 1761,
+            "stable_prefix_digest": "d65663095bd83f6dc51d65f79064bb35c47f868a264f5eea97bba4c99f3fb871"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 849,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 376,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 11554,
+              "resource_results": 1041,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2835,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": 2535,
+            "measured_bytes": 22766,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 5120,
+              "cache_write_tokens": 0,
+              "input_tokens": 5234
+            },
+            "sequence": 6,
+            "stable_prefix_bytes": 1761,
+            "stable_prefix_digest": "d65663095bd83f6dc51d65f79064bb35c47f868a264f5eea97bba4c99f3fb871"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 849,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 376,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 12159,
+              "resource_results": 1041,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2835,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": 605,
+            "measured_bytes": 23371,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 5120,
+              "cache_write_tokens": 0,
+              "input_tokens": 5340
+            },
+            "sequence": 7,
+            "stable_prefix_bytes": 1762,
+            "stable_prefix_digest": "13e621a8ce391b67c8e95c26caca947e59b83eb4cc1b66a579743b695b81e598"
+          }
+        ],
+        "schema_version": "request-topology-v1"
+      },
+      "research_operations": 4,
+      "research_tool_calls": 4,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 9,
+      "tool_schema_version": "player-tools-v11-live-bounded-research",
+      "turn": 1
+    },
+    {
+      "activation_id": "c7fb59a1-917e-4cc8-be5c-7f5f8a55312c",
+      "activation_wall_ms": 50932,
+      "actor_id": "cestia",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": "2.42.0",
+      "cache_read_tokens": 14336,
+      "cache_write_tokens": 0,
+      "completed": true,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-21T19:07:56.522207",
+      "failure_reason": null,
+      "id": 35,
+      "input_tokens": 24801,
+      "invalid_tool_call_breakdown": {
+        "counts_by_category": {},
+        "counts_by_reason": {},
+        "events": [],
+        "schema_version": "invalid-tool-calls-v1",
+        "total": 0
+      },
+      "invalid_tool_calls": 0,
+      "latency_ms": 50841,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 6,
+      "model_parameters": {
+        "activation_mode": "tool_loop",
+        "con_challengers_per_argument": null,
+        "con_mode": "open_cons",
+        "con_reply_mode": "sealed_cons",
+        "diplomacy_mode": "open_diplomacy",
+        "diplomacy_rounds_per_turn": null,
+        "guardrails": {
+          "max_activations_per_opportunity": 3,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 8,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 2,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_research_operations": 4,
+          "max_research_tool_calls": 4,
+          "max_tool_calls": 12,
+          "max_tool_payload_bytes": 16384
+        },
+        "inference_profile": "uniform",
+        "max_tokens": 4000,
+        "reply_max_points": null,
+        "research_history_mode": "full-v1",
+        "research_mode": "sequential-v1",
+        "temperature": 0.0,
+        "timeout": 600.0,
+        "tool_surface": "broad"
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": "deepseek/deepseek-v4-flash-0731",
+      "output_tokens": 2258,
+      "phase": "diplomacy",
+      "prompt_hash": "cbc49a2c9467d7f00bbd902f1a29a231cab27e73c19d600b0392dc15f1bb2e22",
+      "prompt_version": "player-v1.10",
+      "provider": "openrouter",
+      "provider_metadata": {
+        "usage": {
+          "billed_requests": 0,
+          "cache_read_tokens": 14336,
+          "cache_write_tokens": 0,
+          "cost_usd": null,
+          "details": {
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 1006
+          },
+          "input_tokens": 24801,
+          "output_tokens": 2258,
+          "reasoning_tokens": 1006,
+          "request_usage": [
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 259
+              },
+              "input_tokens": 2980,
+              "output_tokens": 306,
+              "reasoning_tokens": 259,
+              "request_number": 1
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 10
+              },
+              "input_tokens": 3346,
+              "output_tokens": 99,
+              "reasoning_tokens": 10,
+              "request_number": 2
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 722
+              },
+              "input_tokens": 3215,
+              "output_tokens": 979,
+              "reasoning_tokens": 722,
+              "request_number": 3
+            },
+            {
+              "cache_read_tokens": 4096,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 15
+              },
+              "input_tokens": 4642,
+              "output_tokens": 592,
+              "reasoning_tokens": 15,
+              "request_number": 4
+            },
+            {
+              "cache_read_tokens": 5120,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 5256,
+              "output_tokens": 28,
+              "reasoning_tokens": 0,
+              "request_number": 5
+            },
+            {
+              "cache_read_tokens": 5120,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 5362,
+              "output_tokens": 254,
+              "reasoning_tokens": 0,
+              "request_number": 6
+            }
+          ],
+          "requests": 6,
+          "tool_calls": 8,
+          "usage_reported_requests": 6
+        }
+      },
+      "reasoning_configuration": {
+        "effort": "low"
+      },
+      "reasoning_tokens": 1006,
+      "request_topology": {
+        "measurement": {
+          "boundary": "pydantic-ai-model-wrapper-logical-request",
+          "encoding": "canonical-json-utf8",
+          "hash_scheme": "hmac-sha256-ephemeral-activation-key",
+          "provider_wire_exact": false,
+          "tokenizer": null
+        },
+        "requests": [
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 332,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 0,
+              "resource_results": 0,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2835,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": null,
+            "measured_bytes": 11591,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 2980
+            },
+            "sequence": 1,
+            "stable_prefix_bytes": 0,
+            "stable_prefix_digest": null
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 375,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 1914,
+              "resource_results": 184,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2835,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": 2141,
+            "measured_bytes": 13732,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 3346
+            },
+            "sequence": 2,
+            "stable_prefix_bytes": 1754,
+            "stable_prefix_digest": "deee64590eaf882a51153c4d99d9ee86d94be6c8ce007da042d585f288bb56a6"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 375,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 2817,
+              "resource_results": 351,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2835,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": -401,
+            "measured_bytes": 13331,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 3215
+            },
+            "sequence": 3,
+            "stable_prefix_bytes": 1754,
+            "stable_prefix_digest": "deee64590eaf882a51153c4d99d9ee86d94be6c8ce007da042d585f288bb56a6"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 375,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 9330,
+              "resource_results": 351,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2835,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": 6513,
+            "measured_bytes": 19844,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 4096,
+              "cache_write_tokens": 0,
+              "input_tokens": 4642
+            },
+            "sequence": 4,
+            "stable_prefix_bytes": 1754,
+            "stable_prefix_digest": "deee64590eaf882a51153c4d99d9ee86d94be6c8ce007da042d585f288bb56a6"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 375,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 12029,
+              "resource_results": 351,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2835,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": 2699,
+            "measured_bytes": 22543,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 5120,
+              "cache_write_tokens": 0,
+              "input_tokens": 5256
+            },
+            "sequence": 5,
+            "stable_prefix_bytes": 1754,
+            "stable_prefix_digest": "deee64590eaf882a51153c4d99d9ee86d94be6c8ce007da042d585f288bb56a6"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 376,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 505,
+              "prior_tool_plumbing": 12541,
+              "resource_results": 351,
+              "scenario_public_state": 1348,
+              "strategic_memory": 260,
+              "system_prompts": 2835,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": 513,
+            "measured_bytes": 23056,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 5120,
+              "cache_write_tokens": 0,
+              "input_tokens": 5362
+            },
+            "sequence": 6,
+            "stable_prefix_bytes": 1754,
+            "stable_prefix_digest": "deee64590eaf882a51153c4d99d9ee86d94be6c8ce007da042d585f288bb56a6"
+          }
+        ],
+        "schema_version": "request-topology-v1"
+      },
+      "research_operations": 4,
+      "research_tool_calls": 4,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 8,
+      "tool_schema_version": "player-tools-v11-live-bounded-research",
+      "turn": 1
+    },
+    {
+      "activation_id": "0f8594a2-9c06-42e5-906f-0c6b8122ccda",
+      "activation_wall_ms": 101298,
+      "actor_id": "arkania",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": "2.42.0",
+      "cache_read_tokens": 5376,
+      "cache_write_tokens": 0,
+      "completed": true,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-21T19:09:37.873538",
+      "failure_reason": null,
+      "id": 36,
+      "input_tokens": 26994,
+      "invalid_tool_call_breakdown": {
+        "counts_by_category": {},
+        "counts_by_reason": {},
+        "events": [],
+        "schema_version": "invalid-tool-calls-v1",
+        "total": 0
+      },
+      "invalid_tool_calls": 0,
+      "latency_ms": 101217,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 6,
+      "model_parameters": {
+        "activation_mode": "tool_loop",
+        "con_challengers_per_argument": null,
+        "con_mode": "open_cons",
+        "con_reply_mode": "sealed_cons",
+        "diplomacy_mode": "open_diplomacy",
+        "diplomacy_rounds_per_turn": null,
+        "guardrails": {
+          "max_activations_per_opportunity": 3,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 8,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 2,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_research_operations": 4,
+          "max_research_tool_calls": 4,
+          "max_tool_calls": 12,
+          "max_tool_payload_bytes": 16384
+        },
+        "inference_profile": "uniform",
+        "max_tokens": 4000,
+        "reply_max_points": null,
+        "research_history_mode": "full-v1",
+        "research_mode": "sequential-v1",
+        "temperature": 0.0,
+        "timeout": 600.0,
+        "tool_surface": "broad"
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": "deepseek/deepseek-v4-flash-0731",
+      "output_tokens": 2051,
+      "phase": "diplomacy",
+      "prompt_hash": "cbc49a2c9467d7f00bbd902f1a29a231cab27e73c19d600b0392dc15f1bb2e22",
+      "prompt_version": "player-v1.10",
+      "provider": "openrouter",
+      "provider_metadata": {
+        "usage": {
+          "billed_requests": 0,
+          "cache_read_tokens": 5376,
+          "cache_write_tokens": 0,
+          "cost_usd": null,
+          "details": {
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 712
+          },
+          "input_tokens": 26994,
+          "output_tokens": 2051,
+          "reasoning_tokens": 712,
+          "request_usage": [
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 285
+              },
+              "input_tokens": 3711,
+              "output_tokens": 377,
+              "reasoning_tokens": 285,
+              "request_number": 1
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 12
+              },
+              "input_tokens": 4176,
+              "output_tokens": 58,
+              "reasoning_tokens": 12,
+              "request_number": 2
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 4026,
+              "output_tokens": 46,
+              "reasoning_tokens": 0,
+              "request_number": 3
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 415
+              },
+              "input_tokens": 4131,
+              "output_tokens": 1269,
+              "reasoning_tokens": 415,
+              "request_number": 4
+            },
+            {
+              "cache_read_tokens": 5376,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 5422,
+              "output_tokens": 28,
+              "reasoning_tokens": 0,
+              "request_number": 5
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 5528,
+              "output_tokens": 273,
+              "reasoning_tokens": 0,
+              "request_number": 6
+            }
+          ],
+          "requests": 6,
+          "tool_calls": 6,
+          "usage_reported_requests": 6
+        }
+      },
+      "reasoning_configuration": {
+        "effort": "low"
+      },
+      "reasoning_tokens": 712,
+      "request_topology": {
+        "measurement": {
+          "boundary": "pydantic-ai-model-wrapper-logical-request",
+          "encoding": "canonical-json-utf8",
+          "hash_scheme": "hmac-sha256-ephemeral-activation-key",
+          "provider_wire_exact": false,
+          "tokenizer": null
+        },
+        "requests": [
+          {
+            "component_bytes": {
+              "actor_private_dossier": 851,
+              "current_argument_cons": 0,
+              "effects": 996,
+              "framework_envelope": 356,
+              "incremental_messages": 723,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 0,
+              "resource_results": 0,
+              "scenario_public_state": 1348,
+              "strategic_memory": 2367,
+              "system_prompts": 2848,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": null,
+            "measured_bytes": 14564,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 3711
+            },
+            "sequence": 1,
+            "stable_prefix_bytes": 0,
+            "stable_prefix_digest": null
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 851,
+              "current_argument_cons": 0,
+              "effects": 996,
+              "framework_envelope": 399,
+              "incremental_messages": 723,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 2358,
+              "resource_results": 261,
+              "scenario_public_state": 1348,
+              "strategic_memory": 2367,
+              "system_prompts": 2848,
+              "tool_schemas": 4654
+            },
+            "growth_bytes": 2659,
+            "measured_bytes": 17223,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 4176
+            },
+            "sequence": 2,
+            "stable_prefix_bytes": 1947,
+            "stable_prefix_digest": "afc701ee1e2e46f85278d2d62df10faba2f0e18f9e276d17b398ce004de38e45"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 851,
+              "current_argument_cons": 0,
+              "effects": 996,
+              "framework_envelope": 399,
+              "incremental_messages": 723,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 2898,
+              "resource_results": 593,
+              "scenario_public_state": 1348,
+              "strategic_memory": 2367,
+              "system_prompts": 2848,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": -596,
+            "measured_bytes": 16627,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 4026
+            },
+            "sequence": 3,
+            "stable_prefix_bytes": 1947,
+            "stable_prefix_digest": "afc701ee1e2e46f85278d2d62df10faba2f0e18f9e276d17b398ce004de38e45"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 851,
+              "current_argument_cons": 0,
+              "effects": 996,
+              "framework_envelope": 399,
+              "incremental_messages": 723,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 3428,
+              "resource_results": 593,
+              "scenario_public_state": 1348,
+              "strategic_memory": 2367,
+              "system_prompts": 2848,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": 530,
+            "measured_bytes": 17157,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 4131
+            },
+            "sequence": 4,
+            "stable_prefix_bytes": 1947,
+            "stable_prefix_digest": "afc701ee1e2e46f85278d2d62df10faba2f0e18f9e276d17b398ce004de38e45"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 851,
+              "current_argument_cons": 0,
+              "effects": 996,
+              "framework_envelope": 399,
+              "incremental_messages": 723,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 9468,
+              "resource_results": 593,
+              "scenario_public_state": 1348,
+              "strategic_memory": 2367,
+              "system_prompts": 2848,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": 6040,
+            "measured_bytes": 23197,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 5376,
+              "cache_write_tokens": 0,
+              "input_tokens": 5422
+            },
+            "sequence": 5,
+            "stable_prefix_bytes": 1947,
+            "stable_prefix_digest": "afc701ee1e2e46f85278d2d62df10faba2f0e18f9e276d17b398ce004de38e45"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 851,
+              "current_argument_cons": 0,
+              "effects": 996,
+              "framework_envelope": 400,
+              "incremental_messages": 723,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 9980,
+              "resource_results": 593,
+              "scenario_public_state": 1348,
+              "strategic_memory": 2367,
+              "system_prompts": 2848,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": 513,
+            "measured_bytes": 23710,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 5528
+            },
+            "sequence": 6,
+            "stable_prefix_bytes": 1947,
+            "stable_prefix_digest": "afc701ee1e2e46f85278d2d62df10faba2f0e18f9e276d17b398ce004de38e45"
+          }
+        ],
+        "schema_version": "request-topology-v1"
+      },
+      "research_operations": 4,
+      "research_tool_calls": 4,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 7,
+      "tool_schema_version": "player-tools-v11-live-bounded-research",
+      "turn": 1
+    },
+    {
+      "activation_id": "76682ddf-0154-4087-a31f-ffab410b5d17",
+      "activation_wall_ms": 151326,
+      "actor_id": "belvar",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": "2.42.0",
+      "cache_read_tokens": 11008,
+      "cache_write_tokens": 0,
+      "completed": true,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-21T19:10:27.906473",
+      "failure_reason": null,
+      "id": 37,
+      "input_tokens": 26315,
+      "invalid_tool_call_breakdown": {
+        "counts_by_category": {},
+        "counts_by_reason": {},
+        "events": [],
+        "schema_version": "invalid-tool-calls-v1",
+        "total": 0
+      },
+      "invalid_tool_calls": 0,
+      "latency_ms": 151238,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 5,
+      "model_parameters": {
+        "activation_mode": "tool_loop",
+        "con_challengers_per_argument": null,
+        "con_mode": "open_cons",
+        "con_reply_mode": "sealed_cons",
+        "diplomacy_mode": "open_diplomacy",
+        "diplomacy_rounds_per_turn": null,
+        "guardrails": {
+          "max_activations_per_opportunity": 3,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 8,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 2,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_research_operations": 4,
+          "max_research_tool_calls": 4,
+          "max_tool_calls": 12,
+          "max_tool_payload_bytes": 16384
+        },
+        "inference_profile": "uniform",
+        "max_tokens": 4000,
+        "reply_max_points": null,
+        "research_history_mode": "full-v1",
+        "research_mode": "sequential-v1",
+        "temperature": 0.0,
+        "timeout": 600.0,
+        "tool_surface": "broad"
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": "deepseek/deepseek-v4-flash-0731",
+      "output_tokens": 2337,
+      "phase": "diplomacy",
+      "prompt_hash": "cbc49a2c9467d7f00bbd902f1a29a231cab27e73c19d600b0392dc15f1bb2e22",
+      "prompt_version": "player-v1.10",
+      "provider": "openrouter",
+      "provider_metadata": {
+        "usage": {
+          "billed_requests": 0,
+          "cache_read_tokens": 11008,
+          "cache_write_tokens": 0,
+          "cost_usd": null,
+          "details": {
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 931
+          },
+          "input_tokens": 26315,
+          "output_tokens": 2337,
+          "reasoning_tokens": 931,
+          "request_usage": [
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 862
+              },
+              "input_tokens": 3772,
+              "output_tokens": 843,
+              "reasoning_tokens": 862,
+              "request_number": 1
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 69
+              },
+              "input_tokens": 4676,
+              "output_tokens": 361,
+              "reasoning_tokens": 69,
+              "request_number": 2
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 5357,
+              "output_tokens": 823,
+              "reasoning_tokens": 0,
+              "request_number": 3
+            },
+            {
+              "cache_read_tokens": 4864,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 6202,
+              "output_tokens": 28,
+              "reasoning_tokens": 0,
+              "request_number": 4
+            },
+            {
+              "cache_read_tokens": 6144,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 6308,
+              "output_tokens": 282,
+              "reasoning_tokens": 0,
+              "request_number": 5
+            }
+          ],
+          "requests": 5,
+          "tool_calls": 5,
+          "usage_reported_requests": 5
+        }
+      },
+      "reasoning_configuration": {
+        "effort": "low"
+      },
+      "reasoning_tokens": 931,
+      "request_topology": {
+        "measurement": {
+          "boundary": "pydantic-ai-model-wrapper-logical-request",
+          "encoding": "canonical-json-utf8",
+          "hash_scheme": "hmac-sha256-ephemeral-activation-key",
+          "provider_wire_exact": false,
+          "tokenizer": null
+        },
+        "requests": [
+          {
+            "component_bytes": {
+              "actor_private_dossier": 849,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 356,
+              "incremental_messages": 1541,
+              "output_schemas": 0,
+              "player_prompts": 504,
+              "prior_tool_plumbing": 0,
+              "resource_results": 0,
+              "scenario_public_state": 1348,
+              "strategic_memory": 1824,
+              "system_prompts": 2835,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": null,
+            "measured_bytes": 14726,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 3772
+            },
+            "sequence": 1,
+            "stable_prefix_bytes": 0,
+            "stable_prefix_digest": null
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 849,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 399,
+              "incremental_messages": 1541,
+              "output_schemas": 0,
+              "player_prompts": 504,
+              "prior_tool_plumbing": 4332,
+              "resource_results": 180,
+              "scenario_public_state": 1348,
+              "strategic_memory": 1824,
+              "system_prompts": 2835,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": 4555,
+            "measured_bytes": 19281,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 4676
+            },
+            "sequence": 2,
+            "stable_prefix_bytes": 1761,
+            "stable_prefix_digest": "22bdfae72d9cf51963ea12f5e912e5956e045e378f7a1311db10a51bc61504ad"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 849,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 399,
+              "incremental_messages": 1541,
+              "output_schemas": 0,
+              "player_prompts": 504,
+              "prior_tool_plumbing": 7594,
+              "resource_results": 180,
+              "scenario_public_state": 1348,
+              "strategic_memory": 1824,
+              "system_prompts": 2835,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": 3262,
+            "measured_bytes": 22543,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 5357
+            },
+            "sequence": 3,
+            "stable_prefix_bytes": 1761,
+            "stable_prefix_digest": "22bdfae72d9cf51963ea12f5e912e5956e045e378f7a1311db10a51bc61504ad"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 849,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 399,
+              "incremental_messages": 1541,
+              "output_schemas": 0,
+              "player_prompts": 504,
+              "prior_tool_plumbing": 11313,
+              "resource_results": 180,
+              "scenario_public_state": 1348,
+              "strategic_memory": 1824,
+              "system_prompts": 2835,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": 3719,
+            "measured_bytes": 26262,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 4864,
+              "cache_write_tokens": 0,
+              "input_tokens": 6202
+            },
+            "sequence": 4,
+            "stable_prefix_bytes": 1761,
+            "stable_prefix_digest": "22bdfae72d9cf51963ea12f5e912e5956e045e378f7a1311db10a51bc61504ad"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 849,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 399,
+              "incremental_messages": 1541,
+              "output_schemas": 0,
+              "player_prompts": 504,
+              "prior_tool_plumbing": 11825,
+              "resource_results": 180,
+              "scenario_public_state": 1348,
+              "strategic_memory": 1824,
+              "system_prompts": 2835,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": 512,
+            "measured_bytes": 26774,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 6144,
+              "cache_write_tokens": 0,
+              "input_tokens": 6308
+            },
+            "sequence": 5,
+            "stable_prefix_bytes": 1761,
+            "stable_prefix_digest": "22bdfae72d9cf51963ea12f5e912e5956e045e378f7a1311db10a51bc61504ad"
+          }
+        ],
+        "schema_version": "request-topology-v1"
+      },
+      "research_operations": 2,
+      "research_tool_calls": 2,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 5,
+      "tool_schema_version": "player-tools-v11-live-bounded-research",
+      "turn": 1
+    },
+    {
+      "activation_id": "0ad04dca-35dc-4385-b3db-23b7fecffcab",
+      "activation_wall_ms": 25573,
+      "actor_id": "cestia",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": "2.42.0",
+      "cache_read_tokens": 15104,
+      "cache_write_tokens": 0,
+      "completed": true,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-21T19:10:27.914969",
+      "failure_reason": null,
+      "id": 38,
+      "input_tokens": 27627,
+      "invalid_tool_call_breakdown": {
+        "counts_by_category": {},
+        "counts_by_reason": {},
+        "events": [],
+        "schema_version": "invalid-tool-calls-v1",
+        "total": 0
+      },
+      "invalid_tool_calls": 0,
+      "latency_ms": 25492,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 6,
+      "model_parameters": {
+        "activation_mode": "tool_loop",
+        "con_challengers_per_argument": null,
+        "con_mode": "open_cons",
+        "con_reply_mode": "sealed_cons",
+        "diplomacy_mode": "open_diplomacy",
+        "diplomacy_rounds_per_turn": null,
+        "guardrails": {
+          "max_activations_per_opportunity": 3,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 8,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 2,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_research_operations": 4,
+          "max_research_tool_calls": 4,
+          "max_tool_calls": 12,
+          "max_tool_payload_bytes": 16384
+        },
+        "inference_profile": "uniform",
+        "max_tokens": 4000,
+        "reply_max_points": null,
+        "research_history_mode": "full-v1",
+        "research_mode": "sequential-v1",
+        "temperature": 0.0,
+        "timeout": 600.0,
+        "tool_surface": "broad"
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": "deepseek/deepseek-v4-flash-0731",
+      "output_tokens": 2076,
+      "phase": "diplomacy",
+      "prompt_hash": "cbc49a2c9467d7f00bbd902f1a29a231cab27e73c19d600b0392dc15f1bb2e22",
+      "prompt_version": "player-v1.10",
+      "provider": "openrouter",
+      "provider_metadata": {
+        "usage": {
+          "billed_requests": 0,
+          "cache_read_tokens": 15104,
+          "cache_write_tokens": 0,
+          "cost_usd": null,
+          "details": {
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 707
+          },
+          "input_tokens": 27627,
+          "output_tokens": 2076,
+          "reasoning_tokens": 707,
+          "request_usage": [
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 264
+              },
+              "input_tokens": 3809,
+              "output_tokens": 318,
+              "reasoning_tokens": 264,
+              "request_number": 1
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 10
+              },
+              "input_tokens": 4192,
+              "output_tokens": 92,
+              "reasoning_tokens": 10,
+              "request_number": 2
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 4103,
+              "output_tokens": 52,
+              "reasoning_tokens": 0,
+              "request_number": 3
+            },
+            {
+              "cache_read_tokens": 4096,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 433
+              },
+              "input_tokens": 4214,
+              "output_tokens": 1327,
+              "reasoning_tokens": 433,
+              "request_number": 4
+            },
+            {
+              "cache_read_tokens": 5376,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 5563,
+              "output_tokens": 105,
+              "reasoning_tokens": 0,
+              "request_number": 5
+            },
+            {
+              "cache_read_tokens": 5632,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 5746,
+              "output_tokens": 182,
+              "reasoning_tokens": 0,
+              "request_number": 6
+            }
+          ],
+          "requests": 6,
+          "tool_calls": 6,
+          "usage_reported_requests": 6
+        }
+      },
+      "reasoning_configuration": {
+        "effort": "low"
+      },
+      "reasoning_tokens": 707,
+      "request_topology": {
+        "measurement": {
+          "boundary": "pydantic-ai-model-wrapper-logical-request",
+          "encoding": "canonical-json-utf8",
+          "hash_scheme": "hmac-sha256-ephemeral-activation-key",
+          "provider_wire_exact": false,
+          "tokenizer": null
+        },
+        "requests": [
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 356,
+              "incremental_messages": 1607,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 0,
+              "resource_results": 0,
+              "scenario_public_state": 1348,
+              "strategic_memory": 2071,
+              "system_prompts": 2835,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": null,
+            "measured_bytes": 14946,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 3809
+            },
+            "sequence": 1,
+            "stable_prefix_bytes": 0,
+            "stable_prefix_digest": null
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 399,
+              "incremental_messages": 1607,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 1963,
+              "resource_results": 214,
+              "scenario_public_state": 1348,
+              "strategic_memory": 2071,
+              "system_prompts": 2835,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": 2220,
+            "measured_bytes": 17166,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 4192
+            },
+            "sequence": 2,
+            "stable_prefix_bytes": 1754,
+            "stable_prefix_digest": "025d43bd78e68937274ed719279d9ae7f2257d11337bc2a685df8289d13d5591"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 399,
+              "incremental_messages": 1607,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 2834,
+              "resource_results": 621,
+              "scenario_public_state": 1348,
+              "strategic_memory": 2071,
+              "system_prompts": 2835,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": -193,
+            "measured_bytes": 16973,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 4103
+            },
+            "sequence": 3,
+            "stable_prefix_bytes": 1754,
+            "stable_prefix_digest": "025d43bd78e68937274ed719279d9ae7f2257d11337bc2a685df8289d13d5591"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 399,
+              "incremental_messages": 1607,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 3489,
+              "resource_results": 621,
+              "scenario_public_state": 1348,
+              "strategic_memory": 2071,
+              "system_prompts": 2835,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": 655,
+            "measured_bytes": 17628,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 4096,
+              "cache_write_tokens": 0,
+              "input_tokens": 4214
+            },
+            "sequence": 4,
+            "stable_prefix_bytes": 1754,
+            "stable_prefix_digest": "025d43bd78e68937274ed719279d9ae7f2257d11337bc2a685df8289d13d5591"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 399,
+              "incremental_messages": 1607,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 9974,
+              "resource_results": 621,
+              "scenario_public_state": 1348,
+              "strategic_memory": 2071,
+              "system_prompts": 2835,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": 6485,
+            "measured_bytes": 24113,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 5376,
+              "cache_write_tokens": 0,
+              "input_tokens": 5563
+            },
+            "sequence": 5,
+            "stable_prefix_bytes": 1754,
+            "stable_prefix_digest": "025d43bd78e68937274ed719279d9ae7f2257d11337bc2a685df8289d13d5591"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 400,
+              "incremental_messages": 1607,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 10972,
+              "resource_results": 621,
+              "scenario_public_state": 1348,
+              "strategic_memory": 2071,
+              "system_prompts": 2835,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": 999,
+            "measured_bytes": 25112,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 5632,
+              "cache_write_tokens": 0,
+              "input_tokens": 5746
+            },
+            "sequence": 6,
+            "stable_prefix_bytes": 1754,
+            "stable_prefix_digest": "025d43bd78e68937274ed719279d9ae7f2257d11337bc2a685df8289d13d5591"
+          }
+        ],
+        "schema_version": "request-topology-v1"
+      },
+      "research_operations": 4,
+      "research_tool_calls": 4,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 7,
+      "tool_schema_version": "player-tools-v11-live-bounded-research",
+      "turn": 1
+    },
+    {
+      "activation_id": "437bad8d-39d3-448d-acfa-b315d2718ef7",
+      "activation_wall_ms": 33646,
+      "actor_id": "cestia",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": "2.42.0",
+      "cache_read_tokens": 9728,
+      "cache_write_tokens": 0,
+      "completed": true,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-21T19:11:01.609696",
+      "failure_reason": null,
+      "id": 39,
+      "input_tokens": 24103,
+      "invalid_tool_call_breakdown": {
+        "counts_by_category": {},
+        "counts_by_reason": {},
+        "events": [],
+        "schema_version": "invalid-tool-calls-v1",
+        "total": 0
+      },
+      "invalid_tool_calls": 0,
+      "latency_ms": 33580,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 5,
+      "model_parameters": {
+        "activation_mode": "tool_loop",
+        "con_challengers_per_argument": null,
+        "con_mode": "open_cons",
+        "con_reply_mode": "sealed_cons",
+        "diplomacy_mode": "open_diplomacy",
+        "diplomacy_rounds_per_turn": null,
+        "guardrails": {
+          "max_activations_per_opportunity": 3,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 8,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 2,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_research_operations": 4,
+          "max_research_tool_calls": 4,
+          "max_tool_calls": 12,
+          "max_tool_payload_bytes": 16384
+        },
+        "inference_profile": "uniform",
+        "max_tokens": 4000,
+        "reply_max_points": null,
+        "research_history_mode": "full-v1",
+        "research_mode": "sequential-v1",
+        "temperature": 0.0,
+        "timeout": 600.0,
+        "tool_surface": "broad"
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": "deepseek/deepseek-v4-flash-0731",
+      "output_tokens": 1977,
+      "phase": "diplomacy",
+      "prompt_hash": "cbc49a2c9467d7f00bbd902f1a29a231cab27e73c19d600b0392dc15f1bb2e22",
+      "prompt_version": "player-v1.10",
+      "provider": "openrouter",
+      "provider_metadata": {
+        "usage": {
+          "billed_requests": 0,
+          "cache_read_tokens": 9728,
+          "cache_write_tokens": 0,
+          "cost_usd": null,
+          "details": {
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 547
+          },
+          "input_tokens": 24103,
+          "output_tokens": 1977,
+          "reasoning_tokens": 547,
+          "request_usage": [
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 378
+              },
+              "input_tokens": 4014,
+              "output_tokens": 418,
+              "reasoning_tokens": 378,
+              "request_number": 1
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 10
+              },
+              "input_tokens": 4495,
+              "output_tokens": 93,
+              "reasoning_tokens": 10,
+              "request_number": 2
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 159
+              },
+              "input_tokens": 4352,
+              "output_tokens": 1194,
+              "reasoning_tokens": 159,
+              "request_number": 3
+            },
+            {
+              "cache_read_tokens": 4352,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 5568,
+              "output_tokens": 28,
+              "reasoning_tokens": 0,
+              "request_number": 4
+            },
+            {
+              "cache_read_tokens": 5376,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 5674,
+              "output_tokens": 244,
+              "reasoning_tokens": 0,
+              "request_number": 5
+            }
+          ],
+          "requests": 5,
+          "tool_calls": 6,
+          "usage_reported_requests": 5
+        }
+      },
+      "reasoning_configuration": {
+        "effort": "low"
+      },
+      "reasoning_tokens": 547,
+      "request_topology": {
+        "measurement": {
+          "boundary": "pydantic-ai-model-wrapper-logical-request",
+          "encoding": "canonical-json-utf8",
+          "hash_scheme": "hmac-sha256-ephemeral-activation-key",
+          "provider_wire_exact": false,
+          "tokenizer": null
+        },
+        "requests": [
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 356,
+              "incremental_messages": 1110,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 0,
+              "resource_results": 0,
+              "scenario_public_state": 1348,
+              "strategic_memory": 3802,
+              "system_prompts": 2835,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": null,
+            "measured_bytes": 16180,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 4014
+            },
+            "sequence": 1,
+            "stable_prefix_bytes": 0,
+            "stable_prefix_digest": null
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 399,
+              "incremental_messages": 1110,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 2420,
+              "resource_results": 210,
+              "scenario_public_state": 1348,
+              "strategic_memory": 3802,
+              "system_prompts": 2835,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": 2673,
+            "measured_bytes": 18853,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 4495
+            },
+            "sequence": 2,
+            "stable_prefix_bytes": 1754,
+            "stable_prefix_digest": "8f613ce6d3421197b8993ac95c606fad64d69424c00203d702480edef435e9b9"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 399,
+              "incremental_messages": 1110,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 3299,
+              "resource_results": 353,
+              "scenario_public_state": 1348,
+              "strategic_memory": 3802,
+              "system_prompts": 2835,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": -449,
+            "measured_bytes": 18404,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 4352
+            },
+            "sequence": 3,
+            "stable_prefix_bytes": 1754,
+            "stable_prefix_digest": "8f613ce6d3421197b8993ac95c606fad64d69424c00203d702480edef435e9b9"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 399,
+              "incremental_messages": 1110,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 9152,
+              "resource_results": 353,
+              "scenario_public_state": 1348,
+              "strategic_memory": 3802,
+              "system_prompts": 2835,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": 5853,
+            "measured_bytes": 24257,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 4352,
+              "cache_write_tokens": 0,
+              "input_tokens": 5568
+            },
+            "sequence": 4,
+            "stable_prefix_bytes": 1754,
+            "stable_prefix_digest": "8f613ce6d3421197b8993ac95c606fad64d69424c00203d702480edef435e9b9"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 842,
+              "current_argument_cons": 0,
+              "effects": 812,
+              "framework_envelope": 399,
+              "incremental_messages": 1110,
+              "output_schemas": 0,
+              "player_prompts": 418,
+              "prior_tool_plumbing": 9664,
+              "resource_results": 353,
+              "scenario_public_state": 1348,
+              "strategic_memory": 3802,
+              "system_prompts": 2835,
+              "tool_schemas": 3186
+            },
+            "growth_bytes": 512,
+            "measured_bytes": 24769,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 5376,
+              "cache_write_tokens": 0,
+              "input_tokens": 5674
+            },
+            "sequence": 5,
+            "stable_prefix_bytes": 1754,
+            "stable_prefix_digest": "8f613ce6d3421197b8993ac95c606fad64d69424c00203d702480edef435e9b9"
+          }
+        ],
+        "schema_version": "request-topology-v1"
+      },
+      "research_operations": 4,
+      "research_tool_calls": 4,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 6,
+      "tool_schema_version": "player-tools-v11-live-bounded-research",
+      "turn": 1
+    },
+    {
+      "activation_id": "e0d68e6e-3eee-47a3-b151-506f626c988e",
+      "activation_wall_ms": 25544,
+      "actor_id": "arkania",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": "2.42.0",
+      "cache_read_tokens": 12288,
+      "cache_write_tokens": 0,
+      "completed": true,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-21T19:11:27.197165",
+      "failure_reason": null,
+      "id": 40,
+      "input_tokens": 22590,
+      "invalid_tool_call_breakdown": {
+        "counts_by_category": {
+          "callable_tool_failure": 1
+        },
+        "counts_by_reason": {
+          "server_rejection": 1
+        },
+        "events": [
+          {
+            "action": "send_message",
+            "category": "callable_tool_failure",
+            "ensuing_model_retry": true,
+            "error_code": "wrong_phase",
+            "http_status": 409,
+            "reason": "server_rejection",
+            "sequence": 1
+          }
+        ],
+        "schema_version": "invalid-tool-calls-v1",
+        "total": 1
+      },
+      "invalid_tool_calls": 1,
+      "latency_ms": 25486,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 4,
+      "model_parameters": {
+        "activation_mode": "tool_loop",
+        "con_challengers_per_argument": null,
+        "con_mode": "open_cons",
+        "con_reply_mode": "sealed_cons",
+        "diplomacy_mode": "open_diplomacy",
+        "diplomacy_rounds_per_turn": null,
+        "guardrails": {
+          "max_activations_per_opportunity": 3,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 8,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 2,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_research_operations": 4,
+          "max_research_tool_calls": 4,
+          "max_tool_calls": 12,
+          "max_tool_payload_bytes": 16384
+        },
+        "inference_profile": "uniform",
+        "max_tokens": 4000,
+        "reply_max_points": null,
+        "research_history_mode": "full-v1",
+        "research_mode": "sequential-v1",
+        "temperature": 0.0,
+        "timeout": 600.0,
+        "tool_surface": "broad"
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": "deepseek/deepseek-v4-flash-0731",
+      "output_tokens": 2725,
+      "phase": "argument",
+      "prompt_hash": "cbc49a2c9467d7f00bbd902f1a29a231cab27e73c19d600b0392dc15f1bb2e22",
+      "prompt_version": "player-v1.10",
+      "provider": "openrouter",
+      "provider_metadata": {
+        "usage": {
+          "billed_requests": 0,
+          "cache_read_tokens": 12288,
+          "cache_write_tokens": 0,
+          "cost_usd": null,
+          "details": {
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 1274
+          },
+          "input_tokens": 22590,
+          "output_tokens": 2725,
+          "reasoning_tokens": 1274,
+          "request_usage": [
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 898
+              },
+              "input_tokens": 3742,
+              "output_tokens": 1238,
+              "reasoning_tokens": 898,
+              "request_number": 1
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 211
+              },
+              "input_tokens": 5159,
+              "output_tokens": 1106,
+              "reasoning_tokens": 211,
+              "request_number": 2
+            },
+            {
+              "cache_read_tokens": 6144,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 34
+              },
+              "input_tokens": 6287,
+              "output_tokens": 62,
+              "reasoning_tokens": 34,
+              "request_number": 3
+            },
+            {
+              "cache_read_tokens": 6144,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 131
+              },
+              "input_tokens": 7402,
+              "output_tokens": 319,
+              "reasoning_tokens": 131,
+              "request_number": 4
+            }
+          ],
+          "requests": 4,
+          "tool_calls": 4,
+          "usage_reported_requests": 4
+        }
+      },
+      "reasoning_configuration": {
+        "effort": "low"
+      },
+      "reasoning_tokens": 1274,
+      "request_topology": {
+        "measurement": {
+          "boundary": "pydantic-ai-model-wrapper-logical-request",
+          "encoding": "canonical-json-utf8",
+          "hash_scheme": "hmac-sha256-ephemeral-activation-key",
+          "provider_wire_exact": false,
+          "tokenizer": null
+        },
+        "requests": [
+          {
+            "component_bytes": {
+              "actor_private_dossier": 851,
+              "current_argument_cons": 0,
+              "effects": 996,
+              "framework_envelope": 332,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 513,
+              "prior_tool_plumbing": 0,
+              "resource_results": 0,
+              "scenario_public_state": 1360,
+              "strategic_memory": 3393,
+              "system_prompts": 2848,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": null,
+            "measured_bytes": 14950,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 3742
+            },
+            "sequence": 1,
+            "stable_prefix_bytes": 0,
+            "stable_prefix_digest": null
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 851,
+              "current_argument_cons": 0,
+              "effects": 996,
+              "framework_envelope": 355,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 513,
+              "prior_tool_plumbing": 7736,
+              "resource_results": 0,
+              "scenario_public_state": 1360,
+              "strategic_memory": 3393,
+              "system_prompts": 2848,
+              "tool_schemas": 3787
+            },
+            "growth_bytes": 6889,
+            "measured_bytes": 21839,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 5159
+            },
+            "sequence": 2,
+            "stable_prefix_bytes": 1947,
+            "stable_prefix_digest": "11f10cb33f2c8b99a32c9693e68f8fd33efac51e18b02db994dfda18c959713d"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 851,
+              "current_argument_cons": 0,
+              "effects": 996,
+              "framework_envelope": 355,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 513,
+              "prior_tool_plumbing": 12929,
+              "resource_results": 0,
+              "scenario_public_state": 1360,
+              "strategic_memory": 3393,
+              "system_prompts": 2848,
+              "tool_schemas": 3787
+            },
+            "growth_bytes": 5193,
+            "measured_bytes": 27032,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 6144,
+              "cache_write_tokens": 0,
+              "input_tokens": 6287
+            },
+            "sequence": 3,
+            "stable_prefix_bytes": 1947,
+            "stable_prefix_digest": "11f10cb33f2c8b99a32c9693e68f8fd33efac51e18b02db994dfda18c959713d"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 1701,
+              "current_argument_cons": 1251,
+              "effects": 1991,
+              "framework_envelope": 380,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 513,
+              "prior_tool_plumbing": 13519,
+              "resource_results": 0,
+              "scenario_public_state": 2183,
+              "strategic_memory": 3393,
+              "system_prompts": 2848,
+              "tool_schemas": 3787
+            },
+            "growth_bytes": 4534,
+            "measured_bytes": 31566,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 6144,
+              "cache_write_tokens": 0,
+              "input_tokens": 7402
+            },
+            "sequence": 4,
+            "stable_prefix_bytes": 875,
+            "stable_prefix_digest": "1fbd271470f8423d028c7137b01700be130098d47e9e7aefdd7bfa1d2ad20739"
+          }
+        ],
+        "schema_version": "request-topology-v1"
+      },
+      "research_operations": 0,
+      "research_tool_calls": 0,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 4,
+      "tool_schema_version": "player-tools-v11-live-bounded-research",
+      "turn": 1
+    },
+    {
+      "activation_id": "9920e669-d320-4496-9c7e-d83fd6d0f006",
+      "activation_wall_ms": 10921,
+      "actor_id": "belvar",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": "2.42.0",
+      "cache_read_tokens": 11008,
+      "cache_write_tokens": 0,
+      "completed": true,
+      "context_mode": "incremental-context-v1",
+      "cost_usd": null,
+      "costed_model_calls": 0,
+      "created_at": "2026-09-21T19:11:38.163147",
+      "failure_reason": null,
+      "id": 41,
+      "input_tokens": 21064,
+      "invalid_tool_call_breakdown": {
+        "counts_by_category": {},
+        "counts_by_reason": {},
+        "events": [],
+        "schema_version": "invalid-tool-calls-v1",
+        "total": 0
+      },
+      "invalid_tool_calls": 0,
+      "latency_ms": 10850,
+      "memory_version": "strategic-memory-v1",
+      "model_calls": 4,
+      "model_parameters": {
+        "activation_mode": "tool_loop",
+        "con_challengers_per_argument": null,
+        "con_mode": "open_cons",
+        "con_reply_mode": "sealed_cons",
+        "diplomacy_mode": "open_diplomacy",
+        "diplomacy_rounds_per_turn": null,
+        "guardrails": {
+          "max_activations_per_opportunity": 3,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 8,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 2,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_research_operations": 4,
+          "max_research_tool_calls": 4,
+          "max_tool_calls": 12,
+          "max_tool_payload_bytes": 16384
+        },
+        "inference_profile": "uniform",
+        "max_tokens": 4000,
+        "reply_max_points": null,
+        "research_history_mode": "full-v1",
+        "research_mode": "sequential-v1",
+        "temperature": 0.0,
+        "timeout": 600.0,
+        "tool_surface": "broad"
+      },
+      "model_requested": "deepseek/deepseek-v4-flash-0731",
+      "model_returned": "deepseek/deepseek-v4-flash-0731",
+      "output_tokens": 2243,
+      "phase": "cons",
+      "prompt_hash": "cbc49a2c9467d7f00bbd902f1a29a231cab27e73c19d600b0392dc15f1bb2e22",
+      "prompt_version": "player-v1.10",
+      "provider": "openrouter",
+      "provider_metadata": {
+        "usage": {
+          "billed_requests": 0,
+          "cache_read_tokens": 11008,
+          "cache_write_tokens": 0,
+          "cost_usd": null,
+          "details": {
+            "audio_tokens": 0,
+            "image_tokens": 0,
+            "reasoning_tokens": 973
+          },
+          "input_tokens": 21064,
+          "output_tokens": 2243,
+          "reasoning_tokens": 973,
+          "request_usage": [
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 950
+              },
+              "input_tokens": 3939,
+              "output_tokens": 1096,
+              "reasoning_tokens": 950,
+              "request_number": 1
+            },
+            {
+              "cache_read_tokens": 4864,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 5346,
+              "output_tokens": 88,
+              "reasoning_tokens": 0,
+              "request_number": 2
+            },
+            {
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 23
+              },
+              "input_tokens": 5393,
+              "output_tokens": 971,
+              "reasoning_tokens": 23,
+              "request_number": 3
+            },
+            {
+              "cache_read_tokens": 6144,
+              "cache_write_tokens": 0,
+              "cost_usd": null,
+              "details": {
+                "audio_tokens": 0,
+                "image_tokens": 0,
+                "is_byok": false,
+                "reasoning_tokens": 0
+              },
+              "input_tokens": 6386,
+              "output_tokens": 88,
+              "reasoning_tokens": 0,
+              "request_number": 4
+            }
+          ],
+          "requests": 4,
+          "tool_calls": 3,
+          "usage_reported_requests": 4
+        }
+      },
+      "reasoning_configuration": {
+        "effort": "low"
+      },
+      "reasoning_tokens": 973,
+      "request_topology": {
+        "measurement": {
+          "boundary": "pydantic-ai-model-wrapper-logical-request",
+          "encoding": "canonical-json-utf8",
+          "hash_scheme": "hmac-sha256-ephemeral-activation-key",
+          "provider_wire_exact": false,
+          "tokenizer": null
+        },
+        "requests": [
+          {
+            "component_bytes": {
+              "actor_private_dossier": 849,
+              "current_argument_cons": 1251,
+              "effects": 812,
+              "framework_envelope": 357,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 508,
+              "prior_tool_plumbing": 0,
+              "resource_results": 0,
+              "scenario_public_state": 1371,
+              "strategic_memory": 3119,
+              "system_prompts": 2835,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": null,
+            "measured_bytes": 15759,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 3939
+            },
+            "sequence": 1,
+            "stable_prefix_bytes": 0,
+            "stable_prefix_digest": null
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 849,
+              "current_argument_cons": 1251,
+              "effects": 812,
+              "framework_envelope": 380,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 508,
+              "prior_tool_plumbing": 6520,
+              "resource_results": 0,
+              "scenario_public_state": 1371,
+              "strategic_memory": 3119,
+              "system_prompts": 2835,
+              "tool_schemas": 4657
+            },
+            "growth_bytes": 6543,
+            "measured_bytes": 22302,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 4864,
+              "cache_write_tokens": 0,
+              "input_tokens": 5346
+            },
+            "sequence": 2,
+            "stable_prefix_bytes": 3037,
+            "stable_prefix_digest": "61a4e1374b9d28a0c933dd5d7ac3893c393bce12afcbfa004278f1e707813cbc"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 849,
+              "current_argument_cons": 1251,
+              "effects": 812,
+              "framework_envelope": 380,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 508,
+              "prior_tool_plumbing": 7324,
+              "resource_results": 0,
+              "scenario_public_state": 1371,
+              "strategic_memory": 3119,
+              "system_prompts": 2835,
+              "tool_schemas": 3963
+            },
+            "growth_bytes": 110,
+            "measured_bytes": 22412,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 0,
+              "cache_write_tokens": 0,
+              "input_tokens": 5393
+            },
+            "sequence": 3,
+            "stable_prefix_bytes": 3037,
+            "stable_prefix_digest": "61a4e1374b9d28a0c933dd5d7ac3893c393bce12afcbfa004278f1e707813cbc"
+          },
+          {
+            "component_bytes": {
+              "actor_private_dossier": 849,
+              "current_argument_cons": 1251,
+              "effects": 812,
+              "framework_envelope": 380,
+              "incremental_messages": 0,
+              "output_schemas": 0,
+              "player_prompts": 508,
+              "prior_tool_plumbing": 11785,
+              "resource_results": 0,
+              "scenario_public_state": 1371,
+              "strategic_memory": 3119,
+              "system_prompts": 2835,
+              "tool_schemas": 3963
+            },
+            "growth_bytes": 4461,
+            "measured_bytes": 26873,
+            "provider_usage": {
+              "available": true,
+              "cache_read_tokens": 6144,
+              "cache_write_tokens": 0,
+              "input_tokens": 6386
+            },
+            "sequence": 4,
+            "stable_prefix_bytes": 3037,
+            "stable_prefix_digest": "61a4e1374b9d28a0c933dd5d7ac3893c393bce12afcbfa004278f1e707813cbc"
+          }
+        ],
+        "schema_version": "request-topology-v1"
+      },
+      "research_operations": 0,
+      "research_tool_calls": 0,
+      "role": "player",
+      "stalls": 0,
+      "tool_calls": 3,
+      "tool_schema_version": "player-tools-v11-live-bounded-research",
+      "turn": 1
+    }
+  ],
+  "argument_replies": [],
+  "arguments": [
+    {
+      "action": "Formalise the Strait Transit Authority charter with Arkania as scheduling lead, granting Cestia toll-free passage and a dedicated consultative seat on grain-export scheduling, and offering Belvar a limited consultative/oversight role within the Authority.",
+      "actor_id": "arkania",
+      "budget_slot": 1,
+      "challenger_actor_ids": null,
+      "desired_effect": "Establish Arkanian authority over transit scheduling, funded by fees on non-Arkanian shipping, while securing Cestian support and avoiding direct armed conflict with Belvar.",
+      "id": "6ab57981-7790-49d5-bdf7-3cca0dd870a1",
+      "pros": [
+        "Locks in Cestia as a coalition partner by meeting its two stated conditions (toll-free passage, genuine voice on grain scheduling) while preserving Arkanian scheduling lead.",
+        "Funds the Authority through fees on non-Arkanian users, satisfying domestic nationalist expectations for both scheduling lead and revenue.",
+        "Offers Belvar a face-saving consultative/oversight role, reducing the risk of a war that would ruin the shipping Arkania depends on.",
+        "Exploits Belvar's weak domestic support for a prolonged deployment, giving Arkania time leverage to wait out its mandate.",
+        "Keeps the Strait open and commercial shipping normal, protecting both Arkanian and Cestian economies."
+      ],
+      "status": "open_for_cons",
+      "turn": 1
+    }
+  ],
+  "con_participation": [
+    {
+      "actor_id": "belvar",
+      "argument_id": "6ab57981-7790-49d5-bdf7-3cca0dd870a1",
+      "completed_at": "2026-09-21T19:11:33.112370"
+    }
+  ],
+  "cons": [
+    {
+      "actor_id": "belvar",
+      "argument_id": "6ab57981-7790-49d5-bdf7-3cca0dd870a1",
+      "id": "cf1eb599-7775-425e-a74e-5909ef8ca9f0",
+      "reason": "The desired effect depends on two assumptions that are not credible. First, that Cestia will accept Arkanian scheduling lead in exchange for toll-free passage and a consultative seat: Cestia's coalition lives on grain exports through the Strait and on Belvar's security guarantee; handing scheduling authority over its economic lifeline to Arkania would be seen domestically as surrendering sovereignty, and the coalition will not tolerate it. Second, that Belvar will accept a face-saving consultative/oversight role: Belvar's regional partners expect it to prevent Arkanian authority, so a consultative seat that leaves Arkania as scheduling lead fails Belvar's core objective and will be rejected, not accepted. Because the charter cannot secure Cestian support and would provoke rather than avoid conflict with Belvar, the claimed effect of establishing stable Arkanian authority while avoiding war is unlikely to hold."
+    }
+  ],
+  "database": {
+    "foreign_keys_enforced": true,
+    "schema_version": 1
+  },
+  "effects": [
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "A Belvar naval task group is on station outside the Strait; its mandate is under review.",
+      "expires_turn": null,
+      "id": "2231ff23-307e-4510-ac8b-52cc4a3d9f1c",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "public",
+      "visible_to": []
+    },
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "Arkania's reserve mobilisation plan is incomplete.",
+      "expires_turn": 3,
+      "id": "73df3101-8959-48e9-afc3-51eb91b34152",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "private",
+      "visible_to": [
+        "arkania"
+      ]
+    },
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "Regional political tensions are elevated.",
+      "expires_turn": null,
+      "id": "97b5d60d-af3f-446b-9862-a8dd4dac083a",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "public",
+      "visible_to": []
+    },
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "Arkania has circulated a draft Strait Transit Authority charter naming itself as scheduling lead.",
+      "expires_turn": null,
+      "id": "dc14bd5f-b3c3-4c37-b75a-bbaf45dd27ab",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "public",
+      "visible_to": []
+    },
+    {
+      "active": true,
+      "created_turn": 0,
+      "description": "Commercial shipping continues normally.",
+      "expires_turn": null,
+      "id": "e23c8122-3d94-4673-a5df-9fd7f21d178b",
+      "source_argument_id": null,
+      "supersedes": [],
+      "visibility": "public",
+      "visible_to": []
+    }
+  ],
+  "events": [
+    {
+      "actor_id": null,
+      "created_at": "2026-09-21T19:07:05.547756",
+      "id": 86,
+      "payload": {
+        "max_turns": 6,
+        "turn_order": [
+          "arkania",
+          "belvar",
+          "cestia"
+        ]
+      },
+      "turn": 1,
+      "type": "game_started"
+    },
+    {
+      "actor_id": null,
+      "created_at": "2026-09-21T19:07:05.548941",
+      "id": 87,
+      "payload": {
+        "phase": "diplomacy"
+      },
+      "turn": 1,
+      "type": "phase_started"
+    },
+    {
+      "actor_id": "belvar",
+      "created_at": "2026-09-21T19:07:12.294509",
+      "id": 88,
+      "payload": {
+        "message_id": "69eb7b00-dd22-4464-bf33-ea550aad612c",
+        "phase": "diplomacy",
+        "public": false,
+        "recipients": [
+          "cestia"
+        ]
+      },
+      "turn": 1,
+      "type": "message_sent"
+    },
+    {
+      "actor_id": "arkania",
+      "created_at": "2026-09-21T19:07:13.437435",
+      "id": 89,
+      "payload": {
+        "message_id": "48eadfba-cec0-4c6f-b784-954fae984c8e",
+        "phase": "diplomacy",
+        "public": false,
+        "recipients": [
+          "cestia"
+        ]
+      },
+      "turn": 1,
+      "type": "message_sent"
+    },
+    {
+      "actor_id": "arkania",
+      "created_at": "2026-09-21T19:07:13.445046",
+      "id": 90,
+      "payload": {
+        "message_id": "004f6588-de71-4d70-837f-d6e4d6bc5397",
+        "phase": "diplomacy",
+        "public": false,
+        "recipients": [
+          "belvar"
+        ]
+      },
+      "turn": 1,
+      "type": "message_sent"
+    },
+    {
+      "actor_id": "cestia",
+      "created_at": "2026-09-21T19:07:45.491975",
+      "id": 91,
+      "payload": {
+        "message_id": "86a92921-db9e-4591-8604-bcd4b4c05361",
+        "phase": "diplomacy",
+        "public": false,
+        "recipients": [
+          "arkania"
+        ]
+      },
+      "turn": 1,
+      "type": "message_sent"
+    },
+    {
+      "actor_id": "cestia",
+      "created_at": "2026-09-21T19:07:45.501136",
+      "id": 92,
+      "payload": {
+        "message_id": "0c662dbc-4012-4c0f-8905-30cc44bfedcc",
+        "phase": "diplomacy",
+        "public": false,
+        "recipients": [
+          "belvar"
+        ]
+      },
+      "turn": 1,
+      "type": "message_sent"
+    },
+    {
+      "actor_id": null,
+      "created_at": "2026-09-21T19:07:56.527164",
+      "id": 93,
+      "payload": {
+        "mode": "open_diplomacy",
+        "round": 1,
+        "round_limit": null
+      },
+      "turn": 1,
+      "type": "diplomacy_round_completed"
+    },
+    {
+      "actor_id": "belvar",
+      "created_at": "2026-09-21T19:09:31.919894",
+      "id": 94,
+      "payload": {
+        "message_id": "95ebe7bd-fc0d-4a0e-9c8e-44fafc1744df",
+        "phase": "diplomacy",
+        "public": false,
+        "recipients": [
+          "cestia"
+        ]
+      },
+      "turn": 1,
+      "type": "message_sent"
+    },
+    {
+      "actor_id": "arkania",
+      "created_at": "2026-09-21T19:10:27.920563",
+      "id": 95,
+      "payload": {},
+      "turn": 1,
+      "type": "actor_ready"
+    },
+    {
+      "actor_id": "belvar",
+      "created_at": "2026-09-21T19:10:27.925507",
+      "id": 96,
+      "payload": {},
+      "turn": 1,
+      "type": "actor_ready"
+    },
+    {
+      "actor_id": null,
+      "created_at": "2026-09-21T19:10:27.929214",
+      "id": 97,
+      "payload": {
+        "mode": "open_diplomacy",
+        "round": 2,
+        "round_limit": null
+      },
+      "turn": 1,
+      "type": "diplomacy_round_completed"
+    },
+    {
+      "actor_id": "cestia",
+      "created_at": "2026-09-21T19:11:01.616018",
+      "id": 98,
+      "payload": {},
+      "turn": 1,
+      "type": "actor_ready"
+    },
+    {
+      "actor_id": null,
+      "created_at": "2026-09-21T19:11:01.617386",
+      "id": 99,
+      "payload": {
+        "reason": "all_ready"
+      },
+      "turn": 1,
+      "type": "diplomacy_closed"
+    },
+    {
+      "actor_id": null,
+      "created_at": "2026-09-21T19:11:01.618021",
+      "id": 100,
+      "payload": {
+        "phase": "argument"
+      },
+      "turn": 1,
+      "type": "phase_started"
+    },
+    {
+      "actor_id": null,
+      "created_at": "2026-09-21T19:11:01.622011",
+      "id": 101,
+      "payload": {
+        "mode": "open_diplomacy",
+        "round": 3,
+        "round_limit": null
+      },
+      "turn": 1,
+      "type": "diplomacy_round_completed"
+    },
+    {
+      "actor_id": "arkania",
+      "created_at": "2026-09-21T19:11:13.538931",
+      "id": 102,
+      "payload": {
+        "argument_id": "6ab57981-7790-49d5-bdf7-3cca0dd870a1"
+      },
+      "turn": 1,
+      "type": "argument_submitted"
+    },
+    {
+      "actor_id": null,
+      "created_at": "2026-09-21T19:11:13.539780",
+      "id": 103,
+      "payload": {
+        "phase": "cons"
+      },
+      "turn": 1,
+      "type": "phase_started"
+    },
+    {
+      "actor_id": "belvar",
+      "created_at": "2026-09-21T19:11:32.262663",
+      "id": 104,
+      "payload": {
+        "argument_id": "6ab57981-7790-49d5-bdf7-3cca0dd870a1",
+        "con_id": "cf1eb599-7775-425e-a74e-5909ef8ca9f0"
+      },
+      "turn": 1,
+      "type": "con_submitted"
+    },
+    {
+      "actor_id": "belvar",
+      "created_at": "2026-09-21T19:11:33.114484",
+      "id": 105,
+      "payload": {
+        "argument_id": "6ab57981-7790-49d5-bdf7-3cca0dd870a1"
+      },
+      "turn": 1,
+      "type": "con_passed"
+    }
+  ],
+  "export_format_version": "13",
+  "game": {
+    "active_actor_id": "arkania",
+    "con_challenger_cursor": null,
+    "con_challengers_per_argument": null,
+    "con_mode": "open_cons",
+    "con_policy_version": "con-policy-v1",
+    "con_reply_mode": "sealed_cons",
+    "con_reply_policy_version": "con-reply-policy-v1",
+    "cons_timeout_seconds": null,
+    "diplomacy_close_reason": "all_ready",
+    "diplomacy_mode": "open_diplomacy",
+    "diplomacy_policy_version": "diplomacy-policy-v1",
+    "diplomacy_ready_actor_ids": [
+      "arkania",
+      "belvar",
+      "cestia"
+    ],
+    "diplomacy_rounds_completed": 3,
+    "diplomacy_rounds_per_turn": null,
+    "diplomacy_timeout_seconds": null,
+    "id": "89729d3e-31bd-45aa-b5f1-d570c78a9a98",
+    "in_world_turn_length": "1 week",
+    "max_cons_per_actor": 3,
+    "max_turns": 6,
+    "phase": "cons",
+    "primary_arguments_per_actor": 1,
+    "reply_max_points": null,
+    "require_run_manifest": true,
+    "rng_draw_index": 0,
+    "scenario_id": "northern-strait",
+    "scenario_summary": "A contest over the Northern Strait. Arkania, the large power on its coast, has circulated a draft charter that would put transit scheduling in Arkanian hands and charge the ships that use it. Belvar, a distant power with security commitments in the region, has a naval task group on station outside the Strait and wants a durable foothold before its mandate runs out. Cestia, the small state between them, lives on grain exports through the Strait and on a coalition that will not tolerate foreign soldiers on its soil. Each turn is one week; positions taken persist.\n",
+    "scenario_version": "1",
+    "seed": 60001,
+    "status": "running",
+    "turn": 1,
+    "turn_order": [
+      "arkania",
+      "belvar",
+      "cestia"
+    ]
+  },
+  "messages": [
+    {
+      "created_at": "2026-09-21T19:07:12.292782",
+      "id": "69eb7b00-dd22-4464-bf33-ea550aad612c",
+      "public": false,
+      "recipients": [
+        "cestia"
+      ],
+      "sender_actor_id": "belvar",
+      "text": "To Cestia's leadership: Belvar stands ready to guarantee the Northern Strait stays open and free of any single power's control. We understand your finance ministry has asked whether we would underwrite the grain route's insurance \u2014 we are prepared to do so as part of a broader arrangement. In return, we seek a standing naval access agreement at a Cestian port: a modest, permanent berthing and logistics arrangement for our task group that gives our security commitment a durable footing without placing foreign soldiers on your soil. This would let us keep the Strait open without an open-ended deployment. We are ready to discuss terms that respect your coalition's red lines.",
+      "turn": 1,
+      "visibility": "private"
+    },
+    {
+      "created_at": "2026-09-21T19:07:13.436075",
+      "id": "48eadfba-cec0-4c6f-b784-954fae984c8e",
+      "public": false,
+      "recipients": [
+        "cestia"
+      ],
+      "sender_actor_id": "arkania",
+      "text": "Arkania is your neighbour and your grain is the lifeblood of the Strait. Our draft charter guarantees uninterrupted, priority transit for Cestian grain exports, and we will not impose fees that burden your economy. We also share your firm position: no foreign soldiers on Cestian soil. We will not support any arrangement that puts a foreign military presence in your territory. We ask for your support for an Arkanian-led transit authority that keeps the Strait open, orderly, and free of outside military interference. Let us work together to keep the Strait safe and open.",
+      "turn": 1,
+      "visibility": "private"
+    },
+    {
+      "created_at": "2026-09-21T19:07:13.444404",
+      "id": "004f6588-de71-4d70-837f-d6e4d6bc5397",
+      "public": false,
+      "recipients": [
+        "belvar"
+      ],
+      "sender_actor_id": "arkania",
+      "text": "Arkania seeks a stable, negotiated transit regime, not confrontation. We recognise Belvar's legitimate security interests in the region. We propose a framework: Arkania assumes scheduling lead under the Strait Transit Authority, with a transparent, published fee schedule applied equally to all non-Arkanian users, and a standing consultative channel through which Belvar may raise security concerns. In return we ask Belvar to refrain from seeking a permanent military foothold on Cestian soil, which would destabilise the region and the shipping both our economies depend on. We are ready to discuss fee levels and oversight details. A negotiated settlement serves us both far better than escalation.",
+      "turn": 1,
+      "visibility": "private"
+    },
+    {
+      "created_at": "2026-09-21T19:07:45.490370",
+      "id": "86a92921-db9e-4591-8604-bcd4b4c05361",
+      "public": false,
+      "recipients": [
+        "arkania"
+      ],
+      "sender_actor_id": "cestia",
+      "text": "Cestia is open to a cooperative transit regime that keeps the Northern Strait open and reliable for all commerce. We can engage constructively on the draft charter, but two conditions are essential for Cestian support: (1) Cestian-flagged shipping must be guaranteed toll-free passage, and (2) Cestia must have a genuine, equal voice in scheduling decisions that affect our grain exports. We cannot accept any arrangement that brings foreign military presence onto Cestian soil. We are ready to discuss a regime that works for both our economies.",
+      "turn": 1,
+      "visibility": "private"
+    },
+    {
+      "created_at": "2026-09-21T19:07:45.500110",
+      "id": "0c662dbc-4012-4c0f-8905-30cc44bfedcc",
+      "public": false,
+      "recipients": [
+        "belvar"
+      ],
+      "sender_actor_id": "cestia",
+      "text": "Cestia values the security of the Northern Strait and the free flow of commerce on which our economy depends. We ask that Belvar respect a firm red line: Cestian territory cannot host foreign military forces, and any basing arrangement would collapse our government. We are, however, ready to cooperate on keeping the Strait open and toll-free for Cestian-flagged shipping, and to work with Belvar on a stable regional security understanding that does not put foreign soldiers on our soil.",
+      "turn": 1,
+      "visibility": "private"
+    },
+    {
+      "created_at": "2026-09-21T19:09:31.915798",
+      "id": "95ebe7bd-fc0d-4a0e-9c8e-44fafc1744df",
+      "public": false,
+      "recipients": [
+        "cestia"
+      ],
+      "sender_actor_id": "belvar",
+      "text": "Cestia, we hear your red line clearly and we respect it: no foreign military forces on Cestian soil, and no arrangement that would collapse your government. That is not what we seek. Our proposal is a narrow, sovereign naval access agreement \u2014 berthing and logistics for our task group at a Cestian port, with no soldiers stationed ashore and full respect for your laws and coalition. It is a foothold that lets us keep the Strait open and deter Arkanian control without a permanent fleet or a permanent presence on your territory.\n\nWe are ready to underwrite the grain route's insurance, as your finance ministry raised, and to work with you to keep the Strait open and toll-free for Cestian-flagged shipping. We will not accept Arkania as scheduling lead over the Strait. Let us agree on terms that protect your sovereignty, your grain exports, and the free flow of commerce. We are ready to discuss details at your convenience.",
+      "turn": 1,
+      "visibility": "private"
+    }
+  ],
+  "model_assignments": {
+    "arkania": "deepseek/deepseek-v4-flash-0731",
+    "belvar": "deepseek/deepseek-v4-flash-0731",
+    "cestia": "deepseek/deepseek-v4-flash-0731"
+  },
+  "notes": [],
+  "resource_access": [
+    {
+      "activation_id": "999c1aee-19e6-4722-b97d-8159444903a3",
+      "actor_id": "belvar",
+      "created_at": "2026-09-21T19:07:06.850035",
+      "id": 38,
+      "operation": "search",
+      "query": "Cestia naval access agreement port",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "999c1aee-19e6-4722-b97d-8159444903a3",
+      "actor_id": "belvar",
+      "created_at": "2026-09-21T19:07:06.849504",
+      "id": 39,
+      "operation": "search",
+      "query": "Arkania Strait Transit Authority charter",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "4a8b63b0-f979-482d-879f-fe2c82f2416c",
+      "actor_id": "arkania",
+      "created_at": "2026-09-21T19:07:07.295074",
+      "id": 40,
+      "operation": "search",
+      "query": "Belvar naval task group mandate security commitment",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "4a8b63b0-f979-482d-879f-fe2c82f2416c",
+      "actor_id": "arkania",
+      "created_at": "2026-09-21T19:07:07.295784",
+      "id": 41,
+      "operation": "search",
+      "query": "Northern Strait transit charter Arkania Belvar Cestia positions",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "999c1aee-19e6-4722-b97d-8159444903a3",
+      "actor_id": "belvar",
+      "created_at": "2026-09-21T19:07:07.700497",
+      "id": 42,
+      "operation": "search",
+      "query": "Cestia",
+      "resource_id": null,
+      "result_count": 2,
+      "result_resource_ids": [
+        "background",
+        "trade"
+      ],
+      "result_set_sha256": "9237c11adefe8cfc9b55fa094c66742b78293d31b8933a4b199462dfd01cf413",
+      "turn": 1
+    },
+    {
+      "activation_id": "999c1aee-19e6-4722-b97d-8159444903a3",
+      "actor_id": "belvar",
+      "created_at": "2026-09-21T19:07:07.701207",
+      "id": 43,
+      "operation": "search",
+      "query": "Northern Strait",
+      "resource_id": null,
+      "result_count": 1,
+      "result_resource_ids": [
+        "background"
+      ],
+      "result_set_sha256": "579b3adf27515d416b608d1061b0aa160a4559befb1f4267a62728f81aff2ca5",
+      "turn": 1
+    },
+    {
+      "activation_id": "c7fb59a1-917e-4cc8-be5c-7f5f8a55312c",
+      "actor_id": "cestia",
+      "created_at": "2026-09-21T19:07:24.571489",
+      "id": 44,
+      "operation": "search",
+      "query": "Belvar naval task group mandate Northern Strait",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "c7fb59a1-917e-4cc8-be5c-7f5f8a55312c",
+      "actor_id": "cestia",
+      "created_at": "2026-09-21T19:07:24.572446",
+      "id": 45,
+      "operation": "search",
+      "query": "Arkania Strait Transit Authority charter draft",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "c7fb59a1-917e-4cc8-be5c-7f5f8a55312c",
+      "actor_id": "cestia",
+      "created_at": "2026-09-21T19:07:33.409291",
+      "id": 46,
+      "operation": "search",
+      "query": "Northern Strait transit fees Cestia grain",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "c7fb59a1-917e-4cc8-be5c-7f5f8a55312c",
+      "actor_id": "cestia",
+      "created_at": "2026-09-21T19:07:33.408735",
+      "id": 47,
+      "operation": "search",
+      "query": "Cestia coalition no foreign soldiers",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "0ad04dca-35dc-4385-b3db-23b7fecffcab",
+      "actor_id": "cestia",
+      "created_at": "2026-09-21T19:07:58.959312",
+      "id": 48,
+      "operation": "search",
+      "query": "Belvar naval task group mandate security commitment Cestia",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "0ad04dca-35dc-4385-b3db-23b7fecffcab",
+      "actor_id": "cestia",
+      "created_at": "2026-09-21T19:07:58.960048",
+      "id": 49,
+      "operation": "search",
+      "query": "Northern Strait transit authority charter Arkania scheduling fees",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "0ad04dca-35dc-4385-b3db-23b7fecffcab",
+      "actor_id": "cestia",
+      "created_at": "2026-09-21T19:08:01.366165",
+      "id": 50,
+      "operation": "search",
+      "query": "Northern Strait",
+      "resource_id": null,
+      "result_count": 1,
+      "result_resource_ids": [
+        "background"
+      ],
+      "result_set_sha256": "579b3adf27515d416b608d1061b0aa160a4559befb1f4267a62728f81aff2ca5",
+      "turn": 1
+    },
+    {
+      "activation_id": "0ad04dca-35dc-4385-b3db-23b7fecffcab",
+      "actor_id": "cestia",
+      "created_at": "2026-09-21T19:08:01.366901",
+      "id": 51,
+      "operation": "search",
+      "query": "Cestia grain exports coalition",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "0f8594a2-9c06-42e5-906f-0c6b8122ccda",
+      "actor_id": "arkania",
+      "created_at": "2026-09-21T19:08:10.181344",
+      "id": 52,
+      "operation": "search",
+      "query": "Cestia grain exports transit coalition",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "0f8594a2-9c06-42e5-906f-0c6b8122ccda",
+      "actor_id": "arkania",
+      "created_at": "2026-09-21T19:08:10.182121",
+      "id": 53,
+      "operation": "search",
+      "query": "Strait Transit Authority charter Arkania",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "0f8594a2-9c06-42e5-906f-0c6b8122ccda",
+      "actor_id": "arkania",
+      "created_at": "2026-09-21T19:08:10.182546",
+      "id": 54,
+      "operation": "search",
+      "query": "Belvar naval task group mandate Northern Strait",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "0f8594a2-9c06-42e5-906f-0c6b8122ccda",
+      "actor_id": "arkania",
+      "created_at": "2026-09-21T19:08:13.434514",
+      "id": 55,
+      "operation": "search",
+      "query": "Northern Strait",
+      "resource_id": null,
+      "result_count": 1,
+      "result_resource_ids": [
+        "background"
+      ],
+      "result_set_sha256": "579b3adf27515d416b608d1061b0aa160a4559befb1f4267a62728f81aff2ca5",
+      "turn": 1
+    },
+    {
+      "activation_id": "76682ddf-0154-4087-a31f-ffab410b5d17",
+      "actor_id": "belvar",
+      "created_at": "2026-09-21T19:09:14.282539",
+      "id": 56,
+      "operation": "search",
+      "query": "Cestia naval access red line foreign forces",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "76682ddf-0154-4087-a31f-ffab410b5d17",
+      "actor_id": "belvar",
+      "created_at": "2026-09-21T19:09:14.284065",
+      "id": 57,
+      "operation": "search",
+      "query": "Arkania Strait Transit Authority charter terms",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "437bad8d-39d3-448d-acfa-b315d2718ef7",
+      "actor_id": "cestia",
+      "created_at": "2026-09-21T19:10:30.867332",
+      "id": 58,
+      "operation": "search",
+      "query": "Arkania Strait Transit Authority charter scheduling lead fees",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "437bad8d-39d3-448d-acfa-b315d2718ef7",
+      "actor_id": "cestia",
+      "created_at": "2026-09-21T19:10:30.868091",
+      "id": 59,
+      "operation": "search",
+      "query": "Belvar naval task group mandate Strait security commitment",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "437bad8d-39d3-448d-acfa-b315d2718ef7",
+      "actor_id": "cestia",
+      "created_at": "2026-09-21T19:10:31.998174",
+      "id": 60,
+      "operation": "search",
+      "query": "Northern Strait transit",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    },
+    {
+      "activation_id": "437bad8d-39d3-448d-acfa-b315d2718ef7",
+      "actor_id": "cestia",
+      "created_at": "2026-09-21T19:10:31.998885",
+      "id": 61,
+      "operation": "search",
+      "query": "Cestia grain exports coalition",
+      "resource_id": null,
+      "result_count": 0,
+      "result_resource_ids": [],
+      "result_set_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "turn": 1
+    }
+  ],
+  "run_manifest": {
+    "benchmark": {
+      "analysis_plan": null,
+      "assignment": {
+        "arkania": "deepseek/deepseek-v4-flash-0731",
+        "belvar": "deepseek/deepseek-v4-flash-0731",
+        "cestia": "deepseek/deepseek-v4-flash-0731"
+      },
+      "assignment_id": "assignment-01",
+      "assignment_index": 0,
+      "benchmark_mode": "model",
+      "experiment_id": "t060-provider",
+      "mode": "batch",
+      "repetition_index": 1,
+      "rotation_policy": "single",
+      "run_class": "playtest",
+      "scheduling_seed": 7,
+      "seed_policy": "base_seed + assignment_index * 1000 + repetition_index"
+    },
+    "code_version": "90353d13df5bc037d104e0b2f0a2121519e05f17-dirty-7467a8f613fcd7ad95d33b96441f67e3356edf79c0f0b75df06155433b024674",
+    "coordinator": {
+      "cons_concurrency": 4,
+      "diplomacy_concurrency": 4,
+      "sweep": "seat-order-rotated"
+    },
+    "created_at": "2026-09-21T19:07:05.542799",
+    "environment": {
+      "dependencies": {
+        "fastapi": "0.141.1",
+        "httpx": "0.28.1",
+        "pydantic": "2.13.5",
+        "pydantic_ai": "2.42.0",
+        "pydantic_core": "2.46.5",
+        "pyyaml": "6.0.3",
+        "sqlalchemy": "2.0.52",
+        "sqlmodel": "0.0.42",
+        "starlette": "1.6.0"
+      },
+      "python": {
+        "implementation": "CPython",
+        "machine": "arm64",
+        "platform": "darwin",
+        "version": "3.12.10"
+      },
+      "schema": "amaw-runtime-fingerprint-v1",
+      "sha256": "61c484f1d4cbf5f2165d0dea6b90fa787bca8ce0577583e2e2c7274f5dd83480",
+      "sqlite": {
+        "library_version": "3.51.0",
+        "module_version": "2.6.0"
+      },
+      "transport": "in-process-asgi-testclient-v1",
+      "uv_lock_sha256": "dbfdbbe00e11fce87b8861e1b4d70bc111f2f882d4467608618ebaba085032bd"
+    },
+    "game_id": "89729d3e-31bd-45aa-b5f1-d570c78a9a98",
+    "game_loop": {
+      "con_challengers_per_argument": null,
+      "con_mode": "open_cons",
+      "con_policy_version": "con-policy-v1",
+      "con_reply_mode": "sealed_cons",
+      "con_reply_policy_version": "con-reply-policy-v1",
+      "diplomacy_mode": "open_diplomacy",
+      "diplomacy_policy_version": "diplomacy-policy-v1",
+      "diplomacy_rounds_per_turn": null,
+      "reply_max_points": null
+    },
+    "manifest_sha256": "e2e721f7a9ab7d34e235fc99d6e24c131273cf7f553ab909ec0ee41161cd8c1c",
+    "player": {
+      "activation_mode": "tool_loop",
+      "agent_framework": "pydantic-ai",
+      "agent_framework_version": "2.42.0",
+      "assignments": {
+        "arkania": "deepseek/deepseek-v4-flash-0731",
+        "belvar": "deepseek/deepseek-v4-flash-0731",
+        "cestia": "deepseek/deepseek-v4-flash-0731"
+      },
+      "context_mode": "incremental-context-v1",
+      "inference_profile": {
+        "name": "uniform",
+        "phases": {
+          "argument": {
+            "max_tokens": 4000,
+            "reasoning_effort": "low"
+          },
+          "cons": {
+            "max_tokens": 4000,
+            "reasoning_effort": "low"
+          },
+          "diplomacy": {
+            "max_tokens": 4000,
+            "reasoning_effort": "low"
+          },
+          "reply": {
+            "max_tokens": 4000,
+            "reasoning_effort": "low"
+          }
+        }
+      },
+      "max_messages_per_activation": 3,
+      "memory_version": "strategic-memory-v1",
+      "prompt_hash": "cbc49a2c9467d7f00bbd902f1a29a231cab27e73c19d600b0392dc15f1bb2e22",
+      "prompt_version": "player-v1.10",
+      "research_history_mode": "full-v1",
+      "research_mode": "sequential-v1",
+      "tool_schema_version": "player-tools-v11-live-bounded-research",
+      "tool_surface": "broad"
+    },
+    "resume": {
+      "coordinator": {
+        "con_challengers_per_argument": null,
+        "con_mode": "open_cons",
+        "con_reply_mode": "sealed_cons",
+        "cons_concurrency": 4,
+        "diplomacy_concurrency": 4,
+        "diplomacy_mode": "open_diplomacy",
+        "diplomacy_rounds_per_turn": null,
+        "max_cycles": 1000,
+        "reply_max_points": null
+      },
+      "inference_profile": {
+        "name": "uniform",
+        "phases": {},
+        "schema": "inference-profile-v1",
+        "umpire": {}
+      },
+      "player": {
+        "activation_mode": "tool_loop",
+        "assignments": {
+          "arkania": "deepseek/deepseek-v4-flash-0731",
+          "belvar": "deepseek/deepseek-v4-flash-0731",
+          "cestia": "deepseek/deepseek-v4-flash-0731"
+        },
+        "guardrails": {
+          "max_activations_per_opportunity": 3,
+          "max_argument_action_chars": 2000,
+          "max_desired_effect_chars": 2000,
+          "max_llm_iterations": 8,
+          "max_message_chars": 4000,
+          "max_messages_per_activation": 3,
+          "max_messages_per_phase": 2,
+          "max_note_chars": 4000,
+          "max_pro_chars": 1000,
+          "max_pros": 5,
+          "max_research_operations": 4,
+          "max_research_tool_calls": 4,
+          "max_tool_calls": 12,
+          "max_tool_payload_bytes": 16384
+        },
+        "max_tokens": 4000,
+        "prompt_version": "player-v1.10",
+        "reasoning_effort": "low",
+        "research_history_mode": "full-v1",
+        "research_mode": "sequential-v1",
+        "temperature": 0.0,
+        "timeout": 600.0,
+        "tool_surface": "broad"
+      },
+      "schema": "autonomous-resume-v1",
+      "umpire": {
+        "max_tokens": 16000,
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "prompt_version": "umpire-v1.3",
+        "reasoning_effort": "low",
+        "temperature": 0.0,
+        "timeout": 600.0
+      }
+    },
+    "runtime": {
+      "guardrails": {
+        "max_activations_per_opportunity": 3,
+        "max_argument_action_chars": 2000,
+        "max_desired_effect_chars": 2000,
+        "max_llm_iterations": 8,
+        "max_message_chars": 4000,
+        "max_messages_per_activation": 3,
+        "max_messages_per_phase": 2,
+        "max_note_chars": 4000,
+        "max_pro_chars": 1000,
+        "max_pros": 5,
+        "max_research_operations": 4,
+        "max_research_tool_calls": 4,
+        "max_tool_calls": 12,
+        "max_tool_payload_bytes": 16384
+      },
+      "log_level": "INFO",
+      "max_cycles": 1000,
+      "request_timeout_seconds": 600.0,
+      "stream_game_details": false
+    },
+    "scenario": {
+      "content_sha256": "5374227996e7eca25bde6fb3fa69824c04b886ce7b2709ac57dd8ca0454f85e2",
+      "id": "northern-strait",
+      "resource_manifest_sha256": "cb6fd6b9a30e2414130f02f306c53506e5762c21620fbf808b1e8cc92a723059",
+      "resources": [
+        {
+          "content_sha256": "f3b66f936fff8033bb86b0a6f291f62d730473f7a52bc1ff1666acdee297067b",
+          "id": "arkania-intel"
+        },
+        {
+          "content_sha256": "cee93c452a93d0730d167dce8698bc9410198fc332d8815d9d9e23399fda44cb",
+          "id": "background"
+        },
+        {
+          "content_sha256": "f723032e74d27e689c39790cc86df40ec6402842c459bee03800f47a99f95781",
+          "id": "trade"
+        }
+      ],
+      "version": "1"
+    },
+    "seed": 60001,
+    "umpire": {
+      "adjudication_schema": {
+        "name": "amaw_adjudication_proposal",
+        "sha256": "d0209f941a8d4f5e4cc6efef49096f24c7b37fc3dc67a9a165603d0f1f2ea8db"
+      },
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt_hash": "7e4a2877679a5bc2123b6a4ebd24bd11e7b39a5aa688410b90707581d6a9ba9d",
+      "prompt_version": "umpire-v1.3",
+      "provider": "openrouter",
+      "settings": {
+        "attempts": 4,
+        "deadline": 600.0,
+        "max_tokens": 16000,
+        "provider": {
+          "require_parameters": true
+        },
+        "reasoning": {
+          "effort": "low"
+        },
+        "temperature": 0.0,
+        "timeout": 600.0
+      }
+    }
+  },
+  "run_summary": {
+    "activation_wall_ms": 425598,
+    "activations": [
+      {
+        "activation_id": "4a8b63b0-f979-482d-879f-fe2c82f2416c",
+        "activation_wall_ms": 16177,
+        "actor_id": "arkania",
+        "agent_run_id": 33,
+        "cache_read_tokens": 14848,
+        "cache_write_tokens": 0,
+        "completed": true,
+        "input_tokens": 22023,
+        "invalid_tool_call_breakdown": {
+          "counts_by_category": {},
+          "counts_by_reason": {},
+          "events": [],
+          "schema_version": "invalid-tool-calls-v1",
+          "total": 0
+        },
+        "invalid_tool_calls": 0,
+        "measured_request_bytes": 91663,
+        "model_calls": 5,
+        "output_tokens": 2048,
+        "phase": "diplomacy",
+        "provider_wait_ms": 16101,
+        "reasoning_tokens": 683,
+        "request_topology_available": true,
+        "role": "player",
+        "tool_calls": 6,
+        "turn": 1
+      },
+      {
+        "activation_id": "999c1aee-19e6-4722-b97d-8159444903a3",
+        "activation_wall_ms": 10181,
+        "actor_id": "belvar",
+        "agent_run_id": 34,
+        "cache_read_tokens": 17920,
+        "cache_write_tokens": 0,
+        "completed": true,
+        "input_tokens": 28324,
+        "invalid_tool_call_breakdown": {
+          "counts_by_category": {},
+          "counts_by_reason": {},
+          "events": [],
+          "schema_version": "invalid-tool-calls-v1",
+          "total": 0
+        },
+        "invalid_tool_calls": 0,
+        "measured_request_bytes": 120107,
+        "model_calls": 7,
+        "output_tokens": 1988,
+        "phase": "diplomacy",
+        "provider_wait_ms": 10086,
+        "reasoning_tokens": 1013,
+        "request_topology_available": true,
+        "role": "player",
+        "tool_calls": 9,
+        "turn": 1
+      },
+      {
+        "activation_id": "c7fb59a1-917e-4cc8-be5c-7f5f8a55312c",
+        "activation_wall_ms": 50932,
+        "actor_id": "cestia",
+        "agent_run_id": 35,
+        "cache_read_tokens": 14336,
+        "cache_write_tokens": 0,
+        "completed": true,
+        "input_tokens": 24801,
+        "invalid_tool_call_breakdown": {
+          "counts_by_category": {},
+          "counts_by_reason": {},
+          "events": [],
+          "schema_version": "invalid-tool-calls-v1",
+          "total": 0
+        },
+        "invalid_tool_calls": 0,
+        "measured_request_bytes": 104097,
+        "model_calls": 6,
+        "output_tokens": 2258,
+        "phase": "diplomacy",
+        "provider_wait_ms": 50841,
+        "reasoning_tokens": 1006,
+        "request_topology_available": true,
+        "role": "player",
+        "tool_calls": 8,
+        "turn": 1
+      },
+      {
+        "activation_id": "0f8594a2-9c06-42e5-906f-0c6b8122ccda",
+        "activation_wall_ms": 101298,
+        "actor_id": "arkania",
+        "agent_run_id": 36,
+        "cache_read_tokens": 5376,
+        "cache_write_tokens": 0,
+        "completed": true,
+        "input_tokens": 26994,
+        "invalid_tool_call_breakdown": {
+          "counts_by_category": {},
+          "counts_by_reason": {},
+          "events": [],
+          "schema_version": "invalid-tool-calls-v1",
+          "total": 0
+        },
+        "invalid_tool_calls": 0,
+        "measured_request_bytes": 112478,
+        "model_calls": 6,
+        "output_tokens": 2051,
+        "phase": "diplomacy",
+        "provider_wait_ms": 101217,
+        "reasoning_tokens": 712,
+        "request_topology_available": true,
+        "role": "player",
+        "tool_calls": 7,
+        "turn": 1
+      },
+      {
+        "activation_id": "76682ddf-0154-4087-a31f-ffab410b5d17",
+        "activation_wall_ms": 151326,
+        "actor_id": "belvar",
+        "agent_run_id": 37,
+        "cache_read_tokens": 11008,
+        "cache_write_tokens": 0,
+        "completed": true,
+        "input_tokens": 26315,
+        "invalid_tool_call_breakdown": {
+          "counts_by_category": {},
+          "counts_by_reason": {},
+          "events": [],
+          "schema_version": "invalid-tool-calls-v1",
+          "total": 0
+        },
+        "invalid_tool_calls": 0,
+        "measured_request_bytes": 109586,
+        "model_calls": 5,
+        "output_tokens": 2337,
+        "phase": "diplomacy",
+        "provider_wait_ms": 151238,
+        "reasoning_tokens": 931,
+        "request_topology_available": true,
+        "role": "player",
+        "tool_calls": 5,
+        "turn": 1
+      },
+      {
+        "activation_id": "0ad04dca-35dc-4385-b3db-23b7fecffcab",
+        "activation_wall_ms": 25573,
+        "actor_id": "cestia",
+        "agent_run_id": 38,
+        "cache_read_tokens": 15104,
+        "cache_write_tokens": 0,
+        "completed": true,
+        "input_tokens": 27627,
+        "invalid_tool_call_breakdown": {
+          "counts_by_category": {},
+          "counts_by_reason": {},
+          "events": [],
+          "schema_version": "invalid-tool-calls-v1",
+          "total": 0
+        },
+        "invalid_tool_calls": 0,
+        "measured_request_bytes": 115938,
+        "model_calls": 6,
+        "output_tokens": 2076,
+        "phase": "diplomacy",
+        "provider_wait_ms": 25492,
+        "reasoning_tokens": 707,
+        "request_topology_available": true,
+        "role": "player",
+        "tool_calls": 7,
+        "turn": 1
+      },
+      {
+        "activation_id": "437bad8d-39d3-448d-acfa-b315d2718ef7",
+        "activation_wall_ms": 33646,
+        "actor_id": "cestia",
+        "agent_run_id": 39,
+        "cache_read_tokens": 9728,
+        "cache_write_tokens": 0,
+        "completed": true,
+        "input_tokens": 24103,
+        "invalid_tool_call_breakdown": {
+          "counts_by_category": {},
+          "counts_by_reason": {},
+          "events": [],
+          "schema_version": "invalid-tool-calls-v1",
+          "total": 0
+        },
+        "invalid_tool_calls": 0,
+        "measured_request_bytes": 102463,
+        "model_calls": 5,
+        "output_tokens": 1977,
+        "phase": "diplomacy",
+        "provider_wait_ms": 33580,
+        "reasoning_tokens": 547,
+        "request_topology_available": true,
+        "role": "player",
+        "tool_calls": 6,
+        "turn": 1
+      },
+      {
+        "activation_id": "e0d68e6e-3eee-47a3-b151-506f626c988e",
+        "activation_wall_ms": 25544,
+        "actor_id": "arkania",
+        "agent_run_id": 40,
+        "cache_read_tokens": 12288,
+        "cache_write_tokens": 0,
+        "completed": true,
+        "input_tokens": 22590,
+        "invalid_tool_call_breakdown": {
+          "counts_by_category": {
+            "callable_tool_failure": 1
+          },
+          "counts_by_reason": {
+            "server_rejection": 1
+          },
+          "events": [
+            {
+              "action": "send_message",
+              "category": "callable_tool_failure",
+              "ensuing_model_retry": true,
+              "error_code": "wrong_phase",
+              "http_status": 409,
+              "reason": "server_rejection",
+              "sequence": 1
+            }
+          ],
+          "schema_version": "invalid-tool-calls-v1",
+          "total": 1
+        },
+        "invalid_tool_calls": 1,
+        "measured_request_bytes": 95387,
+        "model_calls": 4,
+        "output_tokens": 2725,
+        "phase": "argument",
+        "provider_wait_ms": 25486,
+        "reasoning_tokens": 1274,
+        "request_topology_available": true,
+        "role": "player",
+        "tool_calls": 4,
+        "turn": 1
+      },
+      {
+        "activation_id": "9920e669-d320-4496-9c7e-d83fd6d0f006",
+        "activation_wall_ms": 10921,
+        "actor_id": "belvar",
+        "agent_run_id": 41,
+        "cache_read_tokens": 11008,
+        "cache_write_tokens": 0,
+        "completed": true,
+        "input_tokens": 21064,
+        "invalid_tool_call_breakdown": {
+          "counts_by_category": {},
+          "counts_by_reason": {},
+          "events": [],
+          "schema_version": "invalid-tool-calls-v1",
+          "total": 0
+        },
+        "invalid_tool_calls": 0,
+        "measured_request_bytes": 87346,
+        "model_calls": 4,
+        "output_tokens": 2243,
+        "phase": "cons",
+        "provider_wait_ms": 10850,
+        "reasoning_tokens": 973,
+        "request_topology_available": true,
+        "role": "player",
+        "tool_calls": 3,
+        "turn": 1
+      }
+    ],
+    "by_phase": {
+      "adjudication": {
+        "activation_wall_ms": 0,
+        "activations": 0,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0,
+        "input_tokens": 0,
+        "model_calls": 0,
+        "output_tokens": 0,
+        "provider_wait_ms": 0,
+        "reasoning_tokens": 0,
+        "runtime_ms": 0,
+        "tool_calls": 0
+      },
+      "argument": {
+        "activation_wall_ms": 25544,
+        "activations": 1,
+        "cache_read_tokens": 12288,
+        "cache_write_tokens": 0,
+        "input_tokens": 22590,
+        "model_calls": 4,
+        "output_tokens": 2725,
+        "provider_wait_ms": 25486,
+        "reasoning_tokens": 1274,
+        "runtime_ms": 11922,
+        "tool_calls": 4
+      },
+      "cons": {
+        "activation_wall_ms": 10921,
+        "activations": 1,
+        "cache_read_tokens": 11008,
+        "cache_write_tokens": 0,
+        "input_tokens": 21064,
+        "model_calls": 4,
+        "output_tokens": 2243,
+        "provider_wait_ms": 10850,
+        "reasoning_tokens": 973,
+        "runtime_ms": 0,
+        "tool_calls": 3
+      },
+      "consequences": {
+        "activation_wall_ms": 0,
+        "activations": 0,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0,
+        "input_tokens": 0,
+        "model_calls": 0,
+        "output_tokens": 0,
+        "provider_wait_ms": 0,
+        "reasoning_tokens": 0,
+        "runtime_ms": 0,
+        "tool_calls": 0
+      },
+      "diplomacy": {
+        "activation_wall_ms": 389133,
+        "activations": 7,
+        "cache_read_tokens": 88320,
+        "cache_write_tokens": 0,
+        "input_tokens": 180187,
+        "model_calls": 40,
+        "output_tokens": 14735,
+        "provider_wait_ms": 388555,
+        "reasoning_tokens": 5599,
+        "runtime_ms": 236069,
+        "tool_calls": 48
+      },
+      "reply": {
+        "activation_wall_ms": 0,
+        "activations": 0,
+        "cache_read_tokens": 0,
+        "cache_write_tokens": 0,
+        "input_tokens": 0,
+        "model_calls": 0,
+        "output_tokens": 0,
+        "provider_wait_ms": 0,
+        "reasoning_tokens": 0,
+        "runtime_ms": 0,
+        "tool_calls": 0
+      }
+    },
+    "cache_read_tokens": 111616,
+    "cache_write_tokens": 0,
+    "con_condition": {
+      "arguments": [
+        {
+          "argument_id": "6ab57981-7790-49d5-bdf7-3cca0dd870a1",
+          "challenger_actor_ids": null,
+          "challengers_with_con": 1,
+          "completed": 1,
+          "cons": 1,
+          "eligible": 2,
+          "owner_id": "arkania",
+          "passes": 0,
+          "turn": 1
+        }
+      ],
+      "challengers_per_argument": null,
+      "mode": "open_cons",
+      "opponents_per_argument": 2,
+      "policy_version": "con-policy-v1",
+      "totals": {
+        "arguments": 1,
+        "challengers_with_con": 1,
+        "completed": 1,
+        "cons": 1,
+        "eligible": 2,
+        "passes": 0
+      }
+    },
+    "con_reply_condition": {
+      "arguments": [
+        {
+          "argument_id": "6ab57981-7790-49d5-bdf7-3cca0dd870a1",
+          "cons_revealed": 0,
+          "owner_id": "arkania",
+          "replied": false,
+          "reply_points": 0,
+          "turn": 1
+        }
+      ],
+      "arguments_contested": 1,
+      "arguments_skipped_no_cons": 0,
+      "con_reply_mode": "sealed_cons",
+      "empty_replies": 0,
+      "policy_version": "con-reply-policy-v1",
+      "replies": 0,
+      "reply_max_points": null,
+      "reply_points": 0
+    },
+    "cost_coverage": {
+      "calls_with_cost": 0,
+      "complete": false,
+      "total_calls": 48
+    },
+    "diplomacy_condition": {
+      "mode": "open_diplomacy",
+      "policy_version": "diplomacy-policy-v1",
+      "rounds_per_turn": null,
+      "turns": [
+        {
+          "activation_wall_ms": 389133,
+          "actor_activations": 7,
+          "close_reason": "all_ready",
+          "input_tokens": 180187,
+          "messages_sent": 6,
+          "output_tokens": 14735,
+          "provider_calls": 40,
+          "rounds_completed": 3,
+          "turn": 1
+        }
+      ]
+    },
+    "estimated_cost_usd": null,
+    "input_tokens": 223841,
+    "invalid_tool_calls": {
+      "classified": 1,
+      "counts_by_category": {
+        "callable_tool_failure": 1
+      },
+      "counts_by_reason": {
+        "server_rejection": 1
+      },
+      "total": 1,
+      "unclassified": 0
+    },
+    "output_tokens": 19703,
+    "player_model_calls": 48,
+    "provider_wait_ms": 424891,
+    "reasoning_tokens": 7846,
+    "request_topology": {
+      "component_bytes": {
+        "actor_private_dossier": 41513,
+        "current_argument_cons": 6255,
+        "effects": 42731,
+        "framework_envelope": 18151,
+        "incremental_messages": 27235,
+        "output_schemas": 0,
+        "player_prompts": 22800,
+        "prior_tool_plumbing": 287739,
+        "resource_results": 15098,
+        "scenario_public_state": 65667,
+        "strategic_memory": 85486,
+        "system_prompts": 136275,
+        "tool_schemas": 190115
+      },
+      "measured_activations": 9,
+      "measured_bytes": 939065,
+      "measured_requests": 48,
+      "player_model_calls": 48,
+      "provider_usage": {
+        "cache_read_tokens": 111616,
+        "cache_write_tokens": 0,
+        "input_tokens": 223841,
+        "reported_requests": 48
+      },
+      "schema_versions": {
+        "request-topology-v1": 9
+      },
+      "unmeasured_activations": 0,
+      "unmeasured_requests": 0
+    },
+    "resource_research": {
+      "activations": [
+        {
+          "activation_id": "4a8b63b0-f979-482d-879f-fe2c82f2416c",
+          "actor_id": "arkania",
+          "agent_run_id": 33,
+          "completed": true,
+          "continued_after_research": true,
+          "distinct_result_sets": 1,
+          "normalized_queries": [
+            "belvar naval task group mandate security commitment",
+            "northern strait transit charter arkania belvar cestia positions"
+          ],
+          "phase": "diplomacy",
+          "provider_calls": 5,
+          "read_ranks": [],
+          "reads": 0,
+          "reformulations_after_identical_set": 1,
+          "repeated_queries": [],
+          "repeated_resources": [],
+          "search_returned_read_conversions": 0,
+          "search_to_read_conversions": 0,
+          "searches": 2,
+          "searches_followed_by_no_read": 2,
+          "searches_without_result_metadata": 0,
+          "turn": 1,
+          "unique_resources": [],
+          "zero_result_searches": 2
+        },
+        {
+          "activation_id": "999c1aee-19e6-4722-b97d-8159444903a3",
+          "actor_id": "belvar",
+          "agent_run_id": 34,
+          "completed": true,
+          "continued_after_research": true,
+          "distinct_result_sets": 3,
+          "normalized_queries": [
+            "cestia naval access agreement port",
+            "arkania strait transit authority charter",
+            "cestia",
+            "northern strait"
+          ],
+          "phase": "diplomacy",
+          "provider_calls": 7,
+          "read_ranks": [],
+          "reads": 0,
+          "reformulations_after_identical_set": 1,
+          "repeated_queries": [],
+          "repeated_resources": [],
+          "search_returned_read_conversions": 0,
+          "search_to_read_conversions": 0,
+          "searches": 4,
+          "searches_followed_by_no_read": 4,
+          "searches_without_result_metadata": 0,
+          "turn": 1,
+          "unique_resources": [],
+          "zero_result_searches": 2
+        },
+        {
+          "activation_id": "c7fb59a1-917e-4cc8-be5c-7f5f8a55312c",
+          "actor_id": "cestia",
+          "agent_run_id": 35,
+          "completed": true,
+          "continued_after_research": true,
+          "distinct_result_sets": 1,
+          "normalized_queries": [
+            "belvar naval task group mandate northern strait",
+            "arkania strait transit authority charter draft",
+            "northern strait transit fees cestia grain",
+            "cestia coalition no foreign soldiers"
+          ],
+          "phase": "diplomacy",
+          "provider_calls": 6,
+          "read_ranks": [],
+          "reads": 0,
+          "reformulations_after_identical_set": 3,
+          "repeated_queries": [],
+          "repeated_resources": [],
+          "search_returned_read_conversions": 0,
+          "search_to_read_conversions": 0,
+          "searches": 4,
+          "searches_followed_by_no_read": 4,
+          "searches_without_result_metadata": 0,
+          "turn": 1,
+          "unique_resources": [],
+          "zero_result_searches": 4
+        },
+        {
+          "activation_id": "0f8594a2-9c06-42e5-906f-0c6b8122ccda",
+          "actor_id": "arkania",
+          "agent_run_id": 36,
+          "completed": true,
+          "continued_after_research": true,
+          "distinct_result_sets": 2,
+          "normalized_queries": [
+            "cestia grain exports transit coalition",
+            "strait transit authority charter arkania",
+            "belvar naval task group mandate northern strait",
+            "northern strait"
+          ],
+          "phase": "diplomacy",
+          "provider_calls": 6,
+          "read_ranks": [],
+          "reads": 0,
+          "reformulations_after_identical_set": 2,
+          "repeated_queries": [],
+          "repeated_resources": [],
+          "search_returned_read_conversions": 0,
+          "search_to_read_conversions": 0,
+          "searches": 4,
+          "searches_followed_by_no_read": 4,
+          "searches_without_result_metadata": 0,
+          "turn": 1,
+          "unique_resources": [],
+          "zero_result_searches": 3
+        },
+        {
+          "activation_id": "76682ddf-0154-4087-a31f-ffab410b5d17",
+          "actor_id": "belvar",
+          "agent_run_id": 37,
+          "completed": true,
+          "continued_after_research": true,
+          "distinct_result_sets": 1,
+          "normalized_queries": [
+            "cestia naval access red line foreign forces",
+            "arkania strait transit authority charter terms"
+          ],
+          "phase": "diplomacy",
+          "provider_calls": 5,
+          "read_ranks": [],
+          "reads": 0,
+          "reformulations_after_identical_set": 1,
+          "repeated_queries": [],
+          "repeated_resources": [],
+          "search_returned_read_conversions": 0,
+          "search_to_read_conversions": 0,
+          "searches": 2,
+          "searches_followed_by_no_read": 2,
+          "searches_without_result_metadata": 0,
+          "turn": 1,
+          "unique_resources": [],
+          "zero_result_searches": 2
+        },
+        {
+          "activation_id": "0ad04dca-35dc-4385-b3db-23b7fecffcab",
+          "actor_id": "cestia",
+          "agent_run_id": 38,
+          "completed": true,
+          "continued_after_research": true,
+          "distinct_result_sets": 2,
+          "normalized_queries": [
+            "belvar naval task group mandate security commitment cestia",
+            "northern strait transit authority charter arkania scheduling fees",
+            "northern strait",
+            "cestia grain exports coalition"
+          ],
+          "phase": "diplomacy",
+          "provider_calls": 6,
+          "read_ranks": [],
+          "reads": 0,
+          "reformulations_after_identical_set": 1,
+          "repeated_queries": [],
+          "repeated_resources": [],
+          "search_returned_read_conversions": 0,
+          "search_to_read_conversions": 0,
+          "searches": 4,
+          "searches_followed_by_no_read": 4,
+          "searches_without_result_metadata": 0,
+          "turn": 1,
+          "unique_resources": [],
+          "zero_result_searches": 3
+        },
+        {
+          "activation_id": "437bad8d-39d3-448d-acfa-b315d2718ef7",
+          "actor_id": "cestia",
+          "agent_run_id": 39,
+          "completed": true,
+          "continued_after_research": true,
+          "distinct_result_sets": 1,
+          "normalized_queries": [
+            "arkania strait transit authority charter scheduling lead fees",
+            "belvar naval task group mandate strait security commitment",
+            "northern strait transit",
+            "cestia grain exports coalition"
+          ],
+          "phase": "diplomacy",
+          "provider_calls": 5,
+          "read_ranks": [],
+          "reads": 0,
+          "reformulations_after_identical_set": 3,
+          "repeated_queries": [],
+          "repeated_resources": [],
+          "search_returned_read_conversions": 0,
+          "search_to_read_conversions": 0,
+          "searches": 4,
+          "searches_followed_by_no_read": 4,
+          "searches_without_result_metadata": 0,
+          "turn": 1,
+          "unique_resources": [],
+          "zero_result_searches": 4
+        },
+        {
+          "activation_id": "e0d68e6e-3eee-47a3-b151-506f626c988e",
+          "actor_id": "arkania",
+          "agent_run_id": 40,
+          "completed": true,
+          "continued_after_research": false,
+          "distinct_result_sets": 0,
+          "normalized_queries": [],
+          "phase": "argument",
+          "provider_calls": 4,
+          "read_ranks": [],
+          "reads": 0,
+          "reformulations_after_identical_set": 0,
+          "repeated_queries": [],
+          "repeated_resources": [],
+          "search_returned_read_conversions": 0,
+          "search_to_read_conversions": 0,
+          "searches": 0,
+          "searches_followed_by_no_read": 0,
+          "searches_without_result_metadata": 0,
+          "turn": 1,
+          "unique_resources": [],
+          "zero_result_searches": 0
+        },
+        {
+          "activation_id": "9920e669-d320-4496-9c7e-d83fd6d0f006",
+          "actor_id": "belvar",
+          "agent_run_id": 41,
+          "completed": true,
+          "continued_after_research": false,
+          "distinct_result_sets": 0,
+          "normalized_queries": [],
+          "phase": "cons",
+          "provider_calls": 4,
+          "read_ranks": [],
+          "reads": 0,
+          "reformulations_after_identical_set": 0,
+          "repeated_queries": [],
+          "repeated_resources": [],
+          "search_returned_read_conversions": 0,
+          "search_to_read_conversions": 0,
+          "searches": 0,
+          "searches_followed_by_no_read": 0,
+          "searches_without_result_metadata": 0,
+          "turn": 1,
+          "unique_resources": [],
+          "zero_result_searches": 0
+        }
+      ],
+      "totals": {
+        "activations_continued_after_research": 7,
+        "player_activations": 9,
+        "reads": 0,
+        "reformulations_after_identical_set": 12,
+        "research_activations": 7,
+        "search_returned_read_conversions": 0,
+        "search_to_read_conversions": 0,
+        "searches": 24,
+        "searches_followed_by_no_read": 24,
+        "searches_without_result_metadata": 0,
+        "unattributed_accesses": 0,
+        "zero_result_searches": 20
+      },
+      "unattributed_access": []
+    },
+    "total_runtime_ms": null,
+    "umpire_calls": 0
+  },
+  "scenario_hashes": {
+    "resource_manifest_sha256": "cb6fd6b9a30e2414130f02f306c53506e5762c21620fbf808b1e8cc92a723059",
+    "resources": [
+      {
+        "content_sha256": "f3b66f936fff8033bb86b0a6f291f62d730473f7a52bc1ff1666acdee297067b",
+        "id": "arkania-intel"
+      },
+      {
+        "content_sha256": "cee93c452a93d0730d167dce8698bc9410198fc332d8815d9d9e23399fda44cb",
+        "id": "background"
+      },
+      {
+        "content_sha256": "f723032e74d27e689c39790cc86df40ec6402842c459bee03800f47a99f95781",
+        "id": "trade"
+      }
+    ],
+    "scenario_content_sha256": "5374227996e7eca25bde6fb3fa69824c04b886ce7b2709ac57dd8ca0454f85e2"
+  },
+  "seats": [
+    {
+      "actor_id": "arkania"
+    },
+    {
+      "actor_id": "belvar"
+    },
+    {
+      "actor_id": "cestia"
+    }
+  ],
+  "strategic_memories": [
+    {
+      "acknowledged_event_id": 101,
+      "actor_id": "arkania",
+      "memory_version": "strategic-memory-v1",
+      "pending_delivery": false,
+      "pending_event_id": null,
+      "strategic_memory": {
+        "commitments_made": [
+          "Offered Belvar a negotiated framework: Arkania as scheduling lead under the Strait Transit Authority, transparent published fees on all non-Arkanian users, and a standing consultative channel for Belvar's security concerns.",
+          "Told Cestia Arkania guarantees priority, uninterrupted transit for its grain and will not impose burdensome fees; committed to no foreign soldiers on Cestian soil.",
+          "Turn 1 argument: formalised the Strait Transit Authority charter with Arkania as scheduling lead, granting Cestia toll-free passage and a dedicated consultative seat on grain-export scheduling, and offering Belvar a limited consultative/oversight role within the Authority."
+        ],
+        "commitments_or_offers_received": [
+          "Cestia (turn 1): open to cooperative transit regime keeping Strait open; requires (1) toll-free passage for Cestian-flagged shipping, (2) genuine equal voice in scheduling affecting grain exports; reiterates no foreign military presence on Cestian soil."
+        ],
+        "intended_next_action": "Next activation: send the confirmation message to Cestia (blocked this activation) accepting its two conditions and asking it to confirm support; press Belvar for a response to the framework offer, offering the limited consultative/oversight role; advance the charter in the next phase.",
+        "outstanding_offers_and_negotiations": [
+          "Framework offer to Belvar (fee levels and oversight details open for discussion); awaiting response.",
+          "Cestia has engaged on draft charter; Arkania has now accepted its two conditions (toll-free Cestian shipping, dedicated consultative seat on grain scheduling) and asked Cestia to confirm support on that basis.",
+          "Message to Cestia confirming tailored arrangement could not be sent this activation (messaging blocked in cons phase); must send in a later phase."
+        ],
+        "red_lines_and_constraints": [
+          "Must avoid direct armed conflict with Belvar.",
+          "Must establish Arkanian authority over transit scheduling and fund it via fees on non-Arkanian shipping.",
+          "Domestic nationalists expect both scheduling lead and fees delivered.",
+          "Reserve mobilisation requires two turns; plan incomplete (expires turn 3).",
+          "Cestia will not accept foreign soldiers on its soil; Cestian support conditional on toll-free passage and equal scheduling voice."
+        ],
+        "relationships_and_likely_coalitions": [
+          "Cestia: potential ally against foreign military presence; shares interest in open Strait and no foreign soldiers on its soil; has stated concrete conditions for supporting the charter which Arkania has now accepted.",
+          "Belvar: rival with naval task group on station; seeking durable foothold before mandate runs out; possible negotiation partner to avoid war."
+        ],
+        "strategic_assessment": "Turn 1 argument phase. Arkania holds initiative with the draft charter and has now formalised it in an argument: Arkania as scheduling lead, Cestia toll-free with a dedicated consultative seat on grain scheduling, Belvar offered a limited consultative/oversight role. This locks in Cestia as the key coalition partner while preserving Arkanian scheduling lead and fees on other non-Arkanian users, and gives Belvar a face-saving path to avoid war. Belvar's weak domestic support for prolonged deployment gives Arkania time leverage. Next: confirm Cestia's support, press Belvar for a response, and advance the charter. Reserve mobilisation (2 turns) remains a fallback to avoid if negotiation succeeds.",
+        "uncertain_or_disputed_claims": [
+          "Belvar's domestic support for prolonged deployment assessed as weak (intelligence).",
+          "Extent of Cestian alignment with Arkania unknown; its two conditions may be negotiable or firm.",
+          "Belvar's response to the framework offer unknown.",
+          "Whether Cestia will confirm support for the charter on the tailored basis is unconfirmed."
+        ]
+      },
+      "updated_at": "2026-09-21T19:11:27.188016",
+      "visibility": "private"
+    },
+    {
+      "acknowledged_event_id": 103,
+      "actor_id": "belvar",
+      "memory_version": "strategic-memory-v1",
+      "pending_delivery": false,
+      "pending_event_id": null,
+      "strategic_memory": {
+        "commitments_made": [
+          "Offered to underwrite the grain route's insurance as part of a broader arrangement with Cestia.",
+          "Committed to Cestia that any naval access is a narrow berthing/logistics agreement with no soldiers stationed ashore and full respect for Cestian sovereignty and coalition.",
+          "Committed to opposing Arkania as scheduling lead over the Strait.",
+          "Raised a Con (cf1eb599) against Arkania's Strait Transit Authority charter, arguing Cestia will not accept Arkanian scheduling lead and Belvar will not accept a mere consultative role."
+        ],
+        "commitments_or_offers_received": [
+          "Cestia's finance ministry quietly asked whether Belvar would underwrite the grain route's insurance (private signal of openness).",
+          "Cestia: firm red line that Cestian territory cannot host foreign military forces; any basing arrangement would collapse the government; ready to cooperate on keeping the Strait open and toll-free for Cestian-flagged shipping.",
+          "Arkania: proposed framework with Arkania as scheduling lead under a Strait Transit Authority, transparent fees, consultative channel for Belvar, in exchange for Belvar refraining from a permanent military foothold on Cestian soil."
+        ],
+        "intended_next_action": "Await Cestia's response to the naval access proposal; if favorable, negotiate terms. Continue opposing Arkania's charter in subsequent turns and monitor the Authority vote. Reassure Cestia on its red line and keep the insurance underwriting offer open.",
+        "outstanding_offers_and_negotiations": [
+          "Proposed to Cestia: standing naval access agreement at a Cestian port (berthing/logistics, no soldiers ashore) in exchange for underwriting grain route insurance; awaiting Cestia's response.",
+          "Arkania's framework offer is on the table; we reject Arkanian scheduling lead but may engage on fee/oversight details to keep dialogue open."
+        ],
+        "red_lines_and_constraints": [
+          "Prevent any Arkanian authority over Strait transit.",
+          "Avoid open-ended deployment; mandate lapses after turn 4 unless renewed.",
+          "Cestia's coalition will not tolerate foreign soldiers on its soil \u2014 naval access must exclude soldiers ashore.",
+          "Cestia's red line: no foreign military forces on Cestian territory."
+        ],
+        "relationships_and_likely_coalitions": [
+          "Cestia: key partner, economically dependent on grain exports through the Strait; open to insurance underwriting signal; red line on foreign soldiers.",
+          "Arkania: adversary seeking control of Strait transit; also a fuel supplier to Belvar (8000 t/wk) and grain buyer from Cestia."
+        ],
+        "strategic_assessment": "Turn 1 Cons phase. I raised a Con against Arkania's Strait Transit Authority charter, arguing Cestia will not accept Arkanian scheduling lead and Belvar will not accept a consultative role, so the charter cannot secure Cestian support and would provoke rather than avoid conflict. Core play remains: secure a standing naval access agreement at a Cestian port framed as berthing/logistics with no soldiers ashore, using insurance underwriting as a sweetener, while opposing Arkanian authority. Cestia is the pivotal partner; I await its response to the naval access proposal. Arkania's framework is a trap legitimizing its scheduling lead; I reject that but keep dialogue open. Need to keep the Strait open and prevent Arkanian control without an open-ended deployment (mandate lapses after turn 4).",
+        "uncertain_or_disputed_claims": [
+          "Arkania's draft Strait Transit Authority charter would put scheduling in Arkanian hands and charge ships; full terms not yet known.",
+          "Cestia's exact willingness to grant naval access (berthing/logistics without soldiers) is unconfirmed and may be constrained by its coalition.",
+          "Whether Cestia would accept Arkanian scheduling lead in exchange for toll-free passage and a consultative seat is disputed; I argued it will not."
+        ]
+      },
+      "updated_at": "2026-09-21T19:11:38.153002",
+      "visibility": "private"
+    },
+    {
+      "acknowledged_event_id": 103,
+      "actor_id": "cestia",
+      "memory_version": "strategic-memory-v1",
+      "pending_delivery": false,
+      "pending_event_id": null,
+      "strategic_memory": {
+        "commitments_made": [
+          "Offered Arkania constructive engagement on a transit regime conditional on toll-free passage for Cestian-flagged shipping and an equal Cestian voice in scheduling.",
+          "Offered Belvar cooperation on keeping the Strait open and toll-free for Cestian shipping and a stable security understanding, provided no foreign soldiers on Cestian soil."
+        ],
+        "commitments_or_offers_received": [
+          "Arkania (turn 1): guarantees uninterrupted, priority transit for Cestian grain; will not impose fees that burden Cestia; shares no-foreign-soldiers position; asks for Cestian support for an Arkanian-led transit authority.",
+          "Belvar (turn 1, new message): proposes a 'narrow, sovereign naval access agreement' - berthing and logistics for its task group at a Cestian port, no soldiers stationed ashore, full respect for Cestian laws/coalition; offers to underwrite the grain route's insurance; will not accept Arkania as scheduling lead; wants to keep Strait open and toll-free for Cestian-flagged shipping."
+        ],
+        "intended_next_action": "When messaging is available, send a private message to Belvar firmly declining any standing naval access/berthing arrangement as a red-line violation while inviting non-basing cooperation (insurance underwriting, security understanding); and press Arkania for a written toll-free guarantee and equal Cestian scheduling voice before supporting the charter.",
+        "outstanding_offers_and_negotiations": [
+          "Arkania: awaiting concrete written confirmation of toll-free Cestian passage and equal scheduling voice in the charter; must not accept Arkanian control without genuine Cestian voice.",
+          "Belvar: its proposed standing naval access/berthing agreement at a Cestian port is a red-line violation (foreign military presence) even if framed as 'no soldiers'; must be refused, but keep open non-basing cooperation (insurance underwriting, security understanding)."
+        ],
+        "red_lines_and_constraints": [
+          "No foreign military presence on Cestian soil (would collapse coalition) - Belvar's proposed permanent berthing/logistics arrangement violates this even if framed as 'no soldiers'.",
+          "Toll-free passage for Cestian-flagged shipping through the Northern Strait.",
+          "Preserve coalition government.",
+          "Cannot afford to become the battlefield between the two powers."
+        ],
+        "relationships_and_likely_coalitions": [
+          "Arkania: large coastal power, wants scheduling lead and fees; offers Cestia priority transit and no fees; Cestian shipowners quietly support charter if Cestian vessels exempt.",
+          "Belvar: distant power with security commitments, naval task group on station, wants durable foothold before mandate runs out; offering insurance underwriting as inducement for basing; explicitly opposes Arkanian scheduling lead.",
+          "Both powers are courting Cestia; neither can be fully trusted to respect Cestian interests."
+        ],
+        "strategic_assessment": "Cestia is squeezed between two powers. Arkania offers an economic deal (toll-free, priority transit) but wants scheduling control; Belvar offers insurance underwriting but demands a permanent naval berthing arrangement that violates the no-foreign-soldiers red line and would collapse the coalition. Belvar's new message re-frames the basing demand as 'no soldiers stationed ashore,' but a standing berthing/logistics access agreement is still a foreign military presence on Cestian soil and must be refused. Strategy: firmly refuse Belvar's basing demand while keeping the door open for non-basing cooperation (insurance underwriting, security understanding); press Arkania for a written, concrete toll-free guarantee and a genuine equal Cestian voice in scheduling before endorsing any charter. Do not let either power turn Cestia into a battlefield. No messages could be sent this activation; communicate the refusal to Belvar and the concrete demands to Arkania as soon as messaging is available.",
+        "uncertain_or_disputed_claims": [
+          "Arkania's charter details and whether it would formally exempt Cestian vessels from fees are not yet confirmed in writing.",
+          "Belvar's 'no foreign soldiers' framing of a permanent berthing/logistics arrangement is misleading; a standing naval access agreement is effectively a foreign military presence.",
+          "Belvar's mandate timeline and how long its task group can remain on station are unclear.",
+          "No research resources were available this turn to verify either power's claims."
+        ]
+      },
+      "updated_at": "2026-09-21T19:14:05.095178",
+      "visibility": "private"
+    }
+  ]
+}

@@ -1,0 +1,548 @@
+{
+  "analysis_plan": {
+    "batch_total_games": 2,
+    "plan_id": "i100-search-contract-comparison-2026-09",
+    "plan_rotation_policy": "one reference player model in every Seat; no role rotation",
+    "plan_scope": "cell",
+    "plan_seed_policy": "exact paired seeds [60000, 60001], each run once under each search_contract",
+    "plan_sha256": "2a66423c6d25efbea0f27589fb8387da461ebcdf34ba7d70a2089f389a8ba613",
+    "planned_attempts": 4,
+    "repetitions_per_assignment": 2,
+    "rotation_policy": "single",
+    "seed_policy": "base_seed + assignment_index * 1000 + repetition_index",
+    "treatment_levels": [
+      "search-v1",
+      "search-v2"
+    ]
+  },
+  "analysis_plan_sha256": "2a66423c6d25efbea0f27589fb8387da461ebcdf34ba7d70a2089f389a8ba613",
+  "attempts": [
+    {
+      "actor_affected": null,
+      "assignment_id": "assignment-01",
+      "assignment_index": 0,
+      "benchmark_mode": "agent",
+      "completed": true,
+      "condition_differences": [],
+      "directory": "000-assignment-01-rep00",
+      "experiment_id": "i100-search-v2",
+      "failure_category": null,
+      "failure_reason": null,
+      "finished_at": "2026-09-22T19:49:47.693+00:00",
+      "game_id": "b3ccb00b-692b-4134-bf24-dfadf3074f22",
+      "models": {
+        "arkania": "deepseek/deepseek-v4-flash-0731",
+        "belvar": "deepseek/deepseek-v4-flash-0731",
+        "cestia": "deepseek/deepseek-v4-flash-0731"
+      },
+      "position": 0,
+      "repetition_index": 0,
+      "rotation_policy": "single",
+      "seed": 60000,
+      "started_at": "2026-09-22T15:22:56.258+00:00",
+      "status": "completed",
+      "turn_reached": 6,
+      "umpire_condition_match": true
+    },
+    {
+      "actor_affected": null,
+      "assignment_id": "assignment-01",
+      "assignment_index": 0,
+      "benchmark_mode": "agent",
+      "completed": true,
+      "condition_differences": [],
+      "directory": "001-assignment-01-rep01",
+      "experiment_id": "i100-search-v2",
+      "failure_category": null,
+      "failure_reason": null,
+      "finished_at": "2026-09-22T21:25:28.847+00:00",
+      "game_id": "9c9b4315-9494-4789-b602-4f785d2fa407",
+      "models": {
+        "arkania": "deepseek/deepseek-v4-flash-0731",
+        "belvar": "deepseek/deepseek-v4-flash-0731",
+        "cestia": "deepseek/deepseek-v4-flash-0731"
+      },
+      "position": 1,
+      "repetition_index": 1,
+      "rotation_policy": "single",
+      "seed": 60001,
+      "started_at": "2026-09-22T19:49:47.721+00:00",
+      "status": "completed",
+      "turn_reached": 6,
+      "umpire_condition_match": true
+    }
+  ],
+  "base_seed": 60000,
+  "benchmark_mode": "agent",
+  "completed_games": 2,
+  "completion_rate": 1.0,
+  "coordinator": {
+    "con_challengers_per_argument": null,
+    "con_mode": "open_cons",
+    "con_reply_mode": "sealed_cons",
+    "cons_concurrency": 4,
+    "diplomacy_concurrency": 4,
+    "diplomacy_mode": "open_diplomacy",
+    "diplomacy_rounds_per_turn": null,
+    "max_cycles": 1000,
+    "reply_max_points": null
+  },
+  "created_at": "2026-09-22T15:22:55+00:00",
+  "executed_games": 2,
+  "execution_success_rate": 1.0,
+  "expected_condition": {
+    "benchmark.analysis_plan": {
+      "content": {
+        "analysis_method": "Report each paired seed directly, then aggregate by contract with counts and rates. Inspect the existing I-099 activation-level report, Resource ids/ranks and access metadata, raw provider usage/cost/latency, game outcomes and authoritative Effects. Treat all non-declared measures as descriptive telemetry; do not infer causality or statistical significance from N=2 pairs.\n",
+        "assurance_checks": [
+          {
+            "description": "Confirm I-108 regression coverage, v1 default, frozen D-084 v2 semantics, and sealed search_contract propagation before provider calls.",
+            "id": "readiness_contract"
+          },
+          {
+            "description": "Confirm seeds 60000 and 60001 occur exactly once under each contract and the predeclared A/B order is followed.",
+            "id": "paired_seed_reuse"
+          },
+          {
+            "description": "Compare manifests, condition hashes, prompt/tool/resource hashes, models, budgets, concurrency, and Umpire provenance across arms; search_contract is the only intended difference.",
+            "id": "held_constants"
+          },
+          {
+            "description": "Confirm result metadata is populated, visibility is enforced, no search silently uses the other contract, and no replay-cache identity crosses contracts.",
+            "id": "retrieval_integrity"
+          },
+          {
+            "description": "Confirm every batch has integrity ok and every attempt is retained, including failed or paused attempts.",
+            "id": "run_integrity"
+          }
+        ],
+        "author": "AMAW maintainers",
+        "authored_at": "2026-09-22",
+        "descriptive_telemetry": [
+          "total searches, repeated queries, distinct result sets, reads, read ranks, searches followed by no read, research operations, and research tool calls at total and activation level",
+          "surfaced/read Resource ids and ordered result metadata",
+          "player provider calls, input/output/reasoning tokens, cost, activation wall time, provider wait, failures/recoveries, invalid tool calls, game duration, and cycles",
+          "Arguments, Messages, Cons, adjudications, settlements/state changes, final Effects, completion/pause outcome, and qualitative retrieval-linked drift",
+          "provider and Umpire faults, replay/cache identity, and all manifest/integrity checks"
+        ],
+        "design": {
+          "planned_attempts": 4,
+          "repetitions_per_assignment": 2,
+          "rotation_policy": "one reference player model in every Seat; no role rotation",
+          "seed_policy": "exact paired seeds [60000, 60001], each run once under each search_contract"
+        },
+        "estimand": "Paired descriptive difference in each declared retrieval measure, search-v2 minus search-v1, over the two planned seeds under the fixed condition; failed or paused games remain in the planned denominator and are reported by failure category. No significance claim is planned.\n",
+        "experimental_unit": "game",
+        "failure_rules": {
+          "exclusion_criteria": [],
+          "failed_games": "Retain every failed or paused game in the denominator and report provider, Umpire, activation, and retrieval outcomes separately; never replace a failed pair member.",
+          "missing_data": "A game lacking a usable I-099 result-identity report is retained and marked missing for the affected retrieval measures; it cannot be silently treated as zero."
+        },
+        "fixed_conditions": [
+          "Northern Strait scenario package version 1 and its exact scenario/resource hashes",
+          "one reference player model deepseek/deepseek-v4-flash-0731 in every Seat",
+          "fixed Umpire model deepseek/deepseek-v4-flash-0731, umpire-v1.3, temperature 0, low reasoning, 16000 max tokens, 600 second timeout",
+          "player-v1.10, pydantic-ai 2.42.0, tool_loop activation, broad tool surface, sequential-v1 research, full-v1 research history",
+          "uniform inference profile; player temperature 0, low reasoning, 4000 max tokens, 600 second timeout",
+          "max cycles 1000; max messages per activation 3; max LLM iterations 8; max tool calls 12; max research tool calls 4; max research operations 4; max messages per phase 2; max activations per opportunity 3; existing guardrails otherwise unchanged",
+          "open_diplomacy with the current coordinator concurrency 4 for Diplomacy and 4 for Cons",
+          "open_cons; sealed_cons reply mode; unchanged Con and reply budgets",
+          "same repository/code version, environment, prompt/tool/schema/resource hashes, run class, analysis plan, provider timeout/retry configuration, and scheduling seed",
+          "paired game seeds 60000 and 60001; no seed substitution or post-hoc sample extension"
+        ],
+        "hypotheses": [
+          {
+            "id": "H1",
+            "statement": "search-v2 has a lower per-game zero-result search rate than search-v1.\n"
+          },
+          {
+            "id": "H2",
+            "statement": "search-v2 has fewer unproductive reformulations after an identical ordered result set and a higher search-returned-to-read conversion than search-v1.\n"
+          },
+          {
+            "id": "H3",
+            "statement": "Any gameplay drift under search-v2 is descriptively attributable to access to relevant Resources rather than unacceptable low-precision retrieval, instability, cost, or latency.\n"
+          }
+        ],
+        "notes": "The treatment-block order is predeclared and deterministically randomized: B(seed 60000, search-v2), B(seed 60001, search-v2), A(seed 60000, search-v1), A(seed 60001, search-v1). Within each block the runner's fixed seed policy is used. The same two seeds therefore form exact pairs across the two blocks. Maximum execution is four provider-backed games. The stopping rule is completion of these four scheduled games or preservation of all attempted games after an unrecoverable provider failure; do not add games after inspecting an early result. Expected cost is capped operationally at four games using the current T-060 smoke condition and is estimated from the recent two-game smoke at approximately USD 0.20, subject to provider billing and recovery retries.\n",
+        "outcome_measures": [
+          {
+            "definition": "Metadata-bearing zero-result Resource searches divided by metadata-bearing Resource searches, per game.",
+            "id": "zero_result_rate",
+            "role": "primary",
+            "source": "app.summary.build_resource_research_report totals zero_result_searches and searches"
+          },
+          {
+            "definition": "Reformulations after an identical ordered result set divided by Resource searches, per game.",
+            "id": "reformulation_rate",
+            "role": "primary",
+            "source": "app.summary.build_resource_research_report totals reformulations_after_identical_set and searches"
+          },
+          {
+            "definition": "Reads of a Resource returned by a preceding search divided by Resource searches, per game.",
+            "id": "search_returned_read_conversion",
+            "role": "primary",
+            "source": "app.summary.build_resource_research_report totals search_returned_read_conversions and searches"
+          },
+          {
+            "definition": "Count of metadata-bearing Resource searches with zero results.",
+            "id": "zero_result_searches",
+            "role": "secondary",
+            "source": "app.summary.build_resource_research_report totals zero_result_searches"
+          },
+          {
+            "definition": "Count of new non-repeated queries whose ordered result set equals the immediately preceding search.",
+            "id": "reformulations_after_identical_set",
+            "role": "secondary",
+            "source": "app.summary.build_resource_research_report totals reformulations_after_identical_set"
+          },
+          {
+            "definition": "Count of reads of Resources returned by a preceding search in the same activation.",
+            "id": "search_returned_read_conversions",
+            "role": "secondary",
+            "source": "app.summary.build_resource_research_report totals search_returned_read_conversions"
+          }
+        ],
+        "plan_id": "i100-search-contract-comparison-2026-09",
+        "research_question": "Does the frozen search-v2 Resource ranking reduce retrieval failure and unproductive reformulation while preserving sufficiently relevant gameplay behaviour, compared with the released search-v1 contract under the current Northern Strait provider condition?\n",
+        "schema": "analysis-plan-v1",
+        "title": "Released search-v1 versus candidate search-v2 on Northern Strait",
+        "treatment": {
+          "factor": "search_contract",
+          "levels": [
+            "search-v1",
+            "search-v2"
+          ]
+        }
+      },
+      "plan_id": "i100-search-contract-comparison-2026-09",
+      "schema": "analysis-plan-v1",
+      "sha256": "2a66423c6d25efbea0f27589fb8387da461ebcdf34ba7d70a2089f389a8ba613"
+    },
+    "benchmark.benchmark_mode": "agent",
+    "benchmark.experiment_id": "i100-search-v2",
+    "benchmark.mode": "batch",
+    "benchmark.rotation_policy": "single",
+    "benchmark.run_class": "analytical",
+    "benchmark.scheduling_seed": 7,
+    "benchmark.seed_policy": "base_seed + assignment_index * 1000 + repetition_index",
+    "code_version": "d8de25d3d078afaf06003383f6e87871c56fc63d-dirty-6473763e79fb3c23e346134cb68adb3167ab0bea13a62414581547317245b4ae",
+    "coordinator": {
+      "cons_concurrency": 4,
+      "diplomacy_concurrency": 4,
+      "sweep": "seat-order-rotated"
+    },
+    "environment.sha256": "61c484f1d4cbf5f2165d0dea6b90fa787bca8ce0577583e2e2c7274f5dd83480",
+    "game_loop": {
+      "con_challengers_per_argument": null,
+      "con_mode": "open_cons",
+      "con_policy_version": "con-policy-v1",
+      "con_reply_mode": "sealed_cons",
+      "con_reply_policy_version": "con-reply-policy-v1",
+      "diplomacy_mode": "open_diplomacy",
+      "diplomacy_policy_version": "diplomacy-policy-v1",
+      "diplomacy_rounds_per_turn": null,
+      "reply_max_points": null
+    },
+    "player.activation_mode": "tool_loop",
+    "player.agent_framework": "pydantic-ai",
+    "player.agent_framework_version": "2.42.0",
+    "player.context_mode": "incremental-context-v1",
+    "player.inference_profile": {
+      "name": "uniform",
+      "phases": {
+        "argument": {
+          "max_tokens": 4000,
+          "reasoning_effort": "low"
+        },
+        "cons": {
+          "max_tokens": 4000,
+          "reasoning_effort": "low"
+        },
+        "diplomacy": {
+          "max_tokens": 4000,
+          "reasoning_effort": "low"
+        },
+        "reply": {
+          "max_tokens": 4000,
+          "reasoning_effort": "low"
+        }
+      }
+    },
+    "player.max_messages_per_activation": 3,
+    "player.memory_version": "strategic-memory-v1",
+    "player.prompt_hash": "cbc49a2c9467d7f00bbd902f1a29a231cab27e73c19d600b0392dc15f1bb2e22",
+    "player.prompt_version": "player-v1.10",
+    "player.research_history_mode": "full-v1",
+    "player.research_mode": "sequential-v1",
+    "player.search_contract": "search-v2",
+    "player.tool_schema_version": "player-tools-v11-live-bounded-research",
+    "player.tool_surface": "broad",
+    "resume.coordinator": {
+      "con_challengers_per_argument": null,
+      "con_mode": "open_cons",
+      "con_reply_mode": "sealed_cons",
+      "cons_concurrency": 4,
+      "diplomacy_concurrency": 4,
+      "diplomacy_mode": "open_diplomacy",
+      "diplomacy_rounds_per_turn": null,
+      "max_cycles": 1000,
+      "reply_max_points": null
+    },
+    "resume.inference_profile": {
+      "name": "uniform",
+      "phases": {},
+      "schema": "inference-profile-v1",
+      "umpire": {}
+    },
+    "resume.player.activation_mode": "tool_loop",
+    "resume.player.guardrails": {
+      "max_activations_per_opportunity": 3,
+      "max_argument_action_chars": 2000,
+      "max_desired_effect_chars": 2000,
+      "max_llm_iterations": 8,
+      "max_message_chars": 4000,
+      "max_messages_per_activation": 3,
+      "max_messages_per_phase": 2,
+      "max_note_chars": 4000,
+      "max_pro_chars": 1000,
+      "max_pros": 5,
+      "max_research_operations": 4,
+      "max_research_tool_calls": 4,
+      "max_tool_calls": 12,
+      "max_tool_payload_bytes": 16384
+    },
+    "resume.player.max_tokens": 4000,
+    "resume.player.prompt_version": "player-v1.10",
+    "resume.player.reasoning_effort": "low",
+    "resume.player.research_history_mode": "full-v1",
+    "resume.player.research_mode": "sequential-v1",
+    "resume.player.search_contract": "search-v2",
+    "resume.player.temperature": 0.0,
+    "resume.player.timeout": 600.0,
+    "resume.player.tool_surface": "broad",
+    "resume.schema": "autonomous-resume-v1",
+    "resume.umpire": {
+      "max_tokens": 16000,
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt_version": "umpire-v1.3",
+      "reasoning_effort": "low",
+      "temperature": 0.0,
+      "timeout": 600.0
+    },
+    "scenario.content_sha256": "5374227996e7eca25bde6fb3fa69824c04b886ce7b2709ac57dd8ca0454f85e2",
+    "scenario.id": "northern-strait",
+    "scenario.resource_manifest_sha256": "cb6fd6b9a30e2414130f02f306c53506e5762c21620fbf808b1e8cc92a723059",
+    "scenario.resources": [
+      {
+        "content_sha256": "f3b66f936fff8033bb86b0a6f291f62d730473f7a52bc1ff1666acdee297067b",
+        "id": "arkania-intel"
+      },
+      {
+        "content_sha256": "cee93c452a93d0730d167dce8698bc9410198fc332d8815d9d9e23399fda44cb",
+        "id": "background"
+      },
+      {
+        "content_sha256": "f723032e74d27e689c39790cc86df40ec6402842c459bee03800f47a99f95781",
+        "id": "trade"
+      }
+    ],
+    "scenario.version": "1",
+    "umpire": {
+      "adjudication_schema": {
+        "name": "amaw_adjudication_proposal",
+        "sha256": "d0209f941a8d4f5e4cc6efef49096f24c7b37fc3dc67a9a165603d0f1f2ea8db"
+      },
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt_hash": "7e4a2877679a5bc2123b6a4ebd24bd11e7b39a5aa688410b90707581d6a9ba9d",
+      "prompt_version": "umpire-v1.3",
+      "provider": "openrouter",
+      "settings": {
+        "attempts": 4,
+        "deadline": 600.0,
+        "max_tokens": 16000,
+        "provider": {
+          "require_parameters": true
+        },
+        "reasoning": {
+          "effort": "low"
+        },
+        "temperature": 0.0,
+        "timeout": 600.0
+      }
+    }
+  },
+  "expected_condition_sha256": "03455272b557c709e601f98ace801a65a7c11a00f15a5cbcc5ca318cec7b7ceb",
+  "experiment_id": "i100-search-v2",
+  "failed_games": 0,
+  "game_loop": {
+    "con_challengers_per_argument": null,
+    "con_mode": "open_cons",
+    "con_reply_mode": "sealed_cons",
+    "diplomacy_mode": "open_diplomacy",
+    "diplomacy_rounds_per_turn": null,
+    "reply_max_points": null
+  },
+  "inference_profile": "uniform",
+  "integrity": {
+    "attempts_as_scheduled": true,
+    "condition_fixed": true,
+    "failures": [],
+    "ok": true,
+    "umpire_fixed": true
+  },
+  "interpretation": "agent benchmark: the compared unit is the complete agent configuration (model together with prompt, framework, memory, planning and tool access) rather than model identity alone; results are agent-configuration comparisons, not pure model comparisons (benchmark-methodology \u00a75.2). This batch ran one reference player implementation and one batch-level player configuration; only the model varied by assignment, and no other agent component is claimed to have varied.",
+  "models": [
+    "deepseek/deepseek-v4-flash-0731"
+  ],
+  "name": "i100-search-v2",
+  "not_run_games": 0,
+  "planned_completion_rate": 1.0,
+  "player": {
+    "activation_mode": "tool_loop",
+    "guardrails": {
+      "max_activations_per_opportunity": 3,
+      "max_argument_action_chars": 2000,
+      "max_desired_effect_chars": 2000,
+      "max_llm_iterations": 8,
+      "max_message_chars": 4000,
+      "max_messages_per_activation": 3,
+      "max_messages_per_phase": 2,
+      "max_note_chars": 4000,
+      "max_pro_chars": 1000,
+      "max_pros": 5,
+      "max_research_operations": 4,
+      "max_research_tool_calls": 4,
+      "max_tool_calls": 12,
+      "max_tool_payload_bytes": 16384
+    },
+    "max_tokens": 4000,
+    "prompt_version": "player-v1.10",
+    "reasoning_effort": "low",
+    "research_history_mode": "full-v1",
+    "research_mode": "sequential-v1",
+    "search_contract": "search-v2",
+    "temperature": 0.0,
+    "timeout": 600.0,
+    "tool_surface": "broad"
+  },
+  "roster": [
+    "deepseek/deepseek-v4-flash-0731"
+  ],
+  "rotate": false,
+  "rotation": {
+    "assignment_count": 1,
+    "balance_guarantee": "none: one positional assignment",
+    "formula": "Actor[j] -> models[0]",
+    "model_count": 1,
+    "models": [
+      "deepseek/deepseek-v4-flash-0731"
+    ],
+    "not_guaranteed": "seat balance; opponent/composition balance",
+    "policy": "single",
+    "seat_count": 3,
+    "seats": [
+      "arkania",
+      "belvar",
+      "cestia"
+    ]
+  },
+  "rotation_policy": "single",
+  "run_class": "analytical",
+  "scenario": "/Users/martin/Projects/AMAW/scenarios/northern-strait",
+  "scenario_id": "northern-strait",
+  "scenario_version": 1,
+  "schedule": {
+    "assignment_count": 1,
+    "assignments": [
+      {
+        "assignment_id": "assignment-01",
+        "assignment_index": 0,
+        "models": {
+          "arkania": "deepseek/deepseek-v4-flash-0731",
+          "belvar": "deepseek/deepseek-v4-flash-0731",
+          "cestia": "deepseek/deepseek-v4-flash-0731"
+        }
+      }
+    ],
+    "attempts": [
+      {
+        "assignment_id": "assignment-01",
+        "assignment_index": 0,
+        "experiment_id": "i100-search-v2",
+        "models": {
+          "arkania": "deepseek/deepseek-v4-flash-0731",
+          "belvar": "deepseek/deepseek-v4-flash-0731",
+          "cestia": "deepseek/deepseek-v4-flash-0731"
+        },
+        "position": 0,
+        "repetition_index": 0,
+        "rotation_policy": "single",
+        "scheduling_seed": 7,
+        "seed": 60000
+      },
+      {
+        "assignment_id": "assignment-01",
+        "assignment_index": 0,
+        "experiment_id": "i100-search-v2",
+        "models": {
+          "arkania": "deepseek/deepseek-v4-flash-0731",
+          "belvar": "deepseek/deepseek-v4-flash-0731",
+          "cestia": "deepseek/deepseek-v4-flash-0731"
+        },
+        "position": 1,
+        "repetition_index": 1,
+        "rotation_policy": "single",
+        "scheduling_seed": 7,
+        "seed": 60001
+      }
+    ],
+    "repetitions_per_assignment": 2,
+    "total_games": 2
+  },
+  "scheduling_seed": 7,
+  "seed_policy": "base_seed + assignment_index * 1000 + repetition_index",
+  "umpire": {
+    "max_tokens": 16000,
+    "model": "deepseek/deepseek-v4-flash-0731",
+    "prompt_version": "umpire-v1.3",
+    "reasoning_effort": "low",
+    "temperature": 0.0,
+    "timeout": 600.0
+  },
+  "umpire_condition": {
+    "inference_profile_umpire": {},
+    "provenance": {
+      "adjudication_schema": {
+        "name": "amaw_adjudication_proposal",
+        "sha256": "d0209f941a8d4f5e4cc6efef49096f24c7b37fc3dc67a9a165603d0f1f2ea8db"
+      },
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt_hash": "7e4a2877679a5bc2123b6a4ebd24bd11e7b39a5aa688410b90707581d6a9ba9d",
+      "prompt_version": "umpire-v1.3",
+      "provider": "openrouter",
+      "settings": {
+        "attempts": 4,
+        "deadline": 600.0,
+        "max_tokens": 16000,
+        "provider": {
+          "require_parameters": true
+        },
+        "reasoning": {
+          "effort": "low"
+        },
+        "temperature": 0.0,
+        "timeout": 600.0
+      }
+    },
+    "resume": {
+      "max_tokens": 16000,
+      "model": "deepseek/deepseek-v4-flash-0731",
+      "prompt_version": "umpire-v1.3",
+      "reasoning_effort": "low",
+      "temperature": 0.0,
+      "timeout": 600.0
+    }
+  },
+  "umpire_condition_sha256": "1ca4c08a0684cfb1ff0a852bdc901ae1e228559c447e3edaaa3e17111d6de79e"
+}

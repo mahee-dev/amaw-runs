@@ -1,0 +1,29 @@
+{
+  "actor_affected": null,
+  "assignment_id": "assignment-01",
+  "assignment_index": 0,
+  "benchmark_mode": "model",
+  "completed": true,
+  "condition_differences": [
+    "code_version"
+  ],
+  "directory": "001-assignment-01-rep01",
+  "experiment_id": "t060-provider",
+  "failure_category": null,
+  "failure_reason": null,
+  "finished_at": "2026-09-18T13:09:39.010+00:00",
+  "game_id": "e1e51424-18d9-4299-8776-72f683d4d068",
+  "models": {
+    "arkania": "deepseek/deepseek-v4-flash-0731",
+    "belvar": "deepseek/deepseek-v4-flash-0731",
+    "cestia": "deepseek/deepseek-v4-flash-0731"
+  },
+  "position": 1,
+  "repetition_index": 1,
+  "rotation_policy": "single",
+  "seed": 60001,
+  "started_at": "2026-09-18T11:07:24.392+00:00",
+  "status": "completed",
+  "turn_reached": 6,
+  "umpire_condition_match": true
+}
